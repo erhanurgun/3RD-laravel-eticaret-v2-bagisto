@@ -13,20 +13,12 @@
 
         <!-- Logo -->
         <a href="{{ route('admin.dashboard.index') }}" class="flex-shrink-0">
-            @if ($logo = core()->getConfigData('general.design.admin_logo.logo_image'))
-                <img
-                    class="h-8 w-auto sm:h-10"
-                    src="{{ Storage::url($logo) }}"
-                    alt="{{ config('app.name') }}"
-                />
-            @else
-                <img
-                    src="{{ request()->cookie('dark_mode') ? bagisto_asset('images/dark-logo.svg') : bagisto_asset('images/logo.svg') }}"
-                    class="h-8 w-auto sm:h-10"
-                    id="logo-image"
-                    alt="{{ config('app.name') }}"
-                />
-            @endif
+            <img
+                src="{{ core()->getLogo(request()->cookie('dark_mode') ? 'dark' : 'light') }}"
+                class="h-8 w-auto sm:h-10"
+                id="logo-image"
+                alt="{{ config('app.name') }}"
+            />
         </a>
 
         <!-- Mega Search Bar Vue Component -->
@@ -148,20 +140,12 @@
     <!-- Drawer Header -->
     <x-slot:header>
         <div class="flex items-center justify-between">
-            @if ($logo = core()->getConfigData('general.design.admin_logo.logo_image'))
-                <img
-                    src="{{ Storage::url($logo) }}"
-                    class="h-8 w-auto sm:h-10"
-                    alt="{{ config('app.name') }}"
-                />
-            @else
-                <img
-                    src="{{ request()->cookie('dark_mode') ? bagisto_asset('images/dark-logo.svg') : bagisto_asset('images/logo.svg') }}"
-                    class="h-8 w-auto sm:h-10"
-                    id="logo-image"
-                    alt="{{ config('app.name') }}"
-                />
-            @endif
+            <img
+                src="{{ core()->getLogo(request()->cookie('dark_mode') ? 'dark' : 'light') }}"
+                class="h-8 w-auto sm:h-10"
+                id="logo-image-drawer"
+                alt="{{ config('app.name') }}"
+            />
         </div>
     </x-slot>
 
@@ -741,9 +725,9 @@
                 return {
                     isDarkMode: {{ request()->cookie('dark_mode') ?? 0 }},
 
-                    logo: "{{ bagisto_asset('images/logo.svg') }}",
+                    logo: "{{ core()->getLogo('light') }}",
 
-                    dark_logo: "{{ bagisto_asset('images/dark-logo.svg') }}",
+                    dark_logo: "{{ core()->getLogo('dark') }}",
                 };
             },
 
@@ -763,10 +747,18 @@
                         this.$emitter.emit('change-theme', 'dark');
 
                         document.getElementById('logo-image').src = this.dark_logo;
+                        // Drawer logo'yu da güncelle
+                        if (document.getElementById('logo-image-drawer')) {
+                            document.getElementById('logo-image-drawer').src = this.dark_logo;
+                        }
                     } else {
                         this.$emitter.emit('change-theme', 'light');
 
                         document.getElementById('logo-image').src = this.logo;
+                        // Drawer logo'yu da güncelle
+                        if (document.getElementById('logo-image-drawer')) {
+                            document.getElementById('logo-image-drawer').src = this.logo;
+                        }
                     }
                 },
 

@@ -1016,4 +1016,51 @@ class Core
 
         return $rules;
     }
+
+    /**
+     * Logo URL'ini al (Hybrid: önce public/upload, sonra config, son olarak bagisto_asset)
+     *
+     * @param  string  $mode  'light' veya 'dark'
+     * @return string
+     */
+    public function getLogo($mode = 'light')
+    {
+        // Mode kontrolü
+        $mode = in_array($mode, ['light', 'dark']) ? $mode : 'light';
+
+        // 1. Önce public/upload/logo/{mode}.svg dosyasını kontrol et
+        $uploadPath = public_path("upload/logo/{$mode}.svg");
+
+        if (file_exists($uploadPath)) {
+            return asset("upload/logo/{$mode}.svg");
+        }
+
+        // 2. Config'den logo al (admin_logo.logo_image)
+        if ($configLogo = $this->getConfigData('general.design.admin_logo.logo_image')) {
+            return \Storage::url($configLogo);
+        }
+
+        // 3. Fallback: bagisto_asset kullan
+        $assetFileName = $mode === 'dark' ? 'dark-logo.svg' : 'logo.svg';
+
+        return bagisto_asset("images/{$assetFileName}");
+    }
+
+    /**
+     * Favicon URL'ini al (Hybrid: önce public/upload, sonra bagisto_asset)
+     *
+     * @return string
+     */
+    public function getFavicon()
+    {
+        // 1. Önce public/upload/favicon.svg dosyasını kontrol et
+        $uploadPath = public_path('upload/favicon.svg');
+
+        if (file_exists($uploadPath)) {
+            return asset('upload/favicon.svg');
+        }
+
+        // 2. Fallback: mevcut favicon.ico
+        return asset('favicon.ico');
+    }
 }

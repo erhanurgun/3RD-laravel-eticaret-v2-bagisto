@@ -15,19 +15,11 @@
                 <!-- Email Header -->
                 <div style="margin-bottom: 65px;">
                     <a href="{{ route('shop.home.index') }}">
-                        @if ($logo = core()->getConfigData('general.design.admin_logo.logo_image'))
-                            <img
-                                src="{{ Storage::url($logo) }}"
-                                alt="{{ config('app.name') }}"
-                                style="height: 40px; width: 110px;"
-                            />
-                        @else
-                            <img
-                                src="{{ bagisto_asset('images/logo.svg', 'admin') }}"
-                                alt="{{ config('app.name') }}"
-                                style="width: 156px;height: 40px;"
-                            />
-                        @endif
+                        <img
+                            src="{{ core()->getLogo('light') }}"
+                            alt="{{ config('app.name') }}"
+                            style="width: 156px; height: 40px;"
+                        />
                     </a>
                 </div>
 
