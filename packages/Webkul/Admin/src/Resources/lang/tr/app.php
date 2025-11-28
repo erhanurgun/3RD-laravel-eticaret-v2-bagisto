@@ -4711,7 +4711,7 @@ return [
             ],
 
             'powered-by' => [
-                'description' => ':webkul tarafından geliştirilen açık kaynaklı bir proje olan :bagisto tarafından desteklenmektedir.',
+                'description' => '<a href=":dev_website" target="_blank" class="text-blue-600 hover:underline dark:text-darkBlue">:dev_name</a> tarafından geliştirilmiştir.',
             ],
         ],
 

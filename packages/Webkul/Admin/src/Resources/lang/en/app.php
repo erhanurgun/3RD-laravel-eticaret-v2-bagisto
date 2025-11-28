@@ -4711,7 +4711,7 @@ return [
             ],
 
             'powered-by' => [
-                'description' => 'Powered by :bagisto, an open-source project by :webkul.',
+                'description' => 'Developed by <a href=":dev_website" target="_blank" class="text-blue-600 hover:underline dark:text-darkBlue">:dev_name</a>.',
             ],
         ],
 

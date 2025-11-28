@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Http;
 use Stevebauman\Purify\Facades\Purify;
 use Webkul\Core\Facades\Acl;
 use Webkul\Core\Facades\Core;
@@ -92,6 +94,57 @@ if (! function_exists('clean_content')) {
         );
 
         return $cleaned;
+    }
+}
+
+if (! function_exists('dev_info')) {
+    /**
+     * Geliştirici bilgilerini API'den alır ve cache'ler.
+     * Cache süresi: 7 gün
+     *
+     * @param  string|null  $key  Dönen veriden belirli bir alan (full_name, website, vb.)
+     * @return mixed
+     */
+    function dev_info(?string $key = null): mixed
+    {
+        $cacheKey = 'dev_info_orizora';
+        $cacheTtl = 60 * 60 * 24 * 7; // 7 gün
+
+        $data = Cache::remember($cacheKey, $cacheTtl, function () {
+            try {
+                $response = Http::timeout(5)
+                    ->get('https://erhanurgun.tr/api/v1/dev-info', [
+                        'username' => 'orizora',
+                    ]);
+
+                if ($response->successful()) {
+                    $json = $response->json();
+
+                    if (isset($json['status']['code']) && $json['status']['code'] === 200 && ! empty($json['data'][0])) {
+                        return $json['data'][0];
+                    }
+                }
+            } catch (\Exception $e) {
+                // API hatası durumunda varsayılan değerleri döndür
+            }
+
+            // Varsayılan değerler (API erişilemezse)
+            return [
+                'image'     => null,
+                'full_name' => 'Orizora LLC',
+                'username'  => 'orizora',
+                'email'     => 'orizora.soft@gmail.com',
+                'phone'     => null,
+                'job_title' => 'Yazılım Şirketi',
+                'website'   => 'https://orizora.com',
+            ];
+        });
+
+        if ($key !== null) {
+            return $data[$key] ?? null;
+        }
+
+        return $data;
     }
 }
 
