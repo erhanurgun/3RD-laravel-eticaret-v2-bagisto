@@ -178,5 +178,53 @@
         "en": { "name": "Crafts & Hobbies", "description": "Craft supplies" }
       }
     }
+  },
+  "oyun": {
+    "tr": {
+      "name": "Oyun",
+      "description": "Video oyunları, konsollar ve oyun aksesuarları"
+    },
+    "en": {
+      "name": "Gaming",
+      "description": "Video games, consoles and gaming accessories"
+    },
+    "children": {
+      "konsollar": {
+        "tr": { "name": "Konsollar", "description": "PlayStation, Xbox ve diğer oyun konsolları" },
+        "en": { "name": "Consoles", "description": "PlayStation, Xbox and other gaming consoles" }
+      },
+      "oyunlar": {
+        "tr": { "name": "Oyunlar", "description": "PC ve konsol oyunları" },
+        "en": { "name": "Games", "description": "PC and console games" }
+      },
+      "oyun-aksesuarlari": {
+        "tr": { "name": "Oyun Aksesuarları", "description": "Gamepad, kulaklık ve diğer aksesuarlar" },
+        "en": { "name": "Gaming Accessories", "description": "Gamepads, headsets and other accessories" }
+      }
+    }
+  },
+  "pet-shop": {
+    "tr": {
+      "name": "Pet Shop",
+      "description": "Evcil hayvan ürünleri ve aksesuarları"
+    },
+    "en": {
+      "name": "Pet Shop",
+      "description": "Pet products and accessories"
+    },
+    "children": {
+      "kedi": {
+        "tr": { "name": "Kedi", "description": "Kedi mamaları ve aksesuarları" },
+        "en": { "name": "Cat", "description": "Cat food and accessories" }
+      },
+      "kopek": {
+        "tr": { "name": "Köpek", "description": "Köpek mamaları ve aksesuarları" },
+        "en": { "name": "Dog", "description": "Dog food and accessories" }
+      },
+      "kus-balik": {
+        "tr": { "name": "Kuş & Balık", "description": "Kuş ve akvaryum ürünleri" },
+        "en": { "name": "Bird & Fish", "description": "Bird and aquarium products" }
+      }
+    }
   }
 }

@@ -42,6 +42,7 @@ class CategoryResource extends JsonResource
             ],
             'translations' => $this->translations,
             'additional'   => $this->additional,
+            'url'          => $this->url,
         ];
     }
 }
