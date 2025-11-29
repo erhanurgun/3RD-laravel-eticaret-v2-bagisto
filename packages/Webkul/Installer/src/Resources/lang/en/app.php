@@ -71,47 +71,527 @@ return [
         'cms' => [
             'pages' => [
                 'about-us' => [
-                    'content' => 'About Us Page Content',
+                    'content' => '<h2>Who We Are?</h2>
+<p>As one of the leading e-commerce platforms, we aim to offer our customers the highest quality products at the best prices. With years of experience, we have become a trusted brand in the industry.</p>
+
+<h3>Our Mission</h3>
+<p>To make online shopping accessible to everyone by providing our customers with a safe, fast, and easy shopping experience. We aim for quality in every product and excellence in every service.</p>
+
+<h3>Our Vision</h3>
+<p>To become the most trusted and preferred e-commerce platform. By continuously evolving with technological innovations, we strive to provide the best shopping experience for our customers.</p>
+
+<h3>Our Values</h3>
+<ul>
+<li><strong>Reliability:</strong> Customer trust is more important to us than anything else.</li>
+<li><strong>Quality:</strong> Every product we sell is carefully selected.</li>
+<li><strong>Customer Focus:</strong> Customer satisfaction is our priority.</li>
+<li><strong>Transparency:</strong> Open and honest communication in all our processes.</li>
+<li><strong>Innovation:</strong> Continuous improvement and technological advancements.</li>
+</ul>
+
+<h3>Why Choose Us?</h3>
+<ul>
+<li>Wide product range and quality brands</li>
+<li>Secure payment options</li>
+<li>Fast and free shipping opportunities</li>
+<li>24/7 customer support</li>
+<li>Easy return and exchange</li>
+<li>Regular campaigns and discounts</li>
+</ul>',
                     'title'   => 'About Us',
                 ],
 
                 'contact-us' => [
-                    'content' => 'Contact Us Page Content',
+                    'content' => '<h2>Get in Touch</h2>
+<p>Don\'t hesitate to contact us for your questions, suggestions, or complaints. Our customer satisfaction team will be happy to assist you.</p>
+
+<h3>Contact Information</h3>
+<ul>
+<li><strong>Email:</strong> support@ourstore.com</li>
+<li><strong>Phone:</strong> +1 (800) XXX-XXXX</li>
+<li><strong>WhatsApp:</strong> +1 (555) XXX-XXXX</li>
+<li><strong>Working Hours:</strong> Monday - Saturday, 9:00 AM - 6:00 PM</li>
+</ul>
+
+<h3>Our Address</h3>
+<p>123 Example Street<br>
+New York, NY 10001<br>
+United States</p>
+
+<h3>Frequently Asked Questions</h3>
+<ul>
+<li><strong>Order tracking:</strong> You can track your order from your account or with your cargo tracking number.</li>
+<li><strong>Return procedures:</strong> You can create return requests through your account.</li>
+<li><strong>Payment issues:</strong> Contact our support team for payment-related issues.</li>
+</ul>
+
+<p>We respond to your messages within 24 hours at the latest. For urgent matters, please prefer our phone line.</p>',
                     'title'   => 'Contact Us',
                 ],
 
                 'customer-service' => [
-                    'content' => 'Customer Service Page Content',
+                    'content' => '<h2>Customer Service</h2>
+<p>We are here to make your shopping experience the best it can be. Our professional customer service team is ready to answer all your questions and solve your problems.</p>
+
+<h3>How Can We Help You?</h3>
+
+<h4>Order Operations</h4>
+<ul>
+<li>Order creation and confirmation processes</li>
+<li>Order modification and cancellation</li>
+<li>Order tracking and shipping information</li>
+<li>Invoice requests and adjustments</li>
+</ul>
+
+<h4>Product Information</h4>
+<ul>
+<li>Product features and technical details</li>
+<li>Stock availability inquiry</li>
+<li>Product comparison support</li>
+<li>Size and measurement guide</li>
+</ul>
+
+<h4>Payment and Finance</h4>
+<ul>
+<li>Information about payment methods</li>
+<li>Installment options</li>
+<li>Return and refund processes</li>
+<li>Invoice and payment issues</li>
+</ul>
+
+<h4>Returns and Exchanges</h4>
+<ul>
+<li>Creating return requests</li>
+<li>Exchange procedures</li>
+<li>Warranty-covered transactions</li>
+<li>Defective product reporting</li>
+</ul>
+
+<h3>Our Contact Channels</h3>
+<p><strong>Phone:</strong> +1 (800) XXX-XXXX (Monday-Saturday 9:00 AM - 6:00 PM)<br>
+<strong>Email:</strong> support@ourstore.com<br>
+<strong>Live Support:</strong> 24/7 on our website<br>
+<strong>WhatsApp:</strong> +1 (555) XXX-XXXX</p>
+
+<p>Customer satisfaction is our priority. We are always here for you!</p>',
                     'title'   => 'Customer Service',
                 ],
 
                 'payment-policy' => [
-                    'content' => 'Payment Policy Page Content',
+                    'content' => '<h2>Payment Policy</h2>
+<p>You can complete your purchase with secure and easy payment options. All your payment transactions are protected with SSL certificate encryption.</p>
+
+<h3>Accepted Payment Methods</h3>
+
+<h4>Credit Card / Debit Card</h4>
+<ul>
+<li>Payment with Visa, MasterCard, American Express cards</li>
+<li>3D Secure payment infrastructure</li>
+<li>Installment options (2, 3, 6, 9 and 12 installments)</li>
+<li>Additional discount opportunities for single payments</li>
+</ul>
+
+<h4>Bank Transfer / Wire Transfer</h4>
+<ul>
+<li>Wire transfer option to major banks</li>
+<li>Order confirmation within 24 hours after transfer</li>
+<li>Don\'t forget to write your order number in the description</li>
+</ul>
+
+<h4>Cash on Delivery</h4>
+<ul>
+<li>Cash or credit card payment at delivery</li>
+<li>Additional service fee may apply for cash on delivery</li>
+<li>Cash on delivery may not be available for some products and regions</li>
+</ul>
+
+<h4>Digital Wallets</h4>
+<ul>
+<li>Instant payment and easy use</li>
+<li>Fast payment with saved card information</li>
+</ul>
+
+<h3>Installment Options</h3>
+<p>You can benefit from the following installment options for credit card payments:</p>
+<ul>
+<li>2 Installments - All banks</li>
+<li>3 Installments - All banks</li>
+<li>6 Installments - Partner banks</li>
+<li>9 Installments - Partner banks</li>
+<li>12 Installments - Partner banks</li>
+</ul>
+<p><em>Note: Installment options may vary depending on your bank and card type.</em></p>
+
+<h3>Secure Payment</h3>
+<p>Your payment information is protected with 256-bit SSL encryption. Your card information is not stored in our system and is not shared with third parties. Extra security is provided with the 3D Secure system.</p>
+
+<h3>Invoice Information</h3>
+<p>Invoices for your orders are sent with your products. Digital invoices are sent by email to customers who prefer e-invoices. For corporate invoice requests, it is enough to enter your company information during the order.</p>',
                     'title'   => 'Payment Policy',
                 ],
 
                 'privacy-policy' => [
-                    'content' => 'Privacy Policy Page Content',
+                    'content' => '<h2>Privacy Policy</h2>
+<p>This privacy policy explains how your personal data is collected, used, and protected when you use our website. Your rights are guaranteed under applicable data protection laws.</p>
+
+<h3>Personal Data Collected</h3>
+<p>We collect the following personal data to provide our services:</p>
+<ul>
+<li><strong>Identity Information:</strong> Name, surname</li>
+<li><strong>Contact Information:</strong> Email address, phone number, address</li>
+<li><strong>Financial Information:</strong> Billing information (card details are not stored)</li>
+<li><strong>Transaction Information:</strong> Order history, payment records</li>
+<li><strong>Technical Information:</strong> IP address, browser information, cookies</li>
+</ul>
+
+<h3>Purposes of Data Use</h3>
+<p>Your personal data is used for the following purposes:</p>
+<ul>
+<li>Processing and delivering your orders</li>
+<li>Providing customer service support</li>
+<li>Fulfilling legal obligations</li>
+<li>Ensuring account security</li>
+<li>Improving service quality</li>
+<li>Marketing communications with your consent</li>
+</ul>
+
+<h3>Data Sharing</h3>
+<p>Your personal data will not be shared with third parties except in the following cases:</p>
+<ul>
+<li><strong>Shipping Companies:</strong> Necessary information for delivery</li>
+<li><strong>Payment Institutions:</strong> Processing payment transactions</li>
+<li><strong>Legal Authorities:</strong> In case of legal requirements</li>
+<li><strong>Service Providers:</strong> Business partners necessary for service delivery (under confidentiality agreements)</li>
+</ul>
+
+<h3>Data Security</h3>
+<p>We take the following measures for the security of your personal data:</p>
+<ul>
+<li>256-bit SSL encryption for data transmission</li>
+<li>Firewalls and penetration tests</li>
+<li>Access controls and authorization systems</li>
+<li>Regular security updates</li>
+<li>Staff privacy training</li>
+</ul>
+
+<h3>Cookie Policy</h3>
+<p>Our website uses cookies to improve your experience:</p>
+<ul>
+<li><strong>Essential Cookies:</strong> Necessary for the site to function</li>
+<li><strong>Analytics Cookies:</strong> To analyze site usage</li>
+<li><strong>Functional Cookies:</strong> To remember your preferences</li>
+<li><strong>Marketing Cookies:</strong> Advertising display with your consent</li>
+</ul>
+<p>You can manage your cookie preferences from your browser settings.</p>
+
+<h3>Your Rights</h3>
+<p>Under data protection laws, you have the following rights:</p>
+<ul>
+<li>Learning whether your personal data is being processed</li>
+<li>Requesting information about your personal data</li>
+<li>Learning the purpose of processing and whether it is used in accordance with its purpose</li>
+<li>Knowing the third parties to whom data is transferred</li>
+<li>Requesting correction of incorrect or incomplete data</li>
+<li>Requesting deletion or destruction of data</li>
+<li>Requesting notification of transactions to third parties</li>
+<li>Objecting to a result against you through data analysis</li>
+<li>Requesting compensation for damage caused by unlawful processing</li>
+</ul>
+
+<h3>Contact</h3>
+<p>For questions about our privacy policy or your personal data:<br>
+<strong>Email:</strong> privacy@ourstore.com<br>
+<strong>Address:</strong> 123 Example Street, New York, NY 10001</p>
+
+<p><em>This policy was last updated on [Date].</em></p>',
                     'title'   => 'Privacy Policy',
                 ],
 
                 'return-policy' => [
-                    'content' => 'Return Policy Page Content',
-                    'title'   => 'Return Policy',
+                    'content' => '<h2>Return and Exchange Policy</h2>
+<p>If you are not satisfied with our products, you have the right to return and exchange under consumer protection laws.</p>
+
+<h3>Right of Withdrawal</h3>
+<p>Under distance selling regulations, you can exercise your right of withdrawal within <strong>14 days</strong> from the date you receive the product without giving any reason.</p>
+
+<h3>Return Conditions</h3>
+<p>For the return process, the product must:</p>
+<ul>
+<li>Be unused and untried</li>
+<li>Be in its original packaging with tags attached</li>
+<li>Be returned with all accessories and gifts</li>
+<li>Have the invoice or delivery note included in the return package</li>
+</ul>
+
+<h3>Non-Returnable Products</h3>
+<p>The following products are excluded from returns:</p>
+<ul>
+<li>Disposable products and opened hygiene products</li>
+<li>Custom-made or personalized products</li>
+<li>Perishable products or products that may expire</li>
+<li>Downloadable software and digital content</li>
+<li>Periodicals such as newspapers and magazines</li>
+<li>Opened audio or video recordings</li>
+</ul>
+
+<h3>Return Process</h3>
+<ol>
+<li><strong>Create Request:</strong> Go to "My Orders" section in your account and create a return request or call our customer service.</li>
+<li><strong>Approval:</strong> Your request will be reviewed and you will receive approval and shipping information.</li>
+<li><strong>Packaging:</strong> Pack the product in its original packaging with the invoice.</li>
+<li><strong>Shipping:</strong> Send the product with the specified shipping company. Return shipping costs are covered by us.</li>
+<li><strong>Inspection:</strong> Quality control is performed when the product reaches us.</li>
+<li><strong>Result:</strong> After approval, return or exchange is processed.</li>
+</ol>
+
+<h3>Exchange Procedures</h3>
+<p>For size, color, or model changes:</p>
+<ul>
+<li>Specify the new product information when creating an exchange request</li>
+<li>Exchange is made according to stock availability</li>
+<li>If there is a price difference, payment or refund is applied</li>
+</ul>
+
+<h3>Damaged or Defective Product</h3>
+<p>If your product arrived damaged or defective:</p>
+<ul>
+<li>Have a report prepared at the time of delivery</li>
+<li>Photograph the product without opening it</li>
+<li>Notify our customer service within 24 hours</li>
+<li>Free exchange or refund will be processed</li>
+</ul>
+
+<h3>Return Shipping Information</h3>
+<p>Our partner shipping companies: FedEx, UPS, DHL, USPS<br>
+Return shipping costs for withdrawals are covered by us.</p>
+
+<h3>Contact</h3>
+<p>For your return and exchange transactions:<br>
+<strong>Email:</strong> returns@ourstore.com<br>
+<strong>Phone:</strong> +1 (800) XXX-XXXX<br>
+<strong>Working Hours:</strong> Monday - Saturday, 9:00 AM - 6:00 PM</p>',
+                    'title'   => 'Return and Exchange',
                 ],
 
                 'shipping-policy' => [
-                    'content' => 'Shipping Policy Page Content',
-                    'title'   => 'Shipping Policy',
+                    'content' => '<h2>Shipping and Delivery Policy</h2>
+<p>We work with reliable shipping companies to deliver your orders in the fastest and safest way.</p>
+
+<h3>Shipping Costs</h3>
+<ul>
+<li><strong>Free Shipping:</strong> Free shipping on orders of $50 and above</li>
+<li><strong>Standard Shipping:</strong> Flat rate shipping fee for orders under $50</li>
+<li><strong>Express Shipping:</strong> Same day or next day delivery for an additional fee</li>
+</ul>
+
+<h3>Delivery Times</h3>
+<ul>
+<li><strong>Local areas:</strong> 1-2 business days</li>
+<li><strong>Major cities:</strong> 2-3 business days</li>
+<li><strong>Other regions:</strong> 3-5 business days</li>
+<li><strong>Remote areas:</strong> 5-7 business days</li>
+</ul>
+<p><em>Note: Delivery times are estimates and may be extended during promotional periods.</em></p>
+
+<h3>Order Tracking</h3>
+<p>To track your order:</p>
+<ol>
+<li>Log in to your account and go to "My Orders" section</li>
+<li>Track with your cargo tracking number on the shipping company\'s website</li>
+<li>Follow our notifications sent by SMS and email</li>
+</ol>
+
+<h3>Delivery Information</h3>
+<ul>
+<li>Deliveries are made on weekdays 9:00 AM - 7:00 PM, Saturdays 9:00 AM - 2:00 PM</li>
+<li>ID verification may be required at delivery</li>
+<li>If you are not at your address, the shipping company will try to reach you</li>
+<li>After 3 failed delivery attempts, the order is returned</li>
+</ul>
+
+<h3>Cash on Delivery</h3>
+<ul>
+<li>You can pay by cash or credit card at delivery</li>
+<li>Additional service fee may apply for cash on delivery</li>
+<li>Cash on delivery option may not be available in some regions</li>
+</ul>
+
+<h3>Packaging</h3>
+<p>Our products are carefully packaged:</p>
+<ul>
+<li>Fragile items are wrapped with extra protection</li>
+<li>Product information is not written on packages for privacy</li>
+<li>Eco-friendly packaging materials are used</li>
+</ul>
+
+<h3>Partner Shipping Companies</h3>
+<p>FedEx, UPS, DHL, USPS</p>
+
+<h3>Important Notes</h3>
+<ul>
+<li>Deliveries are not made on official holidays</li>
+<li>Delays may occur in extreme weather conditions</li>
+<li>Delivery times may be extended during busy periods (campaigns, holidays)</li>
+<li>Contact us before the order is shipped for address changes</li>
+</ul>
+
+<h3>Contact</h3>
+<p>For your questions about shipping and delivery:<br>
+<strong>Email:</strong> shipping@ourstore.com<br>
+<strong>Phone:</strong> +1 (800) XXX-XXXX</p>',
+                    'title'   => 'Shipping and Delivery',
                 ],
 
                 'terms-conditions' => [
-                    'content' => 'Terms & Conditions Page Content',
+                    'content' => '<h2>Sales Agreement - Terms and Conditions</h2>
+<p>These terms and conditions set out the rules that will apply to your purchases on our website. By using our site, you accept these terms.</p>
+
+<h3>1. Parties</h3>
+<p><strong>SELLER:</strong><br>
+Company Name: [Company Name]<br>
+Address: 123 Example Street, New York, NY 10001<br>
+Phone: +1 (800) XXX-XXXX<br>
+Email: info@ourstore.com<br>
+Registration No: [Registration Number]</p>
+
+<p><strong>BUYER:</strong> The person placing an order through the website</p>
+
+<h3>2. Subject of the Contract</h3>
+<p>This contract regulates the rights and obligations of the parties regarding the sale and delivery of products ordered electronically by the BUYER from the SELLER\'s website.</p>
+
+<h3>3. Product Information and Prices</h3>
+<ul>
+<li>The basic features of the products are specified on the website</li>
+<li>Prices are in US Dollars (USD) and include applicable taxes</li>
+<li>The SELLER reserves the right to change prices without prior notice</li>
+<li>Price changes do not affect existing orders</li>
+</ul>
+
+<h3>4. Order and Payment</h3>
+<ul>
+<li>The order becomes binding when confirmed by the BUYER through the website</li>
+<li>The order is not confirmed until payment is completed</li>
+<li>The SELLER reserves the right to cancel the order according to stock status</li>
+<li>In case of cancellation, the payment is fully refunded</li>
+</ul>
+
+<h3>5. Delivery</h3>
+<ul>
+<li>Products are shipped to the address specified by the BUYER</li>
+<li>Delivery time starts from order confirmation</li>
+<li>Legal delivery period is 30 days</li>
+<li>The period may be extended in case of force majeure</li>
+</ul>
+
+<h3>6. Right of Withdrawal</h3>
+<ul>
+<li>The BUYER can use the right of withdrawal within 14 days from the date of receiving the product</li>
+<li>The product must be returned in its original condition and packaging when using the right of withdrawal</li>
+<li>Return shipping cost is covered by the SELLER</li>
+<li>Refund is made within 14 days from the date the product reaches the SELLER</li>
+</ul>
+
+<h3>7. Exceptions to Right of Withdrawal</h3>
+<p>The right of withdrawal cannot be used for the following products:</p>
+<ul>
+<li>Products whose price depends on stock or financial markets</li>
+<li>Products manufactured according to the BUYER\'s requests</li>
+<li>Perishable products</li>
+<li>Opened hygiene products</li>
+<li>Digital content (after download has started)</li>
+</ul>
+
+<h3>8. Warranty</h3>
+<ul>
+<li>Products are covered by manufacturer warranty</li>
+<li>Warranty periods vary by product</li>
+<li>Warranty coverage is within the conditions specified in the warranty document</li>
+</ul>
+
+<h3>9. Protection of Personal Data</h3>
+<p>The BUYER\'s personal data is protected under our Privacy Policy and applicable data protection laws.</p>
+
+<h3>10. Dispute Resolution</h3>
+<p>Consumer Protection Agencies and Consumer Courts are authorized for disputes arising from this contract. Current legal regulations apply for monetary limits.</p>
+
+<h3>11. Enforcement</h3>
+<p>This contract enters into force on the date it is electronically approved by the BUYER.</p>
+
+<p><em>Last update: [Date]</em></p>',
                     'title'   => 'Terms & Conditions',
                 ],
 
                 'whats-new' => [
-                    'content' => 'What\'s New page content',
+                    'content' => '<h2>What\'s New and Updates</h2>
+<p>We are constantly improving ourselves to serve you better. Here are the recent innovations and updates we have made:</p>
+
+<h3>New Features</h3>
+
+<h4>Improved Shopping Experience</h4>
+<ul>
+<li>Faster page loading times</li>
+<li>Improved product search and filtering</li>
+<li>Smart product recommendations</li>
+<li>Compare feature to view products side by side</li>
+</ul>
+
+<h4>Mobile Application</h4>
+<ul>
+<li>Optimized app for iOS and Android</li>
+<li>Stay informed about campaigns with instant notifications</li>
+<li>One-click payment convenience</li>
+<li>Quick product finding with barcode scanner</li>
+</ul>
+
+<h4>Payment Options</h4>
+<ul>
+<li>New installment options added</li>
+<li>Digital wallet integrations</li>
+<li>More secure 3D Secure infrastructure</li>
+</ul>
+
+<h3>New Categories</h3>
+<p>We continue to expand our product range:</p>
+<ul>
+<li>Home and living category</li>
+<li>Sports and outdoor products</li>
+<li>Organic and natural products</li>
+<li>Technology accessories</li>
+</ul>
+
+<h3>Campaigns and Opportunities</h3>
+<ul>
+<li><strong>Weekly discounts:</strong> Special prices in different categories every week</li>
+<li><strong>Loyalty program:</strong> Earn points on your purchases, get discounts</li>
+<li><strong>First order discount:</strong> 10% discount for new members</li>
+<li><strong>Refer a friend:</strong> Invite your friend, both of you win</li>
+</ul>
+
+<h3>Improved Customer Service</h3>
+<ul>
+<li>24/7 live support line</li>
+<li>Communication via WhatsApp</li>
+<li>Faster return and exchange processes</li>
+<li>Expanded FAQ section</li>
+</ul>
+
+<h3>Sustainability Efforts</h3>
+<ul>
+<li>Eco-friendly packaging materials</li>
+<li>Carbon footprint reduction projects</li>
+<li>Recycling programs</li>
+<li>Supporting local producers</li>
+</ul>
+
+<h3>Coming Soon</h3>
+<ul>
+<li>Virtual fitting room (AR technology)</li>
+<li>Voice search feature</li>
+<li>Live shopping broadcasts</li>
+<li>Subscription system for regular delivery</li>
+</ul>
+
+<p>Subscribe to our email newsletter and follow our social media accounts to follow our developments!</p>',
                     'title'   => 'What\'s New',
                 ],
             ],
