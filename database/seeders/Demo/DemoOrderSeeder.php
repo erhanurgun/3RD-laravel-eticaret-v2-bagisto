@@ -195,6 +195,7 @@ class DemoOrderSeeder extends Seeder
             DB::table('order_items')->insert([
                 'order_id'                  => $orderId,
                 'product_id'                => $item['product_id'],
+                'product_type'              => 'Webkul\Product\Models\Product',
                 'sku'                       => $item['sku'],
                 'type'                      => 'simple',
                 'name'                      => $item['name'],
