@@ -142,6 +142,15 @@ class CustomerDataGrid extends DataGrid
             'label'      => trans('admin::app.customers.customers.index.datagrid.gender'),
             'type'       => 'string',
             'sortable'   => true,
+            'closure'    => function ($row) {
+                if (! $row->gender) {
+                    return '-';
+                }
+
+                $genderKey = strtolower($row->gender);
+
+                return trans("admin::app.customers.customers.index.create.{$genderKey}");
+            },
         ]);
 
         $this->addColumn([

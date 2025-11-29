@@ -208,7 +208,7 @@
                                     </p>
 
                                     <p class="text-gray-600 dark:text-gray-300">
-                                        @{{ "@lang('admin::app.customers.customers.view.gender')".replace(':gender', customer.gender ?? 'N/A') }}
+                                        @{{ "@lang('admin::app.customers.customers.view.gender')".replace(':gender', translatedGender) }}
                                     </p>
 
                                     <p class="text-gray-600 dark:text-gray-300">
@@ -356,7 +356,20 @@
                         customer: @json($customer),
 
                         isUpdating: {},
+
+                        genderTranslations: {
+                            'male': '{{ trans('admin::app.customers.customers.view.edit.male') }}',
+                            'female': '{{ trans('admin::app.customers.customers.view.edit.female') }}',
+                            'other': '{{ trans('admin::app.customers.customers.view.edit.other') }}',
+                        },
                     };
+                },
+
+                computed: {
+                    translatedGender() {
+                        if (!this.customer?.gender) return 'N/A';
+                        return this.genderTranslations[this.customer.gender.toLowerCase()] ?? this.customer.gender;
+                    },
                 },
 
                 methods: {
