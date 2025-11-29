@@ -4624,6 +4624,7 @@ return [
                         'display-mini-cart'    => 'Display Mini Cart',
                         'info'                 => 'Enable Mini Cart settings to display the mini cart and show Mini Cart Offer Information for quick access to cart details and promotions.',
                         'mini-cart-offer-info' => 'Mini Cart Offer Information',
+                        'offer-info-hint'      => 'If left empty, the translation from the language file will be used.',
                         'title'                => 'Mini Cart',
                     ],
                 ],

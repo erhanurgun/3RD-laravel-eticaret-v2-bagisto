@@ -4624,6 +4624,7 @@ return [
                         'display-mini-cart'    => 'Mini Sepeti Göster',
                         'info'                 => 'Mini Sepet ayarlarını etkinleştirerek mini sepeti görüntüleyin ve hızlı erişim için Mini Sepet Teklif Bilgilerini gösterin.',
                         'mini-cart-offer-info' => 'Mini Sepet Teklif Bilgileri',
+                        'offer-info-hint'      => 'Boş bırakılırsa dil dosyasındaki çeviri kullanılır.',
                         'title'                => 'Mini Sepet',
                     ],
                 ],
