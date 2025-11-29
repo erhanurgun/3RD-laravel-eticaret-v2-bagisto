@@ -28,7 +28,7 @@
                         v-for="category in categories"
                     >
                         <a
-                            :href="category.slug"
+                            :href="category.url"
                             class="h-[110px] w-[110px] rounded-full bg-zinc-100 max-md:h-20 max-md:w-20 max-sm:h-[60px] max-sm:w-[60px]"
                             :aria-label="category.name"
                         >
@@ -48,7 +48,7 @@
                         </a>
 
                         <a
-                            :href="category.slug"
+                            :href="category.url"
                             class=""
                         >
                             <p

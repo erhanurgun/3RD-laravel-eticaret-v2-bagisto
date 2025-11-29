@@ -648,12 +648,13 @@ Registration No: [Registration Number]</p>
 
                 'bold-collections' => [
                     'content' => [
-                        'btn-title'   => 'View Collections',
-                        'description' => 'Introducing Our New Bold Collections! Elevate your style with daring designs and vibrant statements. Explore striking patterns and bold colors that redefine your wardrobe. Get ready to embrace the extraordinary!',
-                        'title'       => 'Get Ready for our new Bold Collections!',
+                        'btn-title'   => 'View Products',
+                        'description' => 'Discover our latest products! Refresh your wardrobe with stylish and quality designs that suit your taste. Find special pieces for you in our wide range of products.',
+                        'link'        => '/giyim',
+                        'title'       => 'Discover Our New Season Products',
                     ],
 
-                    'name' => 'Bold Collections',
+                    'name' => 'Featured Collection',
                 ],
 
                 'categories-collections' => [
@@ -686,18 +687,21 @@ Registration No: [Registration Number]</p>
 
                 'game-container' => [
                     'content' => [
-                        'sub-title-1' => 'Our Collections',
-                        'sub-title-2' => 'Our Collections',
-                        'title'       => 'The game with our new additions!',
+                        'link-1'      => '/cocuk-giyim',
+                        'link-2'      => '/cocuk-giyim',
+                        'sub-title-1' => 'Girls',
+                        'sub-title-2' => 'Boys',
+                        'title'       => 'Kids Collection',
                     ],
 
-                    'name' => 'Game Container',
+                    'name' => 'Kids Collection',
                 ],
 
                 'image-carousel' => [
                     'name' => 'Image Carousel',
 
                     'sliders' => [
+                        'link'  => '/giyim',
                         'title' => 'Get Ready For New Collection',
                     ],
                 ],
@@ -738,13 +742,19 @@ Registration No: [Registration Number]</p>
 
                 'top-collections' => [
                     'content' => [
-                        'sub-title-1' => 'Our Collections',
-                        'sub-title-2' => 'Our Collections',
-                        'sub-title-3' => 'Our Collections',
-                        'sub-title-4' => 'Our Collections',
-                        'sub-title-5' => 'Our Collections',
-                        'sub-title-6' => 'Our Collections',
-                        'title'       => 'The game with our new additions!',
+                        'link-1'      => '/kadin-giyim',
+                        'link-2'      => '/erkek-giyim',
+                        'link-3'      => '/cocuk-giyim',
+                        'link-4'      => '/aksesuar-giyim',
+                        'link-5'      => '/ayakkabi',
+                        'link-6'      => '/ev-yasam',
+                        'sub-title-1' => 'Women\'s Clothing',
+                        'sub-title-2' => 'Men\'s Clothing',
+                        'sub-title-3' => 'Kids\' Clothing',
+                        'sub-title-4' => 'Accessories',
+                        'sub-title-5' => 'Shoes',
+                        'sub-title-6' => 'Home & Living',
+                        'title'       => 'Most Popular Categories',
                     ],
 
                     'name' => 'Top Collections',

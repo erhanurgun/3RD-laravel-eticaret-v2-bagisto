@@ -648,12 +648,13 @@ Mersis No: [Mersis Numarası]</p>
 
                 'bold-collections' => [
                     'content' => [
-                        'btn-title'   => 'Koleksiyonlara Göz At',
-                        'description' => 'Yeni Cesur Koleksiyonlarımızı Tanıtıyoruz! Cesur tasarımlar ve canlı ifadelerle tarzınızı yükseltin. Gardırobunuzu yeniden tanımlayan çarpıcı desenler ve cesur renklere keşfedin. Olağanüstüye hazır olun!',
-                        'title'       => 'Yeni Cesur Koleksiyonlarımıza Hazır Olun!',
+                        'btn-title'   => 'Ürünleri İncele',
+                        'description' => 'En yeni ürünlerimizi keşfedin! Tarzınıza uygun, kaliteli ve şık tasarımlarla gardırobunuzu yenileyin. Geniş ürün yelpazemizde size özel parçaları bulun.',
+                        'link'        => '/giyim',
+                        'title'       => 'Yeni Sezon Ürünlerimizi Keşfedin',
                     ],
 
-                    'name' => 'Cesur Koleksiyonlar',
+                    'name' => 'Öne Çıkan Koleksiyon',
                 ],
 
                 'categories-collections' => [
@@ -686,18 +687,21 @@ Mersis No: [Mersis Numarası]</p>
 
                 'game-container' => [
                     'content' => [
-                        'sub-title-1' => 'Koleksiyonlarımız',
-                        'sub-title-2' => 'Koleksiyonlarımız',
-                        'title'       => 'Yeni eklemelerimizle oyun!',
+                        'link-1'      => '/cocuk-giyim',
+                        'link-2'      => '/cocuk-giyim',
+                        'sub-title-1' => 'Kız Çocuk',
+                        'sub-title-2' => 'Erkek Çocuk',
+                        'title'       => 'Çocuklara Özel Ürünler',
                     ],
 
-                    'name' => 'Oyun Konteyneri',
+                    'name' => 'Çocuk Koleksiyonu',
                 ],
 
                 'image-carousel' => [
                     'name' => 'Resim Karuseli',
 
                     'sliders' => [
+                        'link'  => '/giyim',
                         'title' => 'Yeni Koleksiyona Hazır Olun',
                     ],
                 ],
@@ -738,13 +742,19 @@ Mersis No: [Mersis Numarası]</p>
 
                 'top-collections' => [
                     'content' => [
-                        'sub-title-1' => 'Koleksiyonlarımız',
-                        'sub-title-2' => 'Koleksiyonlarımız',
-                        'sub-title-3' => 'Koleksiyonlarımız',
-                        'sub-title-4' => 'Koleksiyonlarımız',
-                        'sub-title-5' => 'Koleksiyonlarımız',
-                        'sub-title-6' => 'Koleksiyonlarımız',
-                        'title'       => 'Yeni eklemelerimizle oyun!',
+                        'link-1'      => '/kadin-giyim',
+                        'link-2'      => '/erkek-giyim',
+                        'link-3'      => '/cocuk-giyim',
+                        'link-4'      => '/aksesuar-giyim',
+                        'link-5'      => '/ayakkabi',
+                        'link-6'      => '/ev-yasam',
+                        'sub-title-1' => 'Kadın Giyim',
+                        'sub-title-2' => 'Erkek Giyim',
+                        'sub-title-3' => 'Çocuk Giyim',
+                        'sub-title-4' => 'Aksesuar',
+                        'sub-title-5' => 'Ayakkabı',
+                        'sub-title-6' => 'Ev & Yaşam',
+                        'title'       => 'En Çok Tercih Edilen Kategoriler',
                     ],
 
                     'name' => 'En İyi Koleksiyonlar',
