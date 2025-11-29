@@ -71,57 +71,674 @@ return [
         'cms' => [
             'pages' => [
                 'about-us' => [
-                    'content' => 'Hakkımızda Sayfası İçeriği',
+                    'content' => '<h2>Biz Kimiz?</h2>
+<p>Türkiye\'nin önde gelen e-ticaret platformlarından biri olarak, müşterilerimize en kaliteli ürünleri en uygun fiyatlarla sunmayı hedefliyoruz. Yılların deneyimiyle sektörde güvenilir bir marka haline geldik.</p>
+
+<h3>Misyonumuz</h3>
+<p>Müşterilerimize güvenli, hızlı ve kolay bir alışveriş deneyimi sunarak, online alışverişi herkes için erişilebilir kılmak. Her ürünümüzde kaliteyi, her hizmetimizde mükemmelliği hedefliyoruz.</p>
+
+<h3>Vizyonumuz</h3>
+<p>Türkiye\'nin en güvenilir ve tercih edilen e-ticaret platformu olmak. Teknolojik yeniliklerle sürekli gelişerek, müşterilerimize en iyi alışveriş deneyimini yaşatmak.</p>
+
+<h3>Değerlerimiz</h3>
+<ul>
+<li><strong>Güvenilirlik:</strong> Müşteri güveni bizim için her şeyden önemlidir.</li>
+<li><strong>Kalite:</strong> Satışa sunduğumuz her ürün titizlikle seçilir.</li>
+<li><strong>Müşteri Odaklılık:</strong> Müşteri memnuniyeti önceliğimizdir.</li>
+<li><strong>Şeffaflık:</strong> Tüm süreçlerimizde açık ve dürüst iletişim.</li>
+<li><strong>Yenilikçilik:</strong> Sürekli gelişim ve teknolojik yenilikler.</li>
+</ul>
+
+<h3>Neden Bizi Tercih Etmelisiniz?</h3>
+<ul>
+<li>Geniş ürün yelpazesi ve kaliteli markalar</li>
+<li>Güvenli ödeme seçenekleri</li>
+<li>Hızlı ve ücretsiz kargo fırsatları</li>
+<li>7/24 müşteri desteği</li>
+<li>Kolay iade ve değişim imkanı</li>
+<li>Düzenli kampanya ve indirimler</li>
+</ul>',
                     'title'   => 'Hakkımızda',
                 ],
 
                 'contact-us' => [
-                    'content' => 'Bize Ulaşın Sayfa İçeriği',
+                    'content' => '<h2>Bizimle İletişime Geçin</h2>
+<p>Sorularınız, önerileriniz veya şikayetleriniz için bizimle iletişime geçmekten çekinmeyin. Müşteri memnuniyeti ekibimiz size yardımcı olmaktan mutluluk duyacaktır.</p>
+
+<h3>İletişim Bilgilerimiz</h3>
+<ul>
+<li><strong>E-posta:</strong> destek@magazamiz.com</li>
+<li><strong>Telefon:</strong> 0850 XXX XX XX</li>
+<li><strong>WhatsApp:</strong> 0532 XXX XX XX</li>
+<li><strong>Çalışma Saatleri:</strong> Pazartesi - Cumartesi, 09:00 - 18:00</li>
+</ul>
+
+<h3>Adresimiz</h3>
+<p>Örnek Mahallesi, Örnek Caddesi No:123<br>
+Kadıköy / İstanbul, Türkiye<br>
+Posta Kodu: 34000</p>
+
+<h3>Sıkça Sorulan Konular</h3>
+<ul>
+<li><strong>Sipariş takibi:</strong> Hesabınızdan veya kargo takip numaranızla siparişinizi takip edebilirsiniz.</li>
+<li><strong>İade işlemleri:</strong> İade taleplerinizi hesabınız üzerinden oluşturabilirsiniz.</li>
+<li><strong>Ödeme sorunları:</strong> Ödeme ile ilgili sorunlarınız için destek ekibimizle iletişime geçin.</li>
+</ul>
+
+<p>Mesajlarınıza en geç 24 saat içinde yanıt veriyoruz. Acil durumlarda telefon hattımızı tercih edebilirsiniz.</p>',
                     'title'   => 'Bize Ulaşın',
                 ],
 
                 'customer-service' => [
-                    'content' => 'Müşteri Hizmetleri Sayfa İçeriği',
+                    'content' => '<h2>Müşteri Hizmetleri</h2>
+<p>Alışveriş deneyiminizi en iyi hale getirmek için buradayız. Profesyonel müşteri hizmetleri ekibimiz, tüm sorularınızı yanıtlamak ve sorunlarınızı çözmek için hazır.</p>
+
+<h3>Size Nasıl Yardımcı Olabiliriz?</h3>
+
+<h4>Sipariş İşlemleri</h4>
+<ul>
+<li>Sipariş oluşturma ve onay süreçleri</li>
+<li>Sipariş değişikliği ve iptal işlemleri</li>
+<li>Sipariş takibi ve kargo bilgileri</li>
+<li>Fatura talepleri ve düzenlemeleri</li>
+</ul>
+
+<h4>Ürün Bilgileri</h4>
+<ul>
+<li>Ürün özellikleri ve teknik detaylar</li>
+<li>Stok durumu sorgulama</li>
+<li>Ürün karşılaştırma desteği</li>
+<li>Beden ve ölçü rehberliği</li>
+</ul>
+
+<h4>Ödeme ve Finans</h4>
+<ul>
+<li>Ödeme yöntemleri hakkında bilgi</li>
+<li>Taksit seçenekleri</li>
+<li>İade ve para iadesi süreçleri</li>
+<li>Fatura ve ödeme sorunları</li>
+</ul>
+
+<h4>İade ve Değişim</h4>
+<ul>
+<li>İade talebi oluşturma</li>
+<li>Değişim işlemleri</li>
+<li>Garanti kapsamındaki işlemler</li>
+<li>Arızalı ürün bildirimi</li>
+</ul>
+
+<h3>İletişim Kanallarımız</h3>
+<p><strong>Telefon:</strong> 0850 XXX XX XX (Pazartesi-Cumartesi 09:00-18:00)<br>
+<strong>E-posta:</strong> destek@magazamiz.com<br>
+<strong>Canlı Destek:</strong> Web sitemiz üzerinden 7/24<br>
+<strong>WhatsApp:</strong> 0532 XXX XX XX</p>
+
+<p>Müşteri memnuniyeti bizim için önceliktir. Her zaman yanınızdayız!</p>',
                     'title'   => 'Müşteri Hizmetleri',
                 ],
 
                 'payment-policy' => [
-                    'content' => 'Ödeme Politikası Sayfa İçeriği',
+                    'content' => '<h2>Ödeme Politikası</h2>
+<p>Güvenli ve kolay ödeme seçenekleriyle alışverişinizi tamamlayabilirsiniz. Tüm ödeme işlemleriniz SSL sertifikası ile şifrelenerek korunmaktadır.</p>
+
+<h3>Kabul Edilen Ödeme Yöntemleri</h3>
+
+<h4>Kredi Kartı / Banka Kartı</h4>
+<ul>
+<li>Visa, MasterCard, American Express kartlarıyla ödeme</li>
+<li>3D Secure güvenli ödeme altyapısı</li>
+<li>Taksit imkanı (2, 3, 6, 9 ve 12 taksit seçenekleri)</li>
+<li>Tek çekim ödemelerinde ek indirim fırsatları</li>
+</ul>
+
+<h4>Banka Havalesi / EFT</h4>
+<ul>
+<li>Türkiye\'nin önde gelen bankalarına havale/EFT imkanı</li>
+<li>Havale sonrası sipariş onayı 24 saat içinde yapılır</li>
+<li>Açıklama kısmına sipariş numaranızı yazmayı unutmayın</li>
+</ul>
+
+<h4>Kapıda Ödeme</h4>
+<ul>
+<li>Nakit veya kredi kartı ile kapıda ödeme seçeneği</li>
+<li>Kapıda ödeme için ek hizmet bedeli uygulanabilir</li>
+<li>Bazı ürün ve bölgelerde kapıda ödeme seçeneği sunulmayabilir</li>
+</ul>
+
+<h4>Dijital Cüzdanlar</h4>
+<ul>
+<li>Anında ödeme ve kolay kullanım</li>
+<li>Kayıtlı kart bilgileriyle hızlı ödeme</li>
+</ul>
+
+<h3>Taksit Seçenekleri</h3>
+<p>Kredi kartı ile yapılan ödemelerde aşağıdaki taksit seçeneklerinden faydalanabilirsiniz:</p>
+<ul>
+<li>2 Taksit - Tüm bankalar</li>
+<li>3 Taksit - Tüm bankalar</li>
+<li>6 Taksit - Anlaşmalı bankalar</li>
+<li>9 Taksit - Anlaşmalı bankalar</li>
+<li>12 Taksit - Anlaşmalı bankalar</li>
+</ul>
+<p><em>Not: Taksit seçenekleri bankanıza ve kart tipinize göre değişiklik gösterebilir.</em></p>
+
+<h3>Güvenli Ödeme</h3>
+<p>Ödeme bilgileriniz 256-bit SSL şifreleme ile korunmaktadır. Kart bilgileriniz sistemimizde saklanmaz ve üçüncü taraflarla paylaşılmaz. 3D Secure sistemi ile ekstra güvenlik sağlanmaktadır.</p>
+
+<h3>Fatura Bilgileri</h3>
+<p>Siparişlerinizin faturaları, ürünlerinizle birlikte gönderilir. E-fatura tercih eden müşterilerimize dijital fatura e-posta ile iletilir. Kurumsal fatura talepleri için sipariş sırasında şirket bilgilerinizi girmeniz yeterlidir.</p>',
                     'title'   => 'Ödeme Politikası',
                 ],
 
                 'privacy-policy' => [
-                    'content' => 'Gizlilik Politikası Sayfa İçeriği',
+                    'content' => '<h2>Gizlilik Politikası</h2>
+<p>Bu gizlilik politikası, web sitemizi kullanırken kişisel verilerinizin nasıl toplandığını, kullanıldığını ve korunduğunu açıklamaktadır. 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) kapsamında haklarınız güvence altındadır.</p>
+
+<h3>Toplanan Kişisel Veriler</h3>
+<p>Hizmetlerimizi sunabilmek için aşağıdaki kişisel verileri topluyoruz:</p>
+<ul>
+<li><strong>Kimlik Bilgileri:</strong> Ad, soyad, T.C. kimlik numarası</li>
+<li><strong>İletişim Bilgileri:</strong> E-posta adresi, telefon numarası, adres</li>
+<li><strong>Finansal Bilgiler:</strong> Fatura bilgileri (kart bilgileri saklanmaz)</li>
+<li><strong>İşlem Bilgileri:</strong> Sipariş geçmişi, ödeme kayıtları</li>
+<li><strong>Teknik Bilgiler:</strong> IP adresi, tarayıcı bilgileri, çerezler</li>
+</ul>
+
+<h3>Verilerin Kullanım Amaçları</h3>
+<p>Kişisel verileriniz aşağıdaki amaçlarla kullanılmaktadır:</p>
+<ul>
+<li>Siparişlerinizin işlenmesi ve teslimatı</li>
+<li>Müşteri hizmetleri desteği sağlanması</li>
+<li>Yasal yükümlülüklerin yerine getirilmesi</li>
+<li>Hesap güvenliğinin sağlanması</li>
+<li>Hizmet kalitesinin artırılması</li>
+<li>Onay vermeniz halinde pazarlama iletişimleri</li>
+</ul>
+
+<h3>Verilerin Paylaşımı</h3>
+<p>Kişisel verileriniz aşağıdaki durumlar dışında üçüncü taraflarla paylaşılmaz:</p>
+<ul>
+<li><strong>Kargo Şirketleri:</strong> Teslimat için gerekli bilgiler</li>
+<li><strong>Ödeme Kuruluşları:</strong> Ödeme işlemlerinin gerçekleştirilmesi</li>
+<li><strong>Yasal Merciler:</strong> Kanuni zorunluluklar halinde</li>
+<li><strong>Hizmet Sağlayıcılar:</strong> Hizmet sunumu için gerekli iş ortakları (gizlilik sözleşmeleri kapsamında)</li>
+</ul>
+
+<h3>Veri Güvenliği</h3>
+<p>Kişisel verilerinizin güvenliği için aşağıdaki önlemleri alıyoruz:</p>
+<ul>
+<li>256-bit SSL şifreleme ile veri iletimi</li>
+<li>Güvenlik duvarları ve sızma testleri</li>
+<li>Erişim kontrolleri ve yetkilendirme sistemleri</li>
+<li>Düzenli güvenlik güncellemeleri</li>
+<li>Personel gizlilik eğitimleri</li>
+</ul>
+
+<h3>Çerez Politikası</h3>
+<p>Web sitemiz, deneyiminizi iyileştirmek için çerezler kullanmaktadır:</p>
+<ul>
+<li><strong>Zorunlu Çerezler:</strong> Sitenin çalışması için gerekli</li>
+<li><strong>Analitik Çerezler:</strong> Site kullanımını analiz etmek için</li>
+<li><strong>İşlevsel Çerezler:</strong> Tercihlerinizi hatırlamak için</li>
+<li><strong>Pazarlama Çerezleri:</strong> Onayınız dahilinde reklam gösterimi</li>
+</ul>
+<p>Tarayıcı ayarlarınızdan çerez tercihlerinizi yönetebilirsiniz.</p>
+
+<h3>KVKK Kapsamındaki Haklarınız</h3>
+<p>6698 sayılı KVKK kapsamında aşağıdaki haklara sahipsiniz:</p>
+<ul>
+<li>Kişisel verilerinizin işlenip işlenmediğini öğrenme</li>
+<li>Kişisel verileriniz hakkında bilgi talep etme</li>
+<li>Verilerin işlenme amacını ve amaca uygun kullanılıp kullanılmadığını öğrenme</li>
+<li>Verilerin aktarıldığı üçüncü kişileri bilme</li>
+<li>Yanlış veya eksik verilerin düzeltilmesini isteme</li>
+<li>Verilerin silinmesini veya yok edilmesini talep etme</li>
+<li>İşlemlerin üçüncü kişilere bildirilmesini isteme</li>
+<li>Verilerin analiz edilmesiyle aleyhinize bir sonuç çıkmasına itiraz etme</li>
+<li>Kanuna aykırı işleme nedeniyle zararın giderilmesini talep etme</li>
+</ul>
+
+<h3>İletişim</h3>
+<p>Gizlilik politikamız veya kişisel verileriniz hakkında sorularınız için:<br>
+<strong>E-posta:</strong> kvkk@magazamiz.com<br>
+<strong>Adres:</strong> Örnek Mahallesi, Örnek Caddesi No:123, Kadıköy/İstanbul</p>
+
+<p><em>Bu politika en son [Tarih] tarihinde güncellenmiştir.</em></p>',
                     'title'   => 'Gizlilik Politikası',
                 ],
 
                 'refund-policy' => [
-                    'content' => 'İade Politikası Sayfa İçeriği',
-                    'title'   => 'İade Politikası',
+                    'content' => '<h2>İade ve Geri Ödeme Politikası</h2>
+<p>Müşteri memnuniyeti bizim için önceliktir. Satın aldığınız ürünlerden memnun kalmamanız durumunda, aşağıdaki koşullar dahilinde iade ve geri ödeme işlemlerinizi gerçekleştirebilirsiniz.</p>
+
+<h3>Geri Ödeme Koşulları</h3>
+<p>Aşağıdaki durumlarda geri ödeme talebinde bulunabilirsiniz:</p>
+<ul>
+<li>Ürünün hasarlı veya arızalı olması</li>
+<li>Yanlış ürün gönderilmesi</li>
+<li>Ürünün tanımlanan özelliklerden farklı olması</li>
+<li>Cayma hakkı kapsamında yapılan iadeler</li>
+</ul>
+
+<h3>Geri Ödeme Süreci</h3>
+<ol>
+<li>İade talebinizi oluşturun (hesabınız üzerinden veya müşteri hizmetleri ile)</li>
+<li>Ürünü orijinal ambalajında ve tüm aksesuarlarıyla birlikte gönderin</li>
+<li>Ürün tarafımıza ulaştıktan sonra kalite kontrol yapılır</li>
+<li>Onay sonrası geri ödeme işlemi başlatılır</li>
+</ol>
+
+<h3>Geri Ödeme Yöntemleri ve Süreleri</h3>
+<ul>
+<li><strong>Kredi Kartı Ödemeleri:</strong> İade onayından sonra 5-10 iş günü içinde kartınıza iade edilir</li>
+<li><strong>Banka Kartı Ödemeleri:</strong> İade onayından sonra 5-10 iş günü içinde hesabınıza aktarılır</li>
+<li><strong>Havale/EFT Ödemeleri:</strong> İade onayından sonra 3-5 iş günü içinde belirttiğiniz IBAN\'a gönderilir</li>
+<li><strong>Kapıda Ödeme:</strong> Belirttiğiniz IBAN\'a 3-5 iş günü içinde gönderilir</li>
+</ul>
+<p><em>Not: Geri ödeme süreleri bankanıza göre değişiklik gösterebilir.</em></p>
+
+<h3>Kısmi Geri Ödeme</h3>
+<p>Aşağıdaki durumlarda kısmi geri ödeme yapılabilir:</p>
+<ul>
+<li>Ürünün kullanım izleri taşıması</li>
+<li>Orijinal ambalajın eksik veya hasarlı olması</li>
+<li>Aksesuarların eksik olması</li>
+<li>Ürün değerinin azalmış olması</li>
+</ul>
+
+<h3>Geri Ödeme Yapılamayacak Durumlar</h3>
+<ul>
+<li>Hijyen ürünleri (iç giyim, kozmetik vb.) açıldıktan sonra</li>
+<li>Kişiye özel üretilmiş ürünler</li>
+<li>Dijital içerikler (indirildikten sonra)</li>
+<li>14 günlük cayma hakkı süresini aşmış iadeler</li>
+<li>Hasar veya eksik parça içeren iadeler (kullanıcı kaynaklı)</li>
+</ul>
+
+<h3>İptal ve Geri Ödeme</h3>
+<p>Siparişinizi kargoya verilmeden önce iptal ederseniz, ödemeniz tam olarak iade edilir. Kargoya verildikten sonraki iptaller, ürün tarafımıza ulaştıktan sonra işleme alınır.</p>
+
+<h3>İletişim</h3>
+<p>Geri ödeme süreciniz hakkında sorularınız için:<br>
+<strong>E-posta:</strong> iade@magazamiz.com<br>
+<strong>Telefon:</strong> 0850 XXX XX XX</p>',
+                    'title'   => 'Geri Ödeme Politikası',
                 ],
 
                 'return-policy' => [
-                    'content' => 'İade Politikası Sayfa İçeriği',
-                    'title'   => 'İade Politikası',
+                    'content' => '<h2>İade ve Değişim Politikası</h2>
+<p>Ürünlerimizden memnun kalmamanız durumunda, 6502 sayılı Tüketicinin Korunması Hakkında Kanun ve Mesafeli Sözleşmeler Yönetmeliği kapsamında iade ve değişim hakkınız bulunmaktadır.</p>
+
+<h3>Cayma Hakkı</h3>
+<p>Mesafeli sözleşmeler kapsamında, ürünü teslim aldığınız tarihten itibaren <strong>14 gün</strong> içinde herhangi bir gerekçe göstermeksizin cayma hakkınızı kullanabilirsiniz.</p>
+
+<h3>İade Koşulları</h3>
+<p>İade işlemi için ürünün:</p>
+<ul>
+<li>Kullanılmamış ve denenmemiş olması</li>
+<li>Orijinal ambalajında ve etiketleri üzerinde olması</li>
+<li>Tüm aksesuarları ve hediyelerle birlikte iade edilmesi</li>
+<li>Fatura veya irsaliyenin iade paketine eklenmesi</li>
+</ul>
+
+<h3>İade Edilemeyecek Ürünler</h3>
+<p>Aşağıdaki ürünler iade kapsamı dışındadır:</p>
+<ul>
+<li>Tek kullanımlık ürünler ve ambalajı açılmış hijyen ürünleri</li>
+<li>Kişiye özel üretilen veya kişiselleştirilen ürünler</li>
+<li>Çabuk bozulabilir veya son kullanma tarihi geçebilecek ürünler</li>
+<li>İndirilebilir yazılımlar ve dijital içerikler</li>
+<li>Gazete, dergi gibi süreli yayınlar</li>
+<li>Ambalajı açılmış ses veya görüntü kayıtları</li>
+</ul>
+
+<h3>İade Süreci</h3>
+<ol>
+<li><strong>Talep Oluşturma:</strong> Hesabınızdan "Siparişlerim" bölümüne giderek iade talebi oluşturun veya müşteri hizmetlerimizi arayın.</li>
+<li><strong>Onay:</strong> Talebiniz incelenerek size onay ve kargo bilgisi gönderilir.</li>
+<li><strong>Paketleme:</strong> Ürünü orijinal ambalajında, fatura ile birlikte paketleyin.</li>
+<li><strong>Kargo:</strong> Belirtilen kargo şirketi ile ürünü gönderin. İade kargo ücreti tarafımızca karşılanır.</li>
+<li><strong>Kontrol:</strong> Ürün tarafımıza ulaştığında kalite kontrol yapılır.</li>
+<li><strong>Sonuç:</strong> Onay sonrası iade veya değişim işlemi gerçekleştirilir.</li>
+</ol>
+
+<h3>Değişim İşlemleri</h3>
+<p>Beden, renk veya model değişikliği için:</p>
+<ul>
+<li>Değişim talebi oluştururken yeni ürün bilgilerini belirtin</li>
+<li>Stok durumuna göre değişim yapılır</li>
+<li>Fiyat farkı varsa ödeme veya iade işlemi uygulanır</li>
+</ul>
+
+<h3>Hasarlı veya Arızalı Ürün</h3>
+<p>Ürününüz hasarlı veya arızalı ulaştıysa:</p>
+<ul>
+<li>Kargo teslim anında tutanak tutturun</li>
+<li>Ürünü açmadan fotoğraflayın</li>
+<li>24 saat içinde müşteri hizmetlerimize bildirin</li>
+<li>Ücretsiz değişim veya iade işlemi yapılır</li>
+</ul>
+
+<h3>İade Kargo Bilgileri</h3>
+<p>Anlaşmalı kargo şirketlerimiz: Yurtiçi Kargo, Aras Kargo, MNG Kargo, PTT Kargo<br>
+Cayma hakkı kapsamındaki iadelerde kargo ücreti tarafımızdan karşılanır.</p>
+
+<h3>İletişim</h3>
+<p>İade ve değişim işlemleriniz için:<br>
+<strong>E-posta:</strong> iade@magazamiz.com<br>
+<strong>Telefon:</strong> 0850 XXX XX XX<br>
+<strong>Çalışma Saatleri:</strong> Pazartesi - Cumartesi, 09:00 - 18:00</p>',
+                    'title'   => 'İade ve Değişim',
                 ],
 
                 'shipping-policy' => [
-                    'content' => 'Kargo Politikası Sayfa İçeriği',
-                    'title'   => 'Kargo Politikası',
+                    'content' => '<h2>Kargo ve Teslimat Politikası</h2>
+<p>Siparişlerinizi en hızlı ve güvenli şekilde teslim etmek için güvenilir kargo şirketleriyle çalışıyoruz.</p>
+
+<h3>Kargo Ücretleri</h3>
+<ul>
+<li><strong>Ücretsiz Kargo:</strong> 500 TL ve üzeri siparişlerde kargo ücretsizdir</li>
+<li><strong>Standart Kargo:</strong> 500 TL altı siparişlerde sabit kargo ücreti uygulanır</li>
+<li><strong>Ekspres Kargo:</strong> Ek ücret karşılığında aynı gün veya ertesi gün teslimat</li>
+</ul>
+
+<h3>Teslimat Süreleri</h3>
+<ul>
+<li><strong>İstanbul içi:</strong> 1-2 iş günü</li>
+<li><strong>Büyükşehirler:</strong> 2-3 iş günü</li>
+<li><strong>Diğer iller:</strong> 3-5 iş günü</li>
+<li><strong>Kırsal bölgeler:</strong> 5-7 iş günü</li>
+</ul>
+<p><em>Not: Teslimat süreleri tahminidir ve kampanya dönemlerinde uzayabilir.</em></p>
+
+<h3>Sipariş Takibi</h3>
+<p>Siparişinizi takip etmek için:</p>
+<ol>
+<li>Hesabınıza giriş yapın ve "Siparişlerim" bölümüne gidin</li>
+<li>Kargo takip numaranızla kargo şirketinin web sitesinden takip edin</li>
+<li>SMS ve e-posta ile gönderilen bildirimlerimizi takip edin</li>
+</ol>
+
+<h3>Teslimat Bilgileri</h3>
+<ul>
+<li>Kargo teslimatları hafta içi 09:00-19:00, Cumartesi 09:00-14:00 arasında yapılır</li>
+<li>Teslimat sırasında alıcının kimlik ibrazı gerekebilir</li>
+<li>Adresinizde bulunamazsanız, kargo şirketi size ulaşmaya çalışacaktır</li>
+<li>3 başarısız teslimat girişiminden sonra sipariş iade edilir</li>
+</ul>
+
+<h3>Kapıda Ödeme</h3>
+<ul>
+<li>Kapıda nakit veya kredi kartı ile ödeme yapabilirsiniz</li>
+<li>Kapıda ödeme için ek hizmet bedeli alınabilir</li>
+<li>Bazı bölgelerde kapıda ödeme seçeneği mevcut olmayabilir</li>
+</ul>
+
+<h3>Paketleme</h3>
+<p>Ürünlerimiz özenle paketlenir:</p>
+<ul>
+<li>Kırılacak ürünler ekstra koruma ile sarılır</li>
+<li>Gizlilik için paketlerde ürün bilgisi yazmaz</li>
+<li>Çevre dostu ambalaj malzemeleri kullanılır</li>
+</ul>
+
+<h3>Anlaşmalı Kargo Şirketleri</h3>
+<p>Yurtiçi Kargo, Aras Kargo, MNG Kargo, Sürat Kargo, PTT Kargo</p>
+
+<h3>Önemli Notlar</h3>
+<ul>
+<li>Resmi tatillerde teslimat yapılmamaktadır</li>
+<li>Olağanüstü hava koşullarında gecikmeler yaşanabilir</li>
+<li>Yoğun dönemlerde (kampanyalar, bayramlar) teslimat süreleri uzayabilir</li>
+<li>Adres değişikliği için sipariş kargoya verilmeden önce bizimle iletişime geçin</li>
+</ul>
+
+<h3>İletişim</h3>
+<p>Kargo ve teslimat ile ilgili sorularınız için:<br>
+<strong>E-posta:</strong> kargo@magazamiz.com<br>
+<strong>Telefon:</strong> 0850 XXX XX XX</p>',
+                    'title'   => 'Kargo ve Teslimat',
                 ],
 
                 'terms-conditions' => [
-                    'content' => 'Şartlar ve Koşullar Sayfa İçeriği',
+                    'content' => '<h2>Satış Sözleşmesi - Şartlar ve Koşullar</h2>
+<p>Bu şartlar ve koşullar, web sitemiz üzerinden yapacağınız alışverişlerde uygulanacak kuralları belirlemektedir. Sitemizi kullanarak bu şartları kabul etmiş sayılırsınız.</p>
+
+<h3>1. Taraflar</h3>
+<p><strong>SATICI:</strong><br>
+Ticaret Unvanı: [Şirket Adı]<br>
+Adres: Örnek Mahallesi, Örnek Caddesi No:123, Kadıköy/İstanbul<br>
+Telefon: 0850 XXX XX XX<br>
+E-posta: info@magazamiz.com<br>
+Mersis No: [Mersis Numarası]</p>
+
+<p><strong>ALICI:</strong> Web sitesi üzerinden sipariş veren kişi</p>
+
+<h3>2. Sözleşmenin Konusu</h3>
+<p>İşbu sözleşme, ALICI\'nın SATICI\'ya ait web sitesinden elektronik ortamda siparişini verdiği ürünlerin satışı ve teslimi ile ilgili tarafların hak ve yükümlülüklerini düzenlemektedir.</p>
+
+<h3>3. Ürün Bilgileri ve Fiyatlar</h3>
+<ul>
+<li>Ürünlerin temel özellikleri web sitesinde belirtilmiştir</li>
+<li>Fiyatlar Türk Lirası (TRY) cinsinden ve KDV dahildir</li>
+<li>SATICI, fiyatları önceden haber vermeksizin değiştirme hakkını saklı tutar</li>
+<li>Fiyat değişiklikleri mevcut siparişleri etkilemez</li>
+</ul>
+
+<h3>4. Sipariş ve Ödeme</h3>
+<ul>
+<li>Sipariş, ALICI tarafından web sitesi üzerinden onaylandığında bağlayıcı hale gelir</li>
+<li>Ödeme işlemi tamamlanmadan sipariş onaylanmaz</li>
+<li>SATICI, stok durumuna göre siparişi iptal etme hakkını saklı tutar</li>
+<li>İptal durumunda ödeme tam olarak iade edilir</li>
+</ul>
+
+<h3>5. Teslimat</h3>
+<ul>
+<li>Ürünler, ALICI\'nın belirttiği adrese kargo ile gönderilir</li>
+<li>Teslimat süresi sipariş onayından itibaren başlar</li>
+<li>Yasal teslimat süresi 30 gündür</li>
+<li>Mücbir sebepler halinde süre uzayabilir</li>
+</ul>
+
+<h3>6. Cayma Hakkı</h3>
+<ul>
+<li>ALICI, ürünü teslim aldığı tarihten itibaren 14 gün içinde cayma hakkını kullanabilir</li>
+<li>Cayma hakkı kullanımında ürün, orijinal durumunda ve ambalajında iade edilmelidir</li>
+<li>İade kargo ücreti SATICI tarafından karşılanır</li>
+<li>Geri ödeme, ürünün SATICI\'ya ulaşmasından itibaren 14 gün içinde yapılır</li>
+</ul>
+
+<h3>7. Cayma Hakkı İstisnaları</h3>
+<p>Aşağıdaki ürünlerde cayma hakkı kullanılamaz:</p>
+<ul>
+<li>Fiyatı borsa veya finans piyasalarına bağlı ürünler</li>
+<li>ALICI\'nın istekleri doğrultusunda üretilen ürünler</li>
+<li>Çabuk bozulan ürünler</li>
+<li>Ambalajı açılmış hijyen ürünleri</li>
+<li>Dijital içerikler (indirme başladıktan sonra)</li>
+</ul>
+
+<h3>8. Garanti</h3>
+<ul>
+<li>Ürünler, üretici garantisi kapsamındadır</li>
+<li>Garanti süreleri ürüne göre değişmektedir</li>
+<li>Garanti kapsamı, garanti belgesinde belirtilen koşullar dahilindedir</li>
+</ul>
+
+<h3>9. Kişisel Verilerin Korunması</h3>
+<p>ALICI\'nın kişisel verileri, Gizlilik Politikamız ve 6698 sayılı KVKK kapsamında korunmaktadır.</p>
+
+<h3>10. Uyuşmazlık Çözümü</h3>
+<p>İşbu sözleşmeden doğan uyuşmazlıklarda Tüketici Hakem Heyetleri ve Tüketici Mahkemeleri yetkilidir. Parasal sınırlar için güncel yasal düzenlemeler geçerlidir.</p>
+
+<h3>11. Yürürlük</h3>
+<p>Bu sözleşme, ALICI tarafından elektronik ortamda onaylandığı tarihte yürürlüğe girer.</p>
+
+<p><em>Son güncelleme: [Tarih]</em></p>',
                     'title'   => 'Şartlar ve Koşullar',
                 ],
 
                 'terms-of-use' => [
-                    'content' => 'Kullanım Koşulları Sayfa İçeriği',
+                    'content' => '<h2>Kullanım Koşulları</h2>
+<p>Web sitemizi kullanarak aşağıdaki kullanım koşullarını kabul etmiş sayılırsınız. Lütfen bu koşulları dikkatlice okuyunuz.</p>
+
+<h3>1. Genel Hükümler</h3>
+<ul>
+<li>Bu web sitesi [Şirket Adı] tarafından işletilmektedir</li>
+<li>Siteyi kullanarak işbu koşulları kabul etmiş sayılırsınız</li>
+<li>Koşulları kabul etmiyorsanız siteyi kullanmayınız</li>
+<li>Koşullar önceden haber verilmeksizin güncellenebilir</li>
+</ul>
+
+<h3>2. Üyelik ve Hesap Güvenliği</h3>
+<ul>
+<li>Üyelik için doğru ve güncel bilgiler verilmelidir</li>
+<li>Hesap bilgilerinizin güvenliğinden siz sorumlusunuz</li>
+<li>Şifrenizi kimseyle paylaşmayın</li>
+<li>Yetkisiz hesap kullanımını derhal bildirin</li>
+<li>18 yaşından küçükler veli/vasi onayı ile üye olabilir</li>
+</ul>
+
+<h3>3. Site Kullanımı</h3>
+<p>Aşağıdaki davranışlar kesinlikle yasaktır:</p>
+<ul>
+<li>Yasa dışı amaçlarla kullanım</li>
+<li>Site güvenliğini tehdit eden eylemler</li>
+<li>Virüs veya zararlı kod yayma</li>
+<li>Diğer kullanıcıları rahatsız etme</li>
+<li>Sahte hesap oluşturma</li>
+<li>Otomatik sistemlerle veri toplama (scraping)</li>
+<li>Site altyapısına aşırı yük bindirme</li>
+</ul>
+
+<h3>4. Fikri Mülkiyet Hakları</h3>
+<ul>
+<li>Sitedeki tüm içerikler (metin, görsel, logo, tasarım) tarafımıza aittir</li>
+<li>İçerikler izinsiz kopyalanamaz, çoğaltılamaz, dağıtılamaz</li>
+<li>Ticari markalarımız izinsiz kullanılamaz</li>
+<li>Ürün görselleri temsilidir, gerçek ürün farklılık gösterebilir</li>
+</ul>
+
+<h3>5. Ürün Bilgileri ve Fiyatlar</h3>
+<ul>
+<li>Ürün bilgileri mümkün olduğunca doğru tutulmaya çalışılır</li>
+<li>Teknik hatalardan kaynaklanan yanlışlıklardan sorumlu değiliz</li>
+<li>Fiyatlar önceden haber verilmeksizin değiştirilebilir</li>
+<li>Fiyat hataları durumunda siparişler iptal edilebilir</li>
+</ul>
+
+<h3>6. Sorumluluk Sınırları</h3>
+<ul>
+<li>Site "olduğu gibi" sunulmaktadır</li>
+<li>Kesintisiz veya hatasız hizmet garantisi verilmemektedir</li>
+<li>Teknik bakım nedeniyle geçici erişim kesintileri olabilir</li>
+<li>Üçüncü taraf sitelerine verilen linklerden sorumlu değiliz</li>
+<li>Mücbir sebeplerden kaynaklanan aksamalardan sorumlu değiliz</li>
+</ul>
+
+<h3>7. Kullanıcı İçerikleri</h3>
+<ul>
+<li>Yorumlarınızda hakaret, iftira ve yasadışı içerik paylaşmayın</li>
+<li>Paylaştığınız içeriklerden siz sorumlusunuz</li>
+<li>Uygunsuz içerikleri kaldırma hakkımız saklıdır</li>
+<li>Kullanıcı içeriklerini pazarlama amacıyla kullanabiliriz</li>
+</ul>
+
+<h3>8. Hesap Askıya Alma ve Sonlandırma</h3>
+<p>Aşağıdaki durumlarda hesabınız askıya alınabilir veya kapatılabilir:</p>
+<ul>
+<li>Kullanım koşullarının ihlali</li>
+<li>Dolandırıcılık veya kötüye kullanım şüphesi</li>
+<li>Diğer kullanıcılara zarar verme</li>
+<li>Yasal gerekliliklere uyumsuzluk</li>
+</ul>
+
+<h3>9. Değişiklikler</h3>
+<p>Bu kullanım koşulları zaman zaman güncellenebilir. Önemli değişiklikler için bildirim yapılacaktır. Güncellemelerden sonra siteyi kullanmaya devam etmeniz, yeni koşulları kabul ettiğiniz anlamına gelir.</p>
+
+<h3>10. Uygulanacak Hukuk</h3>
+<p>Bu koşullar Türkiye Cumhuriyeti kanunlarına tabidir. Uyuşmazlıklarda İstanbul Mahkemeleri ve İcra Daireleri yetkilidir.</p>
+
+<h3>11. İletişim</h3>
+<p>Kullanım koşulları hakkında sorularınız için:<br>
+<strong>E-posta:</strong> hukuk@magazamiz.com</p>
+
+<p><em>Son güncelleme: [Tarih]</em></p>',
                     'title'   => 'Kullanım Koşulları',
                 ],
 
                 'whats-new' => [
-                    'content' => 'Yenilikler Sayfa İçeriği',
+                    'content' => '<h2>Yenilikler ve Güncellemeler</h2>
+<p>Sizlere daha iyi hizmet verebilmek için sürekli kendimizi geliştiriyoruz. İşte son dönemde yaptığımız yenilikler ve güncellemeler:</p>
+
+<h3>Yeni Özellikler</h3>
+
+<h4>Geliştirilmiş Alışveriş Deneyimi</h4>
+<ul>
+<li>Daha hızlı sayfa yükleme süreleri</li>
+<li>Geliştirilmiş ürün arama ve filtreleme</li>
+<li>Akıllı ürün önerileri</li>
+<li>Karşılaştırma özelliği ile ürünleri yan yana inceleyin</li>
+</ul>
+
+<h4>Mobil Uygulama</h4>
+<ul>
+<li>iOS ve Android için optimize edilmiş uygulama</li>
+<li>Anlık bildirimlerle kampanyalardan haberdar olun</li>
+<li>Tek tıkla ödeme kolaylığı</li>
+<li>Barkod tarayıcı ile hızlı ürün bulma</li>
+</ul>
+
+<h4>Ödeme Seçenekleri</h4>
+<ul>
+<li>Yeni taksit seçenekleri eklendi</li>
+<li>Dijital cüzdan entegrasyonları</li>
+<li>Daha güvenli 3D Secure altyapısı</li>
+</ul>
+
+<h3>Yeni Kategoriler</h3>
+<p>Ürün yelpazemizi genişletmeye devam ediyoruz:</p>
+<ul>
+<li>Ev ve yaşam kategorisi</li>
+<li>Spor ve outdoor ürünleri</li>
+<li>Organik ve doğal ürünler</li>
+<li>Teknoloji aksesuarları</li>
+</ul>
+
+<h3>Kampanyalar ve Fırsatlar</h3>
+<ul>
+<li><strong>Haftalık indirimler:</strong> Her hafta farklı kategorilerde özel fiyatlar</li>
+<li><strong>Sadakat programı:</strong> Alışverişlerinizde puan kazanın, indirim elde edin</li>
+<li><strong>İlk sipariş indirimi:</strong> Yeni üyelerimize özel %10 indirim</li>
+<li><strong>Arkadaşını getir:</strong> Arkadaşınızı davet edin, her ikiniz de kazanın</li>
+</ul>
+
+<h3>Geliştirilmiş Müşteri Hizmetleri</h3>
+<ul>
+<li>7/24 canlı destek hattı</li>
+<li>WhatsApp üzerinden iletişim imkanı</li>
+<li>Daha hızlı iade ve değişim süreçleri</li>
+<li>Genişletilmiş SSS bölümü</li>
+</ul>
+
+<h3>Sürdürülebilirlik Çalışmalarımız</h3>
+<ul>
+<li>Çevre dostu ambalaj malzemeleri</li>
+<li>Karbon ayak izini azaltma projeleri</li>
+<li>Geri dönüşüm programları</li>
+<li>Yerel üreticileri destekleme</li>
+</ul>
+
+<h3>Yakında Gelecek Özellikler</h3>
+<ul>
+<li>Sanal deneme odası (AR teknolojisi)</li>
+<li>Sesli arama özelliği</li>
+<li>Canlı alışveriş yayınları</li>
+<li>Abonelik sistemi ile düzenli teslimat</li>
+</ul>
+
+<p>Gelişmelerimizi takip etmek için e-posta bültenimize abone olun ve sosyal medya hesaplarımızı takip edin!</p>',
                     'title'   => 'Yenilikler',
                 ],
             ],

@@ -63,6 +63,10 @@ class CMSPagesTableSeeder extends Seeder
                 'id'         => 10,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
+            ], [
+                'id'         => 11,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
             ],
         ]);
 
@@ -160,6 +164,15 @@ class CMSPagesTableSeeder extends Seeder
                     'meta_title'       => 'Privacy Policy',
                     'meta_description' => '',
                     'meta_keywords'    => 'privacy, policy',
+                ], [
+                    'locale'           => $locale,
+                    'cms_page_id'      => 11,
+                    'url_key'          => 'contact-us',
+                    'html_content'     => '<div class="static-container"><div class="mb-5">'.trans('installer::app.seeders.cms.pages.contact-us.content', [], $locale).'</div></div>',
+                    'page_title'       => trans('installer::app.seeders.cms.pages.contact-us.title', [], $locale),
+                    'meta_title'       => 'Contact Us',
+                    'meta_description' => '',
+                    'meta_keywords'    => 'contact, us',
                 ],
             ]);
         }
@@ -194,6 +207,9 @@ class CMSPagesTableSeeder extends Seeder
                 'channel_id'  => 1,
             ], [
                 'cms_page_id' => 10,
+                'channel_id'  => 1,
+            ], [
+                'cms_page_id' => 11,
                 'channel_id'  => 1,
             ],
         ]);
