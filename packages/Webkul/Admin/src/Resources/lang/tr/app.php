@@ -4712,7 +4712,7 @@ return [
             ],
 
             'powered-by' => [
-                'description' => '<a href=":dev_website" target="_blank" class="text-blue-600 hover:underline dark:text-darkBlue">:dev_name</a> tarafından geliştirilmiştir.',
+                'description' => '© :year tüm hakları saklıdır. | <a href=":dev_website" target="_blank" class="text-blue-600 hover:underline dark:text-darkBlue">:dev_name</a> tarafından geliştirilmiştir.',
             ],
         ],
 
@@ -5022,8 +5022,8 @@ return [
     ],
 
     'footer' => [
-        'copy-right' => '© :year, Orizora LLC. Tüm hakları saklıdır.',
-        'copyright'  => '© :year, Orizora LLC. Tüm hakları saklıdır.',
+        'copy-right' => '© :year tüm hakları saklıdır. | <a href=":dev_website" target="_blank" class="text-blue-600 hover:underline">:dev_name</a> tarafından geliştirilmiştir.',
+        'copyright'  => '© :year tüm hakları saklıdır. | <a href=":dev_website" target="_blank" class="text-blue-600 hover:underline">:dev_name</a> tarafından geliştirilmiştir.',
     ],
 
     'emails' => [

@@ -4712,7 +4712,7 @@ return [
             ],
 
             'powered-by' => [
-                'description' => 'Developed by <a href=":dev_website" target="_blank" class="text-blue-600 hover:underline dark:text-darkBlue">:dev_name</a>.',
+                'description' => '© :year all rights reserved. | Developed by <a href=":dev_website" target="_blank" class="text-blue-600 hover:underline dark:text-darkBlue">:dev_name</a>.',
             ],
         ],
 
@@ -5022,8 +5022,8 @@ return [
     ],
 
     'footer' => [
-        'copy-right' => '© :year, Orizora LLC. All rights reserved.',
-        'copyright'  => '© :year, Orizora LLC. All rights reserved.',
+        'copy-right' => '© :year all rights reserved. | Developed by <a href=":dev_website" target="_blank" class="text-blue-600 hover:underline">:dev_name</a>.',
+        'copyright'  => '© :year all rights reserved. | Developed by <a href=":dev_website" target="_blank" class="text-blue-600 hover:underline">:dev_name</a>.',
     ],
 
     'emails' => [

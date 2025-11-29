@@ -94,7 +94,7 @@
 
             <!-- Powered By - Copyright -->
             <p class="text-sm text-gray-600 dark:text-gray-400">
-                @lang('admin::app.footer.copyright', ['year' => date('Y')])
+                @lang('admin::app.footer.copyright', ['year' => date('Y'), 'dev_name' => dev_info('full_name'), 'dev_website' => dev_info('website')])
             </p>
         </div>
     </div>
