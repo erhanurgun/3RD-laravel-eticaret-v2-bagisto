@@ -21,9 +21,11 @@
 @endPush
 
 @push('scripts')
-    <script>
-        localStorage.setItem('categories', JSON.stringify(@json($categories)));
-    </script>
+    @isset($categories)
+        <script>
+            localStorage.setItem('categories', JSON.stringify(@json($categories)));
+        </script>
+    @endisset
 @endpush
 
 <x-shop::layouts>
