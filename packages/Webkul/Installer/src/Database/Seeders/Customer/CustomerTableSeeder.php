@@ -48,7 +48,7 @@ class CustomerTableSeeder extends Seeder
             'last_name'       => 'Kullanıcı',
             'gender'          => 'male',
             'company_name'    => null,
-            'address'         => implode(PHP_EOL, ['Atatürk Mahallesi', 'Cumhuriyet Caddesi No: 123']),
+            'address'         => implode(PHP_EOL, ['Yavuz Mahallesi', 'Cumhuriyet Caddesi No: 123']),
             'city'            => 'Kadıköy',
             'state'           => 'İstanbul',
             'country'         => 'TR',
