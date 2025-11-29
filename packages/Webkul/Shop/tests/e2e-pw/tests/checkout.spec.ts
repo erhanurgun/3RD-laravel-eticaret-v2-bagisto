@@ -112,8 +112,8 @@ test.describe("checkout", () => {
          * Login to admin panel.
          */
         const adminCredentials = {
-            email: "dev@erho.test",
-            password: "!BZh8BYfcE5SA4q2SvQRYI!",
+            email: "admin@erho.test",
+            password: "!Dem0Str0ngP4ssw0rd!",
         };
 
         await shopPage.goto("admin/login");
@@ -302,8 +302,8 @@ test.describe("checkout", () => {
          * Login to admin panel.
          */
         const adminCredentials = {
-            email: "dev@erho.test",
-            password: "!BZh8BYfcE5SA4q2SvQRYI!",
+            email: "admin@erho.test",
+            password: "!Dem0Str0ngP4ssw0rd!",
         };
         await shopPage.goto("admin/login");
         await shopPage.getByPlaceholder("Email Address").click();
@@ -425,8 +425,8 @@ test.describe("checkout", () => {
          * Login to admin panel.
          */
         const adminCredentials = {
-            email: "dev@erho.test",
-            password: "!BZh8BYfcE5SA4q2SvQRYI!",
+            email: "admin@erho.test",
+            password: "!Dem0Str0ngP4ssw0rd!",
         };
         await shopPage.goto("admin/login");
         await shopPage.getByPlaceholder("Email Address").click();
@@ -605,8 +605,8 @@ test.describe("checkout", () => {
          * Login to admin panel.
          */
         const adminCredentials = {
-            email: "dev@erho.test",
-            password: "!BZh8BYfcE5SA4q2SvQRYI!",
+            email: "admin@erho.test",
+            password: "!Dem0Str0ngP4ssw0rd!",
         };
         await shopPage.goto("admin/login");
         await shopPage.getByPlaceholder("Email Address").click();

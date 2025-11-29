@@ -23,8 +23,8 @@ class AdminsTableSeeder extends Seeder
         DB::table('admins')->insert([
             'id'         => 1,
             'name'       => trans('installer::app.seeders.user.users.name', [], $defaultLocale),
-            'email'      => 'dev@erho.test',
-            'password'   => bcrypt('!BZh8BYfcE5SA4q2SvQRYI!'),
+            'email'      => 'admin@erho.test',
+            'password'   => bcrypt('!Dem0Str0ngP4ssw0rd!'),
             'api_token'  => Str::random(80),
             'created_at' => date('Y-m-d H:i:s'),
             'updated_at' => date('Y-m-d H:i:s'),

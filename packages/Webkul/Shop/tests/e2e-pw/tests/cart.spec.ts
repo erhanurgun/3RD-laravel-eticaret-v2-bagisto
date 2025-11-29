@@ -261,8 +261,8 @@ test("should apply coupon", async ({ page }) => {
      * Login to admin panel.
      */
     const adminCredentials = {
-        email: "dev@erho.test",
-        password: "!BZh8BYfcE5SA4q2SvQRYI!",
+        email: "admin@erho.test",
+        password: "!Dem0Str0ngP4ssw0rd!",
     };
     await page.goto("admin/login");
     await page.getByPlaceholder("Email Address").click();

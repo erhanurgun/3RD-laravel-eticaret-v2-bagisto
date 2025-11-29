@@ -1,6 +1,6 @@
 <?php
 
-namespace Webkul\Installer\Database\Seeders\Customer;
+namespace Webkul\Installer\Database\Seeders\Marketing;
 
 use Illuminate\Database\Seeder;
 
@@ -14,7 +14,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run($parameters = [])
     {
-        $this->call(CustomerGroupTableSeeder::class, false, ['parameters' => $parameters]);
-        $this->call(CustomerTableSeeder::class, false, ['parameters' => $parameters]);
+        $this->call(CartRuleTableSeeder::class, false, ['parameters' => $parameters]);
     }
 }

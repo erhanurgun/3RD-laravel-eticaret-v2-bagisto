@@ -1111,7 +1111,7 @@
                                         type="text"
                                         name="email"
                                         rules="required"
-                                        value="dev@erho.test"
+                                        value="admin@erho.test"
                                         :label="trans('installer::app.installer.index.create-administrator.email')"
                                         :placeholder="trans('installer::app.installer.index.create-administrator.email-address')"
                                     />

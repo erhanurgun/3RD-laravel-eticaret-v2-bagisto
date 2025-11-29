@@ -542,7 +542,7 @@ return [
                 'bagisto'          => 'Bagisto',
                 'confirm-password' => 'Confirm Password',
                 'email'            => 'Email',
-                'email-address'    => 'dev@erho.test',
+                'email-address'    => 'admin@erho.test',
                 'password'         => 'Password',
                 'title'            => 'Create Administrator',
             ],

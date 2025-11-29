@@ -3,8 +3,8 @@ export async function loginAsAdmin(page) {
      * Admin credentials.
      */
     const adminCredentials = {
-        email: "dev@erho.test",
-        password: "!BZh8BYfcE5SA4q2SvQRYI!",
+        email: "admin@erho.test",
+        password: "!Dem0Str0ngP4ssw0rd!",
     };
 
     /**
