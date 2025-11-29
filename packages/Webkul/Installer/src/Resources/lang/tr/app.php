@@ -758,6 +758,11 @@ Mersis No: [Mersis Numarası]</p>
                 'USD' => 'Amerikan Doları',
             ],
 
+            'header-offer' => [
+                'title'             => 'İlk siparişinizde %40\'a kadar indirim kazanın',
+                'redirection-title' => 'ŞİMDİ ALIŞVERİŞ YAP',
+            ],
+
             'locales'    => [
                 'en' => 'İngilizce',
                 'tr' => 'Türkçe',

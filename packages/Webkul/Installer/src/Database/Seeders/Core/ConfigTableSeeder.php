@@ -169,5 +169,33 @@ class ConfigTableSeeder extends Seeder
             'created_at'   => $now,
             'updated_at'   => $now,
         ]);
+
+        // Locale bazlı header offer değerlerini ekle
+        $defaultLocale = $parameters['default_locale'] ?? config('app.locale');
+        $locales = $parameters['allowed_locales'] ?? [$defaultLocale];
+
+        $id = 16;
+
+        foreach ($locales as $locale) {
+            DB::table('core_config')->insert([
+                'id'           => $id++,
+                'code'         => 'general.content.header_offer.title',
+                'value'        => trans('installer::app.seeders.core.header-offer.title', [], $locale),
+                'channel_code' => 'default',
+                'locale_code'  => $locale,
+                'created_at'   => $now,
+                'updated_at'   => $now,
+            ]);
+
+            DB::table('core_config')->insert([
+                'id'           => $id++,
+                'code'         => 'general.content.header_offer.redirection_title',
+                'value'        => trans('installer::app.seeders.core.header-offer.redirection-title', [], $locale),
+                'channel_code' => 'default',
+                'locale_code'  => $locale,
+                'created_at'   => $now,
+                'updated_at'   => $now,
+            ]);
+        }
     }
 }

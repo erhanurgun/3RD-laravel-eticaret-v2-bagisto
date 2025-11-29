@@ -141,6 +141,11 @@ return [
                 'USD' => 'United States Dollar',
             ],
 
+            'header-offer' => [
+                'title'             => 'Get UPTO 40% OFF on your 1st order',
+                'redirection-title' => 'SHOP NOW',
+            ],
+
             'locales'    => [
                 'en' => 'English',
                 'tr' => 'Turkish',
