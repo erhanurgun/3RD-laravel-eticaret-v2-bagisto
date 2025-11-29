@@ -32,15 +32,7 @@ class CMSPagesTableSeeder extends Seeder
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ], [
-                'id'         => 3,
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now(),
-            ], [
                 'id'         => 4,
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now(),
-            ], [
-                'id'         => 5,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ], [
@@ -94,15 +86,6 @@ class CMSPagesTableSeeder extends Seeder
                     'meta_keywords'    => 'return, policy',
                 ], [
                     'locale'           => $locale,
-                    'cms_page_id'      => 3,
-                    'url_key'          => 'refund-policy',
-                    'html_content'     => '<div class="static-container"><div class="mb-5">'.trans('installer::app.seeders.cms.pages.refund-policy.content', [], $locale).'</div></div>',
-                    'page_title'       => trans('installer::app.seeders.cms.pages.refund-policy.title', [], $locale),
-                    'meta_title'       => 'Refund policy',
-                    'meta_description' => '',
-                    'meta_keywords'    => 'refund, policy',
-                ], [
-                    'locale'           => $locale,
                     'cms_page_id'      => 4,
                     'url_key'          => 'terms-conditions',
                     'html_content'     => '<div class="static-container"><div class="mb-5">'.trans('installer::app.seeders.cms.pages.terms-conditions.content', [], $locale).'</div></div>',
@@ -110,15 +93,6 @@ class CMSPagesTableSeeder extends Seeder
                     'meta_title'       => 'Terms & Conditions',
                     'meta_description' => '',
                     'meta_keywords'    => 'term, conditions',
-                ], [
-                    'locale'           => $locale,
-                    'cms_page_id'      => 5,
-                    'url_key'          => 'terms-of-use',
-                    'html_content'     => '<div class="static-container"><div class="mb-5">'.trans('installer::app.seeders.cms.pages.terms-of-use.content', [], $locale).'</div></div>',
-                    'page_title'       => trans('installer::app.seeders.cms.pages.terms-of-use.title', [], $locale),
-                    'meta_title'       => 'Terms of use',
-                    'meta_description' => '',
-                    'meta_keywords'    => 'term, use',
                 ], [
                     'locale'           => $locale,
                     'cms_page_id'      => 6,
@@ -185,13 +159,7 @@ class CMSPagesTableSeeder extends Seeder
                 'cms_page_id' => 2,
                 'channel_id'  => 1,
             ], [
-                'cms_page_id' => 3,
-                'channel_id'  => 1,
-            ], [
                 'cms_page_id' => 4,
-                'channel_id'  => 1,
-            ], [
-                'cms_page_id' => 5,
                 'channel_id'  => 1,
             ], [
                 'cms_page_id' => 6,

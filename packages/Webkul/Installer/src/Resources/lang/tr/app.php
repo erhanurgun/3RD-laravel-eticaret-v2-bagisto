@@ -307,64 +307,6 @@ Posta Kodu: 34000</p>
                     'title'   => 'Gizlilik Politikası',
                 ],
 
-                'refund-policy' => [
-                    'content' => '<h2>İade ve Geri Ödeme Politikası</h2>
-<p>Müşteri memnuniyeti bizim için önceliktir. Satın aldığınız ürünlerden memnun kalmamanız durumunda, aşağıdaki koşullar dahilinde iade ve geri ödeme işlemlerinizi gerçekleştirebilirsiniz.</p>
-
-<h3>Geri Ödeme Koşulları</h3>
-<p>Aşağıdaki durumlarda geri ödeme talebinde bulunabilirsiniz:</p>
-<ul>
-<li>Ürünün hasarlı veya arızalı olması</li>
-<li>Yanlış ürün gönderilmesi</li>
-<li>Ürünün tanımlanan özelliklerden farklı olması</li>
-<li>Cayma hakkı kapsamında yapılan iadeler</li>
-</ul>
-
-<h3>Geri Ödeme Süreci</h3>
-<ol>
-<li>İade talebinizi oluşturun (hesabınız üzerinden veya müşteri hizmetleri ile)</li>
-<li>Ürünü orijinal ambalajında ve tüm aksesuarlarıyla birlikte gönderin</li>
-<li>Ürün tarafımıza ulaştıktan sonra kalite kontrol yapılır</li>
-<li>Onay sonrası geri ödeme işlemi başlatılır</li>
-</ol>
-
-<h3>Geri Ödeme Yöntemleri ve Süreleri</h3>
-<ul>
-<li><strong>Kredi Kartı Ödemeleri:</strong> İade onayından sonra 5-10 iş günü içinde kartınıza iade edilir</li>
-<li><strong>Banka Kartı Ödemeleri:</strong> İade onayından sonra 5-10 iş günü içinde hesabınıza aktarılır</li>
-<li><strong>Havale/EFT Ödemeleri:</strong> İade onayından sonra 3-5 iş günü içinde belirttiğiniz IBAN\'a gönderilir</li>
-<li><strong>Kapıda Ödeme:</strong> Belirttiğiniz IBAN\'a 3-5 iş günü içinde gönderilir</li>
-</ul>
-<p><em>Not: Geri ödeme süreleri bankanıza göre değişiklik gösterebilir.</em></p>
-
-<h3>Kısmi Geri Ödeme</h3>
-<p>Aşağıdaki durumlarda kısmi geri ödeme yapılabilir:</p>
-<ul>
-<li>Ürünün kullanım izleri taşıması</li>
-<li>Orijinal ambalajın eksik veya hasarlı olması</li>
-<li>Aksesuarların eksik olması</li>
-<li>Ürün değerinin azalmış olması</li>
-</ul>
-
-<h3>Geri Ödeme Yapılamayacak Durumlar</h3>
-<ul>
-<li>Hijyen ürünleri (iç giyim, kozmetik vb.) açıldıktan sonra</li>
-<li>Kişiye özel üretilmiş ürünler</li>
-<li>Dijital içerikler (indirildikten sonra)</li>
-<li>14 günlük cayma hakkı süresini aşmış iadeler</li>
-<li>Hasar veya eksik parça içeren iadeler (kullanıcı kaynaklı)</li>
-</ul>
-
-<h3>İptal ve Geri Ödeme</h3>
-<p>Siparişinizi kargoya verilmeden önce iptal ederseniz, ödemeniz tam olarak iade edilir. Kargoya verildikten sonraki iptaller, ürün tarafımıza ulaştıktan sonra işleme alınır.</p>
-
-<h3>İletişim</h3>
-<p>Geri ödeme süreciniz hakkında sorularınız için:<br>
-<strong>E-posta:</strong> iade@magazamiz.com<br>
-<strong>Telefon:</strong> 0850 XXX XX XX</p>',
-                    'title'   => 'Geri Ödeme Politikası',
-                ],
-
                 'return-policy' => [
                     'content' => '<h2>İade ve Değişim Politikası</h2>
 <p>Ürünlerimizden memnun kalmamanız durumunda, 6502 sayılı Tüketicinin Korunması Hakkında Kanun ve Mesafeli Sözleşmeler Yönetmeliği kapsamında iade ve değişim hakkınız bulunmaktadır.</p>
@@ -579,95 +521,6 @@ Mersis No: [Mersis Numarası]</p>
                     'title'   => 'Şartlar ve Koşullar',
                 ],
 
-                'terms-of-use' => [
-                    'content' => '<h2>Kullanım Koşulları</h2>
-<p>Web sitemizi kullanarak aşağıdaki kullanım koşullarını kabul etmiş sayılırsınız. Lütfen bu koşulları dikkatlice okuyunuz.</p>
-
-<h3>1. Genel Hükümler</h3>
-<ul>
-<li>Bu web sitesi [Şirket Adı] tarafından işletilmektedir</li>
-<li>Siteyi kullanarak işbu koşulları kabul etmiş sayılırsınız</li>
-<li>Koşulları kabul etmiyorsanız siteyi kullanmayınız</li>
-<li>Koşullar önceden haber verilmeksizin güncellenebilir</li>
-</ul>
-
-<h3>2. Üyelik ve Hesap Güvenliği</h3>
-<ul>
-<li>Üyelik için doğru ve güncel bilgiler verilmelidir</li>
-<li>Hesap bilgilerinizin güvenliğinden siz sorumlusunuz</li>
-<li>Şifrenizi kimseyle paylaşmayın</li>
-<li>Yetkisiz hesap kullanımını derhal bildirin</li>
-<li>18 yaşından küçükler veli/vasi onayı ile üye olabilir</li>
-</ul>
-
-<h3>3. Site Kullanımı</h3>
-<p>Aşağıdaki davranışlar kesinlikle yasaktır:</p>
-<ul>
-<li>Yasa dışı amaçlarla kullanım</li>
-<li>Site güvenliğini tehdit eden eylemler</li>
-<li>Virüs veya zararlı kod yayma</li>
-<li>Diğer kullanıcıları rahatsız etme</li>
-<li>Sahte hesap oluşturma</li>
-<li>Otomatik sistemlerle veri toplama (scraping)</li>
-<li>Site altyapısına aşırı yük bindirme</li>
-</ul>
-
-<h3>4. Fikri Mülkiyet Hakları</h3>
-<ul>
-<li>Sitedeki tüm içerikler (metin, görsel, logo, tasarım) tarafımıza aittir</li>
-<li>İçerikler izinsiz kopyalanamaz, çoğaltılamaz, dağıtılamaz</li>
-<li>Ticari markalarımız izinsiz kullanılamaz</li>
-<li>Ürün görselleri temsilidir, gerçek ürün farklılık gösterebilir</li>
-</ul>
-
-<h3>5. Ürün Bilgileri ve Fiyatlar</h3>
-<ul>
-<li>Ürün bilgileri mümkün olduğunca doğru tutulmaya çalışılır</li>
-<li>Teknik hatalardan kaynaklanan yanlışlıklardan sorumlu değiliz</li>
-<li>Fiyatlar önceden haber verilmeksizin değiştirilebilir</li>
-<li>Fiyat hataları durumunda siparişler iptal edilebilir</li>
-</ul>
-
-<h3>6. Sorumluluk Sınırları</h3>
-<ul>
-<li>Site "olduğu gibi" sunulmaktadır</li>
-<li>Kesintisiz veya hatasız hizmet garantisi verilmemektedir</li>
-<li>Teknik bakım nedeniyle geçici erişim kesintileri olabilir</li>
-<li>Üçüncü taraf sitelerine verilen linklerden sorumlu değiliz</li>
-<li>Mücbir sebeplerden kaynaklanan aksamalardan sorumlu değiliz</li>
-</ul>
-
-<h3>7. Kullanıcı İçerikleri</h3>
-<ul>
-<li>Yorumlarınızda hakaret, iftira ve yasadışı içerik paylaşmayın</li>
-<li>Paylaştığınız içeriklerden siz sorumlusunuz</li>
-<li>Uygunsuz içerikleri kaldırma hakkımız saklıdır</li>
-<li>Kullanıcı içeriklerini pazarlama amacıyla kullanabiliriz</li>
-</ul>
-
-<h3>8. Hesap Askıya Alma ve Sonlandırma</h3>
-<p>Aşağıdaki durumlarda hesabınız askıya alınabilir veya kapatılabilir:</p>
-<ul>
-<li>Kullanım koşullarının ihlali</li>
-<li>Dolandırıcılık veya kötüye kullanım şüphesi</li>
-<li>Diğer kullanıcılara zarar verme</li>
-<li>Yasal gerekliliklere uyumsuzluk</li>
-</ul>
-
-<h3>9. Değişiklikler</h3>
-<p>Bu kullanım koşulları zaman zaman güncellenebilir. Önemli değişiklikler için bildirim yapılacaktır. Güncellemelerden sonra siteyi kullanmaya devam etmeniz, yeni koşulları kabul ettiğiniz anlamına gelir.</p>
-
-<h3>10. Uygulanacak Hukuk</h3>
-<p>Bu koşullar Türkiye Cumhuriyeti kanunlarına tabidir. Uyuşmazlıklarda İstanbul Mahkemeleri ve İcra Daireleri yetkilidir.</p>
-
-<h3>11. İletişim</h3>
-<p>Kullanım koşulları hakkında sorularınız için:<br>
-<strong>E-posta:</strong> hukuk@magazamiz.com</p>
-
-<p><em>Son güncelleme: [Tarih]</em></p>',
-                    'title'   => 'Kullanım Koşulları',
-                ],
-
                 'whats-new' => [
                     'content' => '<h2>Yenilikler ve Güncellemeler</h2>
 <p>Sizlere daha iyi hizmet verebilmek için sürekli kendimizi geliştiriyoruz. İşte son dönemde yaptığımız yenilikler ve güncellemeler:</p>
@@ -824,11 +677,9 @@ Mersis No: [Mersis Numarası]</p>
                         'customer-service' => 'Müşteri Hizmetleri',
                         'payment-policy'   => 'Ödeme Politikası',
                         'privacy-policy'   => 'Gizlilik Politikası',
-                        'refund-policy'    => 'İade Politikası',
-                        'return-policy'    => 'İade Politikası',
-                        'shipping-policy'  => 'Kargo Politikası',
+                        'return-policy'    => 'İade ve Değişim',
+                        'shipping-policy'  => 'Kargo ve Teslimat',
                         'terms-conditions' => 'Şartlar ve Koşullar',
-                        'terms-of-use'     => 'Kullanım Koşulları',
                         'whats-new'        => 'Yenilikler',
                     ],
                 ],

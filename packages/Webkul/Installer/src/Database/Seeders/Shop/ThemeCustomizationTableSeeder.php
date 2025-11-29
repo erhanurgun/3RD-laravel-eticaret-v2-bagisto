@@ -281,13 +281,9 @@ class ThemeCustomizationTableSeeder extends Seeder
                                     'title'      => trans('installer::app.seeders.shop.theme-customizations.footer-links.options.whats-new', [], $locale),
                                     'sort_order' => 4,
                                 ], [
-                                    'url'        => $appUrl.'/page/terms-of-use',
-                                    'title'      => trans('installer::app.seeders.shop.theme-customizations.footer-links.options.terms-of-use', [], $locale),
-                                    'sort_order' => 5,
-                                ], [
                                     'url'        => $appUrl.'/page/terms-conditions',
                                     'title'      => trans('installer::app.seeders.shop.theme-customizations.footer-links.options.terms-conditions', [], $locale),
-                                    'sort_order' => 6,
+                                    'sort_order' => 5,
                                 ],
                             ],
 
@@ -305,13 +301,9 @@ class ThemeCustomizationTableSeeder extends Seeder
                                     'title'      => trans('installer::app.seeders.shop.theme-customizations.footer-links.options.shipping-policy', [], $locale),
                                     'sort_order' => 3,
                                 ], [
-                                    'url'        => $appUrl.'/page/refund-policy',
-                                    'title'      => trans('installer::app.seeders.shop.theme-customizations.footer-links.options.refund-policy', [], $locale),
-                                    'sort_order' => 4,
-                                ], [
                                     'url'        => $appUrl.'/page/return-policy',
                                     'title'      => trans('installer::app.seeders.shop.theme-customizations.footer-links.options.return-policy', [], $locale),
-                                    'sort_order' => 5,
+                                    'sort_order' => 4,
                                 ],
                             ],
                         ]),

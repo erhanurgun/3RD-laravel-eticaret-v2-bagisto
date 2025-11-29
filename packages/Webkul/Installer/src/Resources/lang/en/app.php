@@ -95,11 +95,6 @@ return [
                     'title'   => 'Privacy Policy',
                 ],
 
-                'refund-policy' => [
-                    'content' => 'Refund Policy Page Content',
-                    'title'   => 'Refund Policy',
-                ],
-
                 'return-policy' => [
                     'content' => 'Return Policy Page Content',
                     'title'   => 'Return Policy',
@@ -113,11 +108,6 @@ return [
                 'terms-conditions' => [
                     'content' => 'Terms & Conditions Page Content',
                     'title'   => 'Terms & Conditions',
-                ],
-
-                'terms-of-use' => [
-                    'content' => 'Terms of Use Page Content',
-                    'title'   => 'Terms of Use',
                 ],
 
                 'whats-new' => [
@@ -207,11 +197,9 @@ return [
                         'customer-service' => 'Customer Service',
                         'payment-policy'   => 'Payment Policy',
                         'privacy-policy'   => 'Privacy Policy',
-                        'refund-policy'    => 'Refund Policy',
                         'return-policy'    => 'Return Policy',
                         'shipping-policy'  => 'Shipping Policy',
                         'terms-conditions' => 'Terms & Conditions',
-                        'terms-of-use'     => 'Terms of Use',
                         'whats-new'        => 'What\'s New',
                     ],
                 ],
