@@ -143,7 +143,8 @@
                                 name="password"
                                 class="px-6 py-4"
                                 rules="required"
-                                placeholder="Enter your password"
+                                :label="trans('shop::app.customers.account.profile.edit.current-password')"
+                                :placeholder="trans('shop::app.customers.account.profile.index.enter-password')"
                             />
 
                             <x-shop::form.control-group.error
