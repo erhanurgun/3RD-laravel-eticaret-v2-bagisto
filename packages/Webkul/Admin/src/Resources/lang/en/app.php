@@ -3,6 +3,7 @@
 return [
     'users' => [
         'sessions' => [
+            'description'            => 'Log in with your email to access the admin panel.',
             'email'                  => 'Email Address',
             'forget-password-link'   => 'Forget Password ?',
             'password'               => 'Password',
@@ -5021,7 +5022,8 @@ return [
     ],
 
     'footer' => [
-        'copy-right' => 'Powered by <a href="https://bagisto.com/" target="_blank">Bagisto</a>, A Community Project by <a href="https://webkul.com/" target="_blank">Webkul</a>',
+        'copy-right' => '© :year, Orizora LLC. All rights reserved.',
+        'copyright'  => '© :year, Orizora LLC. All rights reserved.',
     ],
 
     'emails' => [

@@ -28,8 +28,8 @@
                 <img
                     src="{{ core()->getLogo('light') }}"
                     alt="{{ config('app.name') }}"
-                    width="131"
-                    height="29"
+                    width="254"
+                    height="65"
                 >
             </a>
         </div>

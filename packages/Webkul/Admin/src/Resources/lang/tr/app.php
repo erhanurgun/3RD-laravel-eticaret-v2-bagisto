@@ -3,6 +3,7 @@
 return [
     'users' => [
         'sessions' => [
+            'description'            => 'Yönetim paneline erişimek için e-postanızla giriş yapın.',
             'email'                  => 'E-posta Adresi',
             'forget-password-link'   => 'Şifremi Unuttum ?',
             'password'               => 'Şifre',
@@ -5021,7 +5022,8 @@ return [
     ],
 
     'footer' => [
-        'copy-right' => 'Tarafından desteklenmektedir <a href="https://bagisto.com/" target="_blank">Bagisto</a>, Bir Topluluk Projesi <a href="https://webkul.com/" target="_blank">Webkul</a>',
+        'copy-right' => '© :year, Orizora LLC. Tüm hakları saklıdır.',
+        'copyright'  => '© :year, Orizora LLC. Tüm hakları saklıdır.',
     ],
 
     'emails' => [

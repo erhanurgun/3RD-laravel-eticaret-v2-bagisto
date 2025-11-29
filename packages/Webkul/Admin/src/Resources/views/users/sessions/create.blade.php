@@ -8,7 +8,7 @@
         <div class="flex flex-col items-center gap-5">
             <!-- Logo -->
             <img
-                class="w-max"
+                class="w-[254px]"
                 src="{{ core()->getLogo('light') }}"
                 alt="{{ config('app.name') }}"
             />
@@ -18,6 +18,9 @@
                 <x-admin::form :action="route('admin.session.store')">
                     <p class="p-4 text-xl font-bold text-gray-800 dark:text-white">
                         @lang('admin::app.users.sessions.title')
+                    </p>
+                    <p class="px-4 text-sm text-gray-500 dark:text-gray-400 mb-3">
+                        @lang('admin::app.users.sessions.description')
                     </p>
 
                     <div class="border-y p-4 dark:border-gray-800">
@@ -89,13 +92,10 @@
                 </x-admin::form>
             </div>
 
-            <!-- Powered By -->
-            <div class="text-sm font-normal">
-                @lang('admin::app.users.sessions.powered-by-description', [
-                    'bagisto' => '<a class="text-blue-600 hover:underline" href="https://bagisto.com/en/">Bagisto</a>',
-                    'webkul' => '<a class="text-blue-600 hover:underline" href="https://webkul.com/">Webkul</a>',
-                ])
-            </div>
+            <!-- Powered By - Copyright -->
+            <p class="text-sm text-gray-600 dark:text-gray-400">
+                @lang('admin::app.footer.copyright', ['year' => date('Y')])
+            </p>
         </div>
     </div>
 
