@@ -40,14 +40,62 @@ module.exports = {
                 poppins: ["Poppins", "sans-serif"],
                 dmserif: ["DM Serif Display", "serif"],
             },
+
+            typography: (theme) => ({
+                DEFAULT: {
+                    css: {
+                        fontFamily: theme('fontFamily.poppins').join(', '),
+                        color: theme('colors.navyBlue'),
+                        maxWidth: 'none',
+                        a: {
+                            color: theme('colors.darkBlue'),
+                            textDecoration: 'underline',
+                            '&:hover': {
+                                color: theme('colors.navyBlue'),
+                            },
+                        },
+                        strong: {
+                            color: theme('colors.navyBlue'),
+                            fontWeight: '600',
+                        },
+                        h1: {
+                            color: theme('colors.navyBlue'),
+                            fontWeight: '700',
+                        },
+                        h2: {
+                            color: theme('colors.navyBlue'),
+                            fontWeight: '600',
+                        },
+                        h3: {
+                            color: theme('colors.navyBlue'),
+                            fontWeight: '600',
+                        },
+                        h4: {
+                            color: theme('colors.navyBlue'),
+                            fontWeight: '600',
+                        },
+                        'ul > li::marker': {
+                            color: theme('colors.navyBlue'),
+                        },
+                        'ol > li::marker': {
+                            color: theme('colors.navyBlue'),
+                        },
+                    },
+                },
+            }),
         }
     },
 
-    plugins: [],
+    plugins: [
+        require('@tailwindcss/typography'),
+    ],
 
     safelist: [
         {
             pattern: /icon-/,
+        },
+        {
+            pattern: /prose/,
         }
     ]
 };
