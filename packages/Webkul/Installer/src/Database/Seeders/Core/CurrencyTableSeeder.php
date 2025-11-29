@@ -26,8 +26,6 @@ class CurrencyTableSeeder extends Seeder
      */
     public function run($parameters = [])
     {
-        DB::table('channels')->delete();
-
         DB::table('currencies')->delete();
 
         $defaultLocale = $parameters['default_locale'] ?? config('app.locale');

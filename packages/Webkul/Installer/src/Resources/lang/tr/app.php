@@ -297,7 +297,7 @@ return [
             ],
 
             'users' => [
-                'name' => 'Örnek',
+                'name' => 'Default KULLANICI',
             ],
         ],
 

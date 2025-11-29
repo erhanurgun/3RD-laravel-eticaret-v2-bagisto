@@ -22,8 +22,6 @@ class LocalesTableSeeder extends Seeder
      */
     public function run($parameters = [])
     {
-        DB::table('channels')->delete();
-
         DB::table('locales')->delete();
 
         $defaultLocale = $parameters['default_locale'] ?? config('app.locale');
