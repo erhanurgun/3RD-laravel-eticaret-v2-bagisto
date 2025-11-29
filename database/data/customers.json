@@ -1,0 +1,257 @@
+{
+  "default_password": "Demo123!",
+  "customers": [
+    {
+      "first_name": "Ayşe",
+      "last_name": "Yılmaz",
+      "gender": "female",
+      "date_of_birth": "1985-03-15",
+      "email": "ayse.yilmaz@erho.test",
+      "phone": "+905321234567",
+      "address": {
+        "address": "Atatürk Mahallesi\nCumhuriyet Caddesi No: 45",
+        "city": "Kadıköy",
+        "state": "İstanbul",
+        "postcode": "34710"
+      }
+    },
+    {
+      "first_name": "Mehmet",
+      "last_name": "Kaya",
+      "gender": "male",
+      "date_of_birth": "1990-07-22",
+      "email": "mehmet.kaya@erho.test",
+      "phone": "+905331234568",
+      "address": {
+        "address": "Bahçelievler Mahallesi\nİstiklal Sokak No: 78",
+        "city": "Beşiktaş",
+        "state": "İstanbul",
+        "postcode": "34353"
+      }
+    },
+    {
+      "first_name": "Fatma",
+      "last_name": "Demir",
+      "gender": "female",
+      "date_of_birth": "1978-11-08",
+      "email": "fatma.demir@erho.test",
+      "phone": "+905341234569",
+      "address": {
+        "address": "Yıldız Mahallesi\nGüneş Sokak No: 12 Daire: 5",
+        "city": "Çankaya",
+        "state": "Ankara",
+        "postcode": "06550"
+      }
+    },
+    {
+      "first_name": "Ali",
+      "last_name": "Öztürk",
+      "gender": "male",
+      "date_of_birth": "1982-05-30",
+      "email": "ali.ozturk@erho.test",
+      "phone": "+905351234570",
+      "address": {
+        "address": "Kordon Mahallesi\nSahil Caddesi No: 156",
+        "city": "Konak",
+        "state": "İzmir",
+        "postcode": "35220"
+      }
+    },
+    {
+      "first_name": "Zeynep",
+      "last_name": "Arslan",
+      "gender": "female",
+      "date_of_birth": "1995-09-18",
+      "email": "zeynep.arslan@erho.test",
+      "phone": "+905361234571",
+      "address": {
+        "address": "Merkez Mahallesi\nPark Caddesi No: 34",
+        "city": "Nilüfer",
+        "state": "Bursa",
+        "postcode": "16110"
+      }
+    },
+    {
+      "first_name": "Mustafa",
+      "last_name": "Çelik",
+      "gender": "male",
+      "date_of_birth": "1988-01-25",
+      "email": "mustafa.celik@erho.test",
+      "phone": "+905371234572",
+      "address": {
+        "address": "Kızılay Mahallesi\nMithatpaşa Caddesi No: 89",
+        "city": "Seyhan",
+        "state": "Adana",
+        "postcode": "01120"
+      }
+    },
+    {
+      "first_name": "Elif",
+      "last_name": "Şahin",
+      "gender": "female",
+      "date_of_birth": "1992-04-12",
+      "email": "elif.sahin@erho.test",
+      "phone": "+905381234573",
+      "address": {
+        "address": "Lara Mahallesi\nAkdeniz Bulvarı No: 67",
+        "city": "Muratpaşa",
+        "state": "Antalya",
+        "postcode": "07100"
+      }
+    },
+    {
+      "first_name": "Hasan",
+      "last_name": "Yıldız",
+      "gender": "male",
+      "date_of_birth": "1975-12-03",
+      "email": "hasan.yildiz@erho.test",
+      "phone": "+905391234574",
+      "address": {
+        "address": "Alsancak Mahallesi\nKıbrıs Şehitleri Caddesi No: 23",
+        "city": "Konak",
+        "state": "İzmir",
+        "postcode": "35220"
+      }
+    },
+    {
+      "first_name": "Merve",
+      "last_name": "Aydın",
+      "gender": "female",
+      "date_of_birth": "1998-06-28",
+      "email": "merve.aydin@erho.test",
+      "phone": "+905301234575",
+      "address": {
+        "address": "Bağdat Caddesi\nNo: 234 Daire: 8",
+        "city": "Kadıköy",
+        "state": "İstanbul",
+        "postcode": "34726"
+      }
+    },
+    {
+      "first_name": "Emre",
+      "last_name": "Koç",
+      "gender": "male",
+      "date_of_birth": "1987-08-14",
+      "email": "emre.koc@erho.test",
+      "phone": "+905311234576",
+      "address": {
+        "address": "Eryaman Mahallesi\n4. Cadde No: 56",
+        "city": "Etimesgut",
+        "state": "Ankara",
+        "postcode": "06824"
+      }
+    },
+    {
+      "first_name": "Seda",
+      "last_name": "Güneş",
+      "gender": "female",
+      "date_of_birth": "1993-02-19",
+      "email": "seda.gunes@erho.test",
+      "phone": "+905321234577",
+      "address": {
+        "address": "Ataşehir Bulvarı\nNo: 178",
+        "city": "Ataşehir",
+        "state": "İstanbul",
+        "postcode": "34758"
+      }
+    },
+    {
+      "first_name": "Burak",
+      "last_name": "Erdoğan",
+      "gender": "male",
+      "date_of_birth": "1991-10-05",
+      "email": "burak.erdogan@erho.test",
+      "phone": "+905331234578",
+      "address": {
+        "address": "Bornova Mahallesi\nEge Caddesi No: 45",
+        "city": "Bornova",
+        "state": "İzmir",
+        "postcode": "35030"
+      }
+    },
+    {
+      "first_name": "Deniz",
+      "last_name": "Özdemir",
+      "gender": "other",
+      "date_of_birth": "1996-07-11",
+      "email": "deniz.ozdemir@erho.test",
+      "phone": "+905341234579",
+      "address": {
+        "address": "Konyaaltı Mahallesi\nPlaj Caddesi No: 89",
+        "city": "Konyaaltı",
+        "state": "Antalya",
+        "postcode": "07070"
+      }
+    },
+    {
+      "first_name": "Canan",
+      "last_name": "Aktaş",
+      "gender": "female",
+      "date_of_birth": "1983-03-27",
+      "email": "canan.aktas@erho.test",
+      "phone": "+905351234580",
+      "address": {
+        "address": "Osmangazi Mahallesi\nUludağ Caddesi No: 12",
+        "city": "Osmangazi",
+        "state": "Bursa",
+        "postcode": "16040"
+      }
+    },
+    {
+      "first_name": "Oğuz",
+      "last_name": "Kara",
+      "gender": "male",
+      "date_of_birth": "1980-11-16",
+      "email": "oguz.kara@erho.test",
+      "phone": "+905361234581",
+      "address": {
+        "address": "Bahçeşehir Mahallesi\n1. Cadde No: 67",
+        "city": "Başakşehir",
+        "state": "İstanbul",
+        "postcode": "34488"
+      }
+    },
+    {
+      "first_name": "Gizem",
+      "last_name": "Tunç",
+      "gender": "female",
+      "date_of_birth": "1994-05-09",
+      "email": "gizem.tunc@erho.test",
+      "phone": "+905371234582",
+      "address": {
+        "address": "Karşıyaka Mahallesi\nBostanlı Caddesi No: 34",
+        "city": "Karşıyaka",
+        "state": "İzmir",
+        "postcode": "35540"
+      }
+    },
+    {
+      "first_name": "Serkan",
+      "last_name": "Polat",
+      "gender": "male",
+      "date_of_birth": "1986-09-23",
+      "email": "serkan.polat@erho.test",
+      "phone": "+905381234583",
+      "address": {
+        "address": "Keçiören Mahallesi\nFatih Sultan Mehmet Bulvarı No: 123",
+        "city": "Keçiören",
+        "state": "Ankara",
+        "postcode": "06280"
+      }
+    },
+    {
+      "first_name": "Pınar",
+      "last_name": "Aksoy",
+      "gender": "female",
+      "date_of_birth": "1997-01-31",
+      "email": "pinar.aksoy@erho.test",
+      "phone": "+905391234584",
+      "address": {
+        "address": "Maltepe Mahallesi\nSahil Yolu No: 56",
+        "city": "Maltepe",
+        "state": "İstanbul",
+        "postcode": "34844"
+      }
+    }
+  ]
+}

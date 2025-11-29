@@ -1,0 +1,79 @@
+{
+  "coupons": [
+    {
+      "name": "Hoşgeldin İndirimi",
+      "description": "Yeni üyelere özel %15 indirim kuponu",
+      "code": "HOSGELDIN15",
+      "type": "by_percent",
+      "amount": 15
+    },
+    {
+      "name": "Yaz İndirimi",
+      "description": "Yaz sezonu kampanyası - %20 indirim",
+      "code": "YAZ2024",
+      "type": "by_percent",
+      "amount": 20
+    },
+    {
+      "name": "100 TL İndirim",
+      "description": "500 TL ve üzeri alışverişlerde 100 TL indirim",
+      "code": "INDIRIM100",
+      "type": "by_fixed",
+      "amount": 100,
+      "min_amount": 500
+    },
+    {
+      "name": "Öğrenci İndirimi",
+      "description": "Öğrencilere özel %10 indirim",
+      "code": "OGRENCI10",
+      "type": "by_percent",
+      "amount": 10
+    },
+    {
+      "name": "İlk Alışveriş",
+      "description": "İlk alışverişe özel %25 indirim",
+      "code": "ILK25",
+      "type": "by_percent",
+      "amount": 25,
+      "usage_per_customer": 1
+    },
+    {
+      "name": "50 TL İndirim",
+      "description": "250 TL ve üzeri alışverişlerde 50 TL indirim",
+      "code": "INDIRIM50",
+      "type": "by_fixed",
+      "amount": 50,
+      "min_amount": 250
+    },
+    {
+      "name": "Ücretsiz Kargo",
+      "description": "Tüm siparişlerde ücretsiz kargo",
+      "code": "UCRETSIZ",
+      "type": "by_fixed",
+      "amount": 0,
+      "free_shipping": true
+    },
+    {
+      "name": "Hafta Sonu Kampanyası",
+      "description": "Hafta sonu alışverişlerine %30 indirim",
+      "code": "HAFTASONU30",
+      "type": "by_percent",
+      "amount": 30
+    },
+    {
+      "name": "Kış Kampanyası",
+      "description": "Kış sezonu kampanyası - %25 indirim",
+      "code": "KIS2024",
+      "type": "by_percent",
+      "amount": 25
+    },
+    {
+      "name": "200 TL İndirim",
+      "description": "1000 TL ve üzeri alışverişlerde 200 TL indirim",
+      "code": "INDIRIM200",
+      "type": "by_fixed",
+      "amount": 200,
+      "min_amount": 1000
+    }
+  ]
+}

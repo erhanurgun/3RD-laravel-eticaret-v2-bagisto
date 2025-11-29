@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use Database\Seeders\Demo\DemoDataSeeder;
 use Illuminate\Database\Seeder;
 use Webkul\Installer\Database\Seeders\DatabaseSeeder as BagistoDatabaseSeeder;
 
@@ -22,5 +23,8 @@ class DatabaseSeeder extends Seeder
                 'allowed_currencies' => ['TRY', 'USD', 'EUR'],
             ],
         ]);
+
+        // Demo verileri oluştur (kategoriler, ürünler, müşteriler, siparişler, yorumlar, kuponlar)
+        $this->call(DemoDataSeeder::class);
     }
 }

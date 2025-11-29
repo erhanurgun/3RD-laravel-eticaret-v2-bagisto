@@ -1,0 +1,130 @@
+{
+  "distribution": {
+    "positive": 70,
+    "neutral": 20,
+    "negative": 10
+  },
+  "ratings": {
+    "positive": { "min": 4, "max": 5 },
+    "neutral": { "min": 3, "max": 4 },
+    "negative": { "min": 1, "max": 3 }
+  },
+  "positive": [
+    {
+      "title": "Harika Ürün!",
+      "comment": "Beklentilerimin çok üzerinde bir ürün. Kalitesi mükemmel, kargo da hızlıydı. Kesinlikle tavsiye ederim."
+    },
+    {
+      "title": "Çok Memnun Kaldım",
+      "comment": "Ürün tam beklediğim gibi geldi. Ambalajı düzgündü, herhangi bir sorun yaşamadım. Teşekkürler."
+    },
+    {
+      "title": "Kaliteli ve Şık",
+      "comment": "Bu fiyata bu kalite bulmak zor. Hem şık hem de dayanıklı görünüyor. Aldığıma değdi."
+    },
+    {
+      "title": "Mükemmel Seçim",
+      "comment": "Arkadaşımın tavsiyesiyle aldım ve hiç pişman olmadım. Kalitesi ve görünümü çok iyi."
+    },
+    {
+      "title": "Hızlı Kargo, Güzel Ürün",
+      "comment": "Sipariş verdikten 2 gün sonra elime ulaştı. Ürün fotoğraftakiyle birebir aynı. Çok memnunum."
+    },
+    {
+      "title": "Fiyat/Performans Canavarı",
+      "comment": "Bu fiyata bu özellikleri sunan başka ürün bulamazsınız. Kesinlikle değer."
+    },
+    {
+      "title": "Beğendim",
+      "comment": "Genel olarak güzel bir ürün. Beklentilerimi karşıladı, teşekkür ederim."
+    },
+    {
+      "title": "Muhteşem!",
+      "comment": "Daha önce farklı bir marka denemiştim ama bu çok daha kaliteli çıktı. Tavsiye ederim."
+    },
+    {
+      "title": "Çok Güzel",
+      "comment": "Ürünü çok beğendim. Rengi ve kalitesi harika. Herkesin almasını öneririm."
+    },
+    {
+      "title": "Beklediğimden İyi",
+      "comment": "Açıkçası bu fiyata fazla bir şey beklemiyordum ama ürün çok kaliteli çıktı. Şaşırdım."
+    },
+    {
+      "title": "Süper Kalite",
+      "comment": "Ürün gerçekten çok kaliteli. Her kuruşuna değer. Tekrar alırım."
+    },
+    {
+      "title": "Herkese Tavsiye Ederim",
+      "comment": "Ailecek çok memnun kaldık. Kaliteli, sağlam ve güzel görünümlü bir ürün."
+    },
+    {
+      "title": "Aldığıma Değdi",
+      "comment": "Uzun zamandır böyle bir ürün arıyordum. Sonunda buldum ve çok memnunum."
+    },
+    {
+      "title": "Kalite ve Şıklık Bir Arada",
+      "comment": "Hem kullanışlı hem de çok şık. Misafirler bile beğendi."
+    },
+    {
+      "title": "Beklentileri Aştı",
+      "comment": "Fotoğraflardan bile daha güzel çıktı. Gerçekten mükemmel bir ürün."
+    }
+  ],
+  "neutral": [
+    {
+      "title": "İdare Eder",
+      "comment": "Ürün fena değil ama mükemmel de değil. Fiyatına göre kabul edilebilir seviyede."
+    },
+    {
+      "title": "Normal Bir Ürün",
+      "comment": "Ne çok iyi ne çok kötü. Beklentilerimi karşıladı diyebilirim. Ortalama bir ürün."
+    },
+    {
+      "title": "Fiyatına Göre İyi",
+      "comment": "Bu fiyata daha iyisini beklemek haksızlık olur. Amacına hizmet ediyor."
+    },
+    {
+      "title": "Kullanışlı",
+      "comment": "Temel ihtiyaçlarımı karşılıyor. Ekstra bir şey beklemeyin ama işini görüyor."
+    },
+    {
+      "title": "Vasat",
+      "comment": "Ürün idare eder seviyede. Çok fazla beklentiye girmeyin."
+    },
+    {
+      "title": "Ortalama Kalite",
+      "comment": "Kalitesi fena sayılmaz. Fiyatına göre değerlendirmek gerekir."
+    },
+    {
+      "title": "Fena Değil",
+      "comment": "Genel olarak memnunum ama bazı detaylar daha iyi olabilirdi."
+    },
+    {
+      "title": "İşini Görür",
+      "comment": "Çok fazla beklentiye girmedim ve hayal kırıklığına uğramadım. Temel ihtiyaç için yeterli."
+    }
+  ],
+  "negative": [
+    {
+      "title": "Beklediğim Gibi Değildi",
+      "comment": "Fotoğraftaki ile gelen ürün arasında fark var. Biraz hayal kırıklığına uğradım."
+    },
+    {
+      "title": "Kargo Geç Geldi",
+      "comment": "Ürün fena değil ama kargo çok geç geldi. Bu konuda iyileştirme yapılmalı."
+    },
+    {
+      "title": "Kalitesi Düşük",
+      "comment": "Fotoğraflarda çok güzel görünüyordu ama gerçekte kalitesi düşük."
+    },
+    {
+      "title": "Beklentilerimi Karşılamadı",
+      "comment": "Maalesef ürün beklediğim gibi çıkmadı. Fiyatına göre daha iyisini bekledim."
+    },
+    {
+      "title": "Pek Memnun Kalmadım",
+      "comment": "Ürünün bazı eksiklikleri var. Daha dikkatli olunabilirdi."
+    }
+  ]
+}

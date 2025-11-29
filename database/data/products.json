@@ -1,0 +1,1998 @@
+{
+  "telefonlar": [
+    {
+      "sku": "TEL-001",
+      "price": 45999,
+      "special_price": 42999,
+      "new": true,
+      "featured": true,
+      "tr": {
+        "name": "Akıllı Telefon Pro Max 256GB",
+        "description": "En son teknoloji akıllı telefon. 6.7 inç AMOLED ekran, 108MP kamera, 5000mAh batarya ve hızlı şarj özelliği ile donatılmıştır."
+      },
+      "en": {
+        "name": "Smart Phone Pro Max 256GB",
+        "description": "Latest technology smartphone. Equipped with 6.7 inch AMOLED display, 108MP camera, 5000mAh battery and fast charging feature."
+      }
+    },
+    {
+      "sku": "TEL-002",
+      "price": 32999,
+      "new": true,
+      "tr": {
+        "name": "Akıllı Telefon Lite 128GB",
+        "description": "Uygun fiyatlı akıllı telefon. 6.5 inç LCD ekran, 64MP kamera, 4500mAh batarya ile günlük kullanım için ideal."
+      },
+      "en": {
+        "name": "Smart Phone Lite 128GB",
+        "description": "Affordable smartphone. 6.5 inch LCD display, 64MP camera, 4500mAh battery ideal for daily use."
+      }
+    },
+    {
+      "sku": "TEL-003",
+      "price": 58999,
+      "featured": true,
+      "tr": {
+        "name": "Katlanabilir Akıllı Telefon",
+        "description": "Yenilikçi katlanabilir ekran teknolojisi. 7.6 inç ana ekran, 6.2 inç kapak ekranı, 12GB RAM."
+      },
+      "en": {
+        "name": "Foldable Smart Phone",
+        "description": "Innovative foldable screen technology. 7.6 inch main display, 6.2 inch cover display, 12GB RAM."
+      }
+    },
+    {
+      "sku": "TEL-004",
+      "price": 25999,
+      "tr": {
+        "name": "Oyuncu Telefonu 256GB",
+        "description": "Oyuncular için tasarlanmış telefon. 144Hz ekran, gelişmiş soğutma sistemi, oyun modları."
+      },
+      "en": {
+        "name": "Gaming Phone 256GB",
+        "description": "Phone designed for gamers. 144Hz display, advanced cooling system, gaming modes."
+      }
+    },
+    {
+      "sku": "TEL-005",
+      "price": 18999,
+      "special_price": 15999,
+      "tr": {
+        "name": "Bütçe Dostu Akıllı Telefon 64GB",
+        "description": "Ekonomik akıllı telefon. Temel özellikler, güvenilir performans, uzun pil ömrü."
+      },
+      "en": {
+        "name": "Budget Friendly Smart Phone 64GB",
+        "description": "Economic smartphone. Basic features, reliable performance, long battery life."
+      }
+    },
+    {
+      "sku": "TEL-006",
+      "price": 39999,
+      "tr": {
+        "name": "Kamera Odaklı Telefon 256GB",
+        "description": "Profesyonel fotoğrafçılık için. 200MP ana kamera, 8K video çekimi, yapay zeka destekli fotoğraf modu."
+      },
+      "en": {
+        "name": "Camera Focused Phone 256GB",
+        "description": "For professional photography. 200MP main camera, 8K video recording, AI-powered photo mode."
+      }
+    },
+    {
+      "sku": "TEL-007",
+      "price": 28999,
+      "tr": {
+        "name": "İş Telefonu Pro 128GB",
+        "description": "İş profesyonelleri için. Güvenlik özellikleri, uzun pil ömrü, e-posta ve takvim entegrasyonu."
+      },
+      "en": {
+        "name": "Business Phone Pro 128GB",
+        "description": "For business professionals. Security features, long battery life, email and calendar integration."
+      }
+    }
+  ],
+  "bilgisayarlar": [
+    {
+      "sku": "PC-001",
+      "price": 89999,
+      "special_price": 79999,
+      "new": true,
+      "featured": true,
+      "tr": {
+        "name": "Profesyonel Laptop 16 inç",
+        "description": "Profesyoneller için güçlü laptop. Intel i9 işlemci, 32GB RAM, 1TB SSD, RTX 4070 ekran kartı."
+      },
+      "en": {
+        "name": "Professional Laptop 16 inch",
+        "description": "Powerful laptop for professionals. Intel i9 processor, 32GB RAM, 1TB SSD, RTX 4070 graphics card."
+      }
+    },
+    {
+      "sku": "PC-002",
+      "price": 45999,
+      "tr": {
+        "name": "Ultrabook 14 inç",
+        "description": "Taşınabilir ve hafif ultrabook. Intel i7, 16GB RAM, 512GB SSD, 12 saat pil ömrü."
+      },
+      "en": {
+        "name": "Ultrabook 14 inch",
+        "description": "Portable and lightweight ultrabook. Intel i7, 16GB RAM, 512GB SSD, 12 hour battery life."
+      }
+    },
+    {
+      "sku": "PC-003",
+      "price": 65999,
+      "featured": true,
+      "tr": {
+        "name": "Oyun Laptopü 17 inç",
+        "description": "Oyuncular için laptop. AMD Ryzen 9, 32GB RAM, RTX 4080, 165Hz ekran."
+      },
+      "en": {
+        "name": "Gaming Laptop 17 inch",
+        "description": "Laptop for gamers. AMD Ryzen 9, 32GB RAM, RTX 4080, 165Hz display."
+      }
+    },
+    {
+      "sku": "PC-004",
+      "price": 28999,
+      "tr": {
+        "name": "Öğrenci Laptopü 15 inç",
+        "description": "Öğrenciler için ideal laptop. Intel i5, 8GB RAM, 256GB SSD, uzun pil ömrü."
+      },
+      "en": {
+        "name": "Student Laptop 15 inch",
+        "description": "Ideal laptop for students. Intel i5, 8GB RAM, 256GB SSD, long battery life."
+      }
+    },
+    {
+      "sku": "PC-005",
+      "price": 125999,
+      "new": true,
+      "tr": {
+        "name": "İş İstasyonu Masaüstü",
+        "description": "Profesyonel iş istasyonu. Xeon işlemci, 64GB RAM, RTX A4000, 2TB NVMe SSD."
+      },
+      "en": {
+        "name": "Workstation Desktop",
+        "description": "Professional workstation. Xeon processor, 64GB RAM, RTX A4000, 2TB NVMe SSD."
+      }
+    },
+    {
+      "sku": "PC-006",
+      "price": 35999,
+      "tr": {
+        "name": "All-in-One Bilgisayar 27 inç",
+        "description": "Şık tasarım all-in-one PC. 4K ekran, Intel i7, 16GB RAM, 512GB SSD."
+      },
+      "en": {
+        "name": "All-in-One Computer 27 inch",
+        "description": "Stylish design all-in-one PC. 4K display, Intel i7, 16GB RAM, 512GB SSD."
+      }
+    },
+    {
+      "sku": "PC-007",
+      "price": 18999,
+      "special_price": 15999,
+      "tr": {
+        "name": "Mini PC Kompakt",
+        "description": "Kompakt mini bilgisayar. Intel i5, 8GB RAM, 256GB SSD, sessiz çalışma."
+      },
+      "en": {
+        "name": "Mini PC Compact",
+        "description": "Compact mini computer. Intel i5, 8GB RAM, 256GB SSD, silent operation."
+      }
+    }
+  ],
+  "tabletler": [
+    {
+      "sku": "TAB-001",
+      "price": 32999,
+      "new": true,
+      "featured": true,
+      "tr": {
+        "name": "Pro Tablet 12.9 inç",
+        "description": "Profesyonel tablet. Liquid Retina ekran, M2 çip, kalem desteği."
+      },
+      "en": {
+        "name": "Pro Tablet 12.9 inch",
+        "description": "Professional tablet. Liquid Retina display, M2 chip, pencil support."
+      }
+    },
+    {
+      "sku": "TAB-002",
+      "price": 18999,
+      "tr": {
+        "name": "Standart Tablet 10.5 inç",
+        "description": "Günlük kullanım için tablet. Full HD ekran, 64GB depolama."
+      },
+      "en": {
+        "name": "Standard Tablet 10.5 inch",
+        "description": "Tablet for daily use. Full HD display, 64GB storage."
+      }
+    },
+    {
+      "sku": "TAB-003",
+      "price": 12999,
+      "special_price": 9999,
+      "tr": {
+        "name": "Çocuk Tableti 8 inç",
+        "description": "Çocuklar için güvenli tablet. Dayanıklı kılıf, ebeveyn kontrolü."
+      },
+      "en": {
+        "name": "Kids Tablet 8 inch",
+        "description": "Safe tablet for kids. Durable case, parental controls."
+      }
+    },
+    {
+      "sku": "TAB-004",
+      "price": 24999,
+      "tr": {
+        "name": "Grafik Tableti",
+        "description": "Dijital çizim tableti. 8192 basınç seviyesi, kalem dahil."
+      },
+      "en": {
+        "name": "Graphics Tablet",
+        "description": "Digital drawing tablet. 8192 pressure levels, pen included."
+      }
+    },
+    {
+      "sku": "TAB-005",
+      "price": 15999,
+      "tr": {
+        "name": "E-Kitap Okuyucu Tablet",
+        "description": "E-ink ekranlı okuyucu. Hafif, göz yormuyor, haftalık pil ömrü."
+      },
+      "en": {
+        "name": "E-Reader Tablet",
+        "description": "E-ink display reader. Lightweight, eye-friendly, weekly battery life."
+      }
+    }
+  ],
+  "kulakliklar": [
+    {
+      "sku": "KLK-001",
+      "price": 8999,
+      "new": true,
+      "featured": true,
+      "tr": {
+        "name": "Kablosuz Kulak İçi Kulaklık Pro",
+        "description": "Aktif gürültü engelleme, 30 saat pil ömrü, su geçirmez."
+      },
+      "en": {
+        "name": "Wireless In-Ear Headphones Pro",
+        "description": "Active noise cancellation, 30 hour battery life, waterproof."
+      }
+    },
+    {
+      "sku": "KLK-002",
+      "price": 4999,
+      "tr": {
+        "name": "Bluetooth Kulak İçi Kulaklık",
+        "description": "Uygun fiyatlı kablosuz kulaklık. 20 saat pil, hızlı şarj."
+      },
+      "en": {
+        "name": "Bluetooth In-Ear Headphones",
+        "description": "Affordable wireless headphones. 20 hour battery, fast charging."
+      }
+    },
+    {
+      "sku": "KLK-003",
+      "price": 12999,
+      "featured": true,
+      "tr": {
+        "name": "Profesyonel Stüdyo Kulaklık",
+        "description": "Stüdyo kalitesinde ses. Açık arka tasarım, geniş frekans aralığı."
+      },
+      "en": {
+        "name": "Professional Studio Headphones",
+        "description": "Studio quality sound. Open back design, wide frequency range."
+      }
+    },
+    {
+      "sku": "KLK-004",
+      "price": 6999,
+      "special_price": 5499,
+      "tr": {
+        "name": "Oyuncu Kulaklığı 7.1",
+        "description": "Oyuncular için 7.1 surround ses, mikrofon dahil, RGB aydınlatma."
+      },
+      "en": {
+        "name": "Gaming Headset 7.1",
+        "description": "7.1 surround sound for gamers, microphone included, RGB lighting."
+      }
+    },
+    {
+      "sku": "KLK-005",
+      "price": 2999,
+      "tr": {
+        "name": "Spor Bluetooth Kulaklık",
+        "description": "Spor için tasarlanmış. Ter geçirmez, kulak kancalı, 10 saat pil."
+      },
+      "en": {
+        "name": "Sports Bluetooth Headphones",
+        "description": "Designed for sports. Sweat proof, ear hooks, 10 hour battery."
+      }
+    },
+    {
+      "sku": "KLK-006",
+      "price": 15999,
+      "new": true,
+      "tr": {
+        "name": "Premium Kablosuz Kulaklık",
+        "description": "Hi-Fi ses kalitesi, otomatik duraklatma, 40 saat pil ömrü."
+      },
+      "en": {
+        "name": "Premium Wireless Headphones",
+        "description": "Hi-Fi sound quality, auto pause, 40 hour battery life."
+      }
+    }
+  ],
+  "aksesuarlar-elektronik": [
+    {
+      "sku": "AKS-001",
+      "price": 1299,
+      "tr": {
+        "name": "Hızlı Şarj Adaptörü 65W",
+        "description": "GaN teknolojisi, çoklu port, kompakt tasarım."
+      },
+      "en": {
+        "name": "Fast Charger Adapter 65W",
+        "description": "GaN technology, multiple ports, compact design."
+      }
+    },
+    {
+      "sku": "AKS-002",
+      "price": 2499,
+      "tr": {
+        "name": "Taşınabilir Şarj Cihazı 20000mAh",
+        "description": "Yüksek kapasiteli powerbank, 3 cihazı aynı anda şarj eder."
+      },
+      "en": {
+        "name": "Portable Power Bank 20000mAh",
+        "description": "High capacity powerbank, charges 3 devices simultaneously."
+      }
+    },
+    {
+      "sku": "AKS-003",
+      "price": 599,
+      "tr": {
+        "name": "USB-C Kablo 2m",
+        "description": "Dayanıklı örgülü kablo, 100W şarj desteği, veri transferi."
+      },
+      "en": {
+        "name": "USB-C Cable 2m",
+        "description": "Durable braided cable, 100W charging support, data transfer."
+      }
+    },
+    {
+      "sku": "AKS-004",
+      "price": 1599,
+      "tr": {
+        "name": "Kablosuz Şarj Standı",
+        "description": "15W hızlı kablosuz şarj, telefon ve kulaklık için."
+      },
+      "en": {
+        "name": "Wireless Charging Stand",
+        "description": "15W fast wireless charging, for phone and earbuds."
+      }
+    },
+    {
+      "sku": "AKS-005",
+      "price": 899,
+      "tr": {
+        "name": "Telefon Tutucu Araç İçi",
+        "description": "Manyetik tutucu, 360 derece dönüş, kolay montaj."
+      },
+      "en": {
+        "name": "Car Phone Holder",
+        "description": "Magnetic holder, 360 degree rotation, easy mounting."
+      }
+    },
+    {
+      "sku": "AKS-006",
+      "price": 349,
+      "tr": {
+        "name": "Ekran Koruyucu Temperli Cam",
+        "description": "9H sertlik, parmak izi önleyici, kolay uygulama."
+      },
+      "en": {
+        "name": "Screen Protector Tempered Glass",
+        "description": "9H hardness, anti-fingerprint, easy application."
+      }
+    },
+    {
+      "sku": "AKS-007",
+      "price": 799,
+      "tr": {
+        "name": "Telefon Kılıfı Premium",
+        "description": "Deri görünümlü, kart yuvalı, darbeye dayanıklı."
+      },
+      "en": {
+        "name": "Premium Phone Case",
+        "description": "Leather look, card slot, shock resistant."
+      }
+    }
+  ],
+  "kadin-giyim": [
+    {
+      "sku": "KDN-001",
+      "price": 1299,
+      "new": true,
+      "featured": true,
+      "tr": {
+        "name": "Kadın Trençkot",
+        "description": "Klasik kesim trençkot. Su geçirmez kumaş, kemer dahil."
+      },
+      "en": {
+        "name": "Women Trench Coat",
+        "description": "Classic cut trench coat. Waterproof fabric, belt included."
+      }
+    },
+    {
+      "sku": "KDN-002",
+      "price": 599,
+      "tr": {
+        "name": "Kadın Kazak Boğazlı",
+        "description": "Yumuşak yün karışımı, sıcak tutan boğazlı kazak."
+      },
+      "en": {
+        "name": "Women Turtleneck Sweater",
+        "description": "Soft wool blend, warm turtleneck sweater."
+      }
+    },
+    {
+      "sku": "KDN-003",
+      "price": 899,
+      "special_price": 699,
+      "tr": {
+        "name": "Kadın Blazer Ceket",
+        "description": "Şık ofis blazer. Tek düğmeli, slim fit kesim."
+      },
+      "en": {
+        "name": "Women Blazer Jacket",
+        "description": "Stylish office blazer. Single button, slim fit cut."
+      }
+    },
+    {
+      "sku": "KDN-004",
+      "price": 449,
+      "tr": {
+        "name": "Kadın Kot Pantolon",
+        "description": "Yüksek bel, slim fit kot pantolon. Esnek kumaş."
+      },
+      "en": {
+        "name": "Women Jeans",
+        "description": "High waist, slim fit jeans. Stretch fabric."
+      }
+    },
+    {
+      "sku": "KDN-005",
+      "price": 699,
+      "tr": {
+        "name": "Kadın Elbise Midi",
+        "description": "Şık midi elbise. Çiçek desenli, yazlık kumaş."
+      },
+      "en": {
+        "name": "Women Midi Dress",
+        "description": "Stylish midi dress. Floral pattern, summer fabric."
+      }
+    },
+    {
+      "sku": "KDN-006",
+      "price": 299,
+      "tr": {
+        "name": "Kadın Tişört Basic",
+        "description": "Pamuklu basic tişört. Rahat kesim, günlük kullanım."
+      },
+      "en": {
+        "name": "Women Basic T-Shirt",
+        "description": "Cotton basic t-shirt. Comfortable cut, daily use."
+      }
+    },
+    {
+      "sku": "KDN-007",
+      "price": 549,
+      "tr": {
+        "name": "Kadın Gömlek",
+        "description": "Klasik beyaz gömlek. Ofis ve günlük kullanım için ideal."
+      },
+      "en": {
+        "name": "Women Shirt",
+        "description": "Classic white shirt. Ideal for office and daily use."
+      }
+    },
+    {
+      "sku": "KDN-008",
+      "price": 799,
+      "new": true,
+      "tr": {
+        "name": "Kadın Deri Ceket",
+        "description": "Suni deri ceket. Motor stili, fermuar detaylı."
+      },
+      "en": {
+        "name": "Women Leather Jacket",
+        "description": "Faux leather jacket. Biker style, zipper details."
+      }
+    }
+  ],
+  "erkek-giyim": [
+    {
+      "sku": "ERK-001",
+      "price": 2499,
+      "new": true,
+      "featured": true,
+      "tr": {
+        "name": "Erkek Takım Elbise",
+        "description": "Slim fit takım elbise. Yün karışımı, modern kesim."
+      },
+      "en": {
+        "name": "Men Suit",
+        "description": "Slim fit suit. Wool blend, modern cut."
+      }
+    },
+    {
+      "sku": "ERK-002",
+      "price": 699,
+      "tr": {
+        "name": "Erkek Gömlek",
+        "description": "Klasik kesim gömlek. Non-iron kumaş, konforlu."
+      },
+      "en": {
+        "name": "Men Shirt",
+        "description": "Classic cut shirt. Non-iron fabric, comfortable."
+      }
+    },
+    {
+      "sku": "ERK-003",
+      "price": 449,
+      "tr": {
+        "name": "Erkek Polo Tişört",
+        "description": "Premium pamuklu polo. Nefes alabilir kumaş."
+      },
+      "en": {
+        "name": "Men Polo T-Shirt",
+        "description": "Premium cotton polo. Breathable fabric."
+      }
+    },
+    {
+      "sku": "ERK-004",
+      "price": 549,
+      "special_price": 449,
+      "tr": {
+        "name": "Erkek Kot Pantolon",
+        "description": "Regular fit kot. Klasik mavi, dayanıklı denim."
+      },
+      "en": {
+        "name": "Men Jeans",
+        "description": "Regular fit jeans. Classic blue, durable denim."
+      }
+    },
+    {
+      "sku": "ERK-005",
+      "price": 1299,
+      "tr": {
+        "name": "Erkek Mont Kışlık",
+        "description": "Sıcak tutan kışlık mont. Su geçirmez, kapüşonlu."
+      },
+      "en": {
+        "name": "Men Winter Coat",
+        "description": "Warm winter coat. Waterproof, hooded."
+      }
+    },
+    {
+      "sku": "ERK-006",
+      "price": 399,
+      "tr": {
+        "name": "Erkek Sweatshirt",
+        "description": "Kapüşonlu sweatshirt. Pamuklu, rahat kalıp."
+      },
+      "en": {
+        "name": "Men Hoodie",
+        "description": "Hooded sweatshirt. Cotton, relaxed fit."
+      }
+    },
+    {
+      "sku": "ERK-007",
+      "price": 349,
+      "tr": {
+        "name": "Erkek Şort",
+        "description": "Yazlık şort. Hafif kumaş, cepli."
+      },
+      "en": {
+        "name": "Men Shorts",
+        "description": "Summer shorts. Lightweight fabric, with pockets."
+      }
+    },
+    {
+      "sku": "ERK-008",
+      "price": 899,
+      "new": true,
+      "tr": {
+        "name": "Erkek Blazer",
+        "description": "Günlük blazer ceket. Pamuk keten karışımı."
+      },
+      "en": {
+        "name": "Men Blazer",
+        "description": "Casual blazer jacket. Cotton linen blend."
+      }
+    }
+  ],
+  "cocuk-giyim": [
+    {
+      "sku": "CCK-001",
+      "price": 299,
+      "tr": {
+        "name": "Çocuk Tişört Baskılı",
+        "description": "Eğlenceli baskılı tişört. %100 pamuk, yumuşak."
+      },
+      "en": {
+        "name": "Kids Printed T-Shirt",
+        "description": "Fun printed t-shirt. 100% cotton, soft."
+      }
+    },
+    {
+      "sku": "CCK-002",
+      "price": 399,
+      "tr": {
+        "name": "Çocuk Eşofman Takımı",
+        "description": "Rahat eşofman takımı. Okul ve oyun için ideal."
+      },
+      "en": {
+        "name": "Kids Tracksuit Set",
+        "description": "Comfortable tracksuit set. Ideal for school and play."
+      }
+    },
+    {
+      "sku": "CCK-003",
+      "price": 549,
+      "tr": {
+        "name": "Çocuk Mont",
+        "description": "Sıcak tutan çocuk montu. Kapüşonlu, su geçirmez."
+      },
+      "en": {
+        "name": "Kids Coat",
+        "description": "Warm kids coat. Hooded, waterproof."
+      }
+    },
+    {
+      "sku": "CCK-004",
+      "price": 249,
+      "special_price": 199,
+      "tr": {
+        "name": "Çocuk Pijama Takımı",
+        "description": "Sevimli desenli pijama. Yumuşak pamuklu kumaş."
+      },
+      "en": {
+        "name": "Kids Pajama Set",
+        "description": "Cute patterned pajamas. Soft cotton fabric."
+      }
+    },
+    {
+      "sku": "CCK-005",
+      "price": 349,
+      "tr": {
+        "name": "Çocuk Kot Pantolon",
+        "description": "Esnek belli kot pantolon. Dayanıklı, rahat."
+      },
+      "en": {
+        "name": "Kids Jeans",
+        "description": "Elastic waist jeans. Durable, comfortable."
+      }
+    }
+  ],
+  "ayakkabi": [
+    {
+      "sku": "AYK-001",
+      "price": 1499,
+      "new": true,
+      "featured": true,
+      "tr": {
+        "name": "Koşu Ayakkabısı Pro",
+        "description": "Profesyonel koşu ayakkabısı. Hafif, nefes alabilir, yastıklı taban."
+      },
+      "en": {
+        "name": "Running Shoes Pro",
+        "description": "Professional running shoes. Lightweight, breathable, cushioned sole."
+      }
+    },
+    {
+      "sku": "AYK-002",
+      "price": 899,
+      "tr": {
+        "name": "Günlük Spor Ayakkabı",
+        "description": "Her gün için rahat spor ayakkabı. Şık tasarım."
+      },
+      "en": {
+        "name": "Casual Sneakers",
+        "description": "Comfortable sneakers for everyday. Stylish design."
+      }
+    },
+    {
+      "sku": "AYK-003",
+      "price": 2199,
+      "tr": {
+        "name": "Deri Klasik Ayakkabı",
+        "description": "Hakiki deri klasik erkek ayakkabı. El yapımı, zarif."
+      },
+      "en": {
+        "name": "Leather Classic Shoes",
+        "description": "Genuine leather classic men shoes. Handmade, elegant."
+      }
+    },
+    {
+      "sku": "AYK-004",
+      "price": 699,
+      "special_price": 549,
+      "tr": {
+        "name": "Sandalet Kadın",
+        "description": "Yazlık kadın sandalet. Rahat taban, şık görünüm."
+      },
+      "en": {
+        "name": "Women Sandals",
+        "description": "Summer women sandals. Comfortable sole, stylish look."
+      }
+    },
+    {
+      "sku": "AYK-005",
+      "price": 449,
+      "tr": {
+        "name": "Çocuk Spor Ayakkabı",
+        "description": "Renkli çocuk spor ayakkabı. Işıklı taban, eğlenceli."
+      },
+      "en": {
+        "name": "Kids Sports Shoes",
+        "description": "Colorful kids sports shoes. Light-up sole, fun."
+      }
+    },
+    {
+      "sku": "AYK-006",
+      "price": 1299,
+      "tr": {
+        "name": "Bot Kışlık",
+        "description": "Su geçirmez kışlık bot. Sıcak astar, kaymaz taban."
+      },
+      "en": {
+        "name": "Winter Boots",
+        "description": "Waterproof winter boots. Warm lining, non-slip sole."
+      }
+    },
+    {
+      "sku": "AYK-007",
+      "price": 799,
+      "tr": {
+        "name": "Topuklu Ayakkabı",
+        "description": "Şık topuklu ayakkabı. 7cm topuk, rahat kalıp."
+      },
+      "en": {
+        "name": "High Heels",
+        "description": "Stylish high heels. 7cm heel, comfortable fit."
+      }
+    }
+  ],
+  "aksesuar-giyim": [
+    {
+      "sku": "GAK-001",
+      "price": 1299,
+      "featured": true,
+      "tr": {
+        "name": "Deri El Çantası",
+        "description": "Hakiki deri el çantası. Zarif tasarım, geniş iç hacim."
+      },
+      "en": {
+        "name": "Leather Handbag",
+        "description": "Genuine leather handbag. Elegant design, spacious interior."
+      }
+    },
+    {
+      "sku": "GAK-002",
+      "price": 599,
+      "tr": {
+        "name": "Sırt Çantası",
+        "description": "Günlük sırt çantası. Laptop bölmeli, su geçirmez."
+      },
+      "en": {
+        "name": "Backpack",
+        "description": "Daily backpack. Laptop compartment, waterproof."
+      }
+    },
+    {
+      "sku": "GAK-003",
+      "price": 399,
+      "tr": {
+        "name": "Deri Kemer",
+        "description": "Hakiki deri kemer. Klasik toka, her kombine uygun."
+      },
+      "en": {
+        "name": "Leather Belt",
+        "description": "Genuine leather belt. Classic buckle, fits all outfits."
+      }
+    },
+    {
+      "sku": "GAK-004",
+      "price": 299,
+      "special_price": 199,
+      "tr": {
+        "name": "İpek Şal",
+        "description": "%100 ipek şal. Zarif desenler, hafif ve yumuşak."
+      },
+      "en": {
+        "name": "Silk Scarf",
+        "description": "100% silk scarf. Elegant patterns, light and soft."
+      }
+    },
+    {
+      "sku": "GAK-005",
+      "price": 499,
+      "tr": {
+        "name": "Güneş Gözlüğü",
+        "description": "UV korumalı güneş gözlüğü. Polarize cam, şık çerçeve."
+      },
+      "en": {
+        "name": "Sunglasses",
+        "description": "UV protected sunglasses. Polarized lens, stylish frame."
+      }
+    },
+    {
+      "sku": "GAK-006",
+      "price": 899,
+      "tr": {
+        "name": "Akıllı Saat Kayışı",
+        "description": "Deri akıllı saat kayışı. Uyumlu tüm modeller."
+      },
+      "en": {
+        "name": "Smart Watch Strap",
+        "description": "Leather smart watch strap. Compatible with all models."
+      }
+    }
+  ],
+  "mobilya": [
+    {
+      "sku": "MOB-001",
+      "price": 12999,
+      "new": true,
+      "featured": true,
+      "tr": {
+        "name": "L Koltuk Takımı",
+        "description": "Modern L koltuk. Yıkanabilir kumaş, 6 kişilik."
+      },
+      "en": {
+        "name": "L-Shaped Sofa Set",
+        "description": "Modern L-shaped sofa. Washable fabric, 6 seater."
+      }
+    },
+    {
+      "sku": "MOB-002",
+      "price": 3999,
+      "tr": {
+        "name": "Yemek Masası Seti",
+        "description": "6 kişilik yemek masası seti. Meşe kaplama, 6 sandalye dahil."
+      },
+      "en": {
+        "name": "Dining Table Set",
+        "description": "6 person dining table set. Oak veneer, 6 chairs included."
+      }
+    },
+    {
+      "sku": "MOB-003",
+      "price": 5999,
+      "tr": {
+        "name": "Yatak Başlıklı Karyola",
+        "description": "Kumaş kaplı karyola. Baza dahil, 160x200 cm."
+      },
+      "en": {
+        "name": "Upholstered Bed Frame",
+        "description": "Fabric covered bed frame. Base included, 160x200 cm."
+      }
+    },
+    {
+      "sku": "MOB-004",
+      "price": 2499,
+      "tr": {
+        "name": "Çalışma Masası",
+        "description": "Modern çalışma masası. Çekmeceli, 140 cm genişlik."
+      },
+      "en": {
+        "name": "Work Desk",
+        "description": "Modern work desk. With drawers, 140 cm width."
+      }
+    },
+    {
+      "sku": "MOB-005",
+      "price": 1999,
+      "special_price": 1499,
+      "tr": {
+        "name": "Kitaplık",
+        "description": "5 raflı kitaplık. Meşe rengi, 180 cm yükseklik."
+      },
+      "en": {
+        "name": "Bookshelf",
+        "description": "5 shelf bookcase. Oak color, 180 cm height."
+      }
+    },
+    {
+      "sku": "MOB-006",
+      "price": 899,
+      "tr": {
+        "name": "Sehpa",
+        "description": "Modern orta sehpa. Cam üst, metal ayaklar."
+      },
+      "en": {
+        "name": "Coffee Table",
+        "description": "Modern coffee table. Glass top, metal legs."
+      }
+    }
+  ],
+  "dekorasyon": [
+    {
+      "sku": "DEK-001",
+      "price": 599,
+      "featured": true,
+      "tr": {
+        "name": "Duvar Tablosu Set",
+        "description": "3 parça modern tablo seti. Çerçeveli, asılmaya hazır."
+      },
+      "en": {
+        "name": "Wall Art Set",
+        "description": "3 piece modern art set. Framed, ready to hang."
+      }
+    },
+    {
+      "sku": "DEK-002",
+      "price": 399,
+      "tr": {
+        "name": "Dekoratif Vazo",
+        "description": "Seramik vazo. El yapımı, 35 cm yükseklik."
+      },
+      "en": {
+        "name": "Decorative Vase",
+        "description": "Ceramic vase. Handmade, 35 cm height."
+      }
+    },
+    {
+      "sku": "DEK-003",
+      "price": 299,
+      "tr": {
+        "name": "Mum Seti",
+        "description": "Kokulu mum seti. 3 farklı koku, uzun yanma süresi."
+      },
+      "en": {
+        "name": "Candle Set",
+        "description": "Scented candle set. 3 different scents, long burning time."
+      }
+    },
+    {
+      "sku": "DEK-004",
+      "price": 799,
+      "tr": {
+        "name": "Dekoratif Ayna",
+        "description": "Yuvarlak duvar aynası. Altın çerçeve, 60 cm çap."
+      },
+      "en": {
+        "name": "Decorative Mirror",
+        "description": "Round wall mirror. Gold frame, 60 cm diameter."
+      }
+    },
+    {
+      "sku": "DEK-005",
+      "price": 449,
+      "special_price": 349,
+      "tr": {
+        "name": "Yapay Bitki Saksı",
+        "description": "Gerçekçi yapay bitki. Dekoratif saksı dahil."
+      },
+      "en": {
+        "name": "Artificial Plant Pot",
+        "description": "Realistic artificial plant. Decorative pot included."
+      }
+    },
+    {
+      "sku": "DEK-006",
+      "price": 199,
+      "tr": {
+        "name": "Dekoratif Yastık",
+        "description": "Kadife kırlent. 45x45 cm, iç yastık dahil."
+      },
+      "en": {
+        "name": "Decorative Pillow",
+        "description": "Velvet cushion. 45x45 cm, inner pillow included."
+      }
+    }
+  ],
+  "mutfak": [
+    {
+      "sku": "MUT-001",
+      "price": 2499,
+      "new": true,
+      "featured": true,
+      "tr": {
+        "name": "Tencere Seti 10 Parça",
+        "description": "Granit kaplama tencere seti. Yapışmaz, bulaşık makinesine uygun."
+      },
+      "en": {
+        "name": "Cookware Set 10 Pieces",
+        "description": "Granite coated cookware set. Non-stick, dishwasher safe."
+      }
+    },
+    {
+      "sku": "MUT-002",
+      "price": 899,
+      "tr": {
+        "name": "Bıçak Seti",
+        "description": "Profesyonel bıçak seti. 6 parça, ahşap blok dahil."
+      },
+      "en": {
+        "name": "Knife Set",
+        "description": "Professional knife set. 6 pieces, wooden block included."
+      }
+    },
+    {
+      "sku": "MUT-003",
+      "price": 1299,
+      "tr": {
+        "name": "Mutfak Robotu",
+        "description": "Çok fonksiyonlu mutfak robotu. 1000W, 8 hız ayarı."
+      },
+      "en": {
+        "name": "Food Processor",
+        "description": "Multi-function food processor. 1000W, 8 speed settings."
+      }
+    },
+    {
+      "sku": "MUT-004",
+      "price": 599,
+      "tr": {
+        "name": "Kahve Makinesi",
+        "description": "Filtre kahve makinesi. 12 fincan kapasite, zamanlayıcı."
+      },
+      "en": {
+        "name": "Coffee Maker",
+        "description": "Drip coffee maker. 12 cup capacity, timer."
+      }
+    },
+    {
+      "sku": "MUT-005",
+      "price": 399,
+      "special_price": 299,
+      "tr": {
+        "name": "Blender",
+        "description": "Güçlü blender. 1200W, cam hazne, buz kırma fonksiyonu."
+      },
+      "en": {
+        "name": "Blender",
+        "description": "Powerful blender. 1200W, glass jar, ice crushing function."
+      }
+    },
+    {
+      "sku": "MUT-006",
+      "price": 799,
+      "tr": {
+        "name": "Ekmek Yapma Makinesi",
+        "description": "Otomatik ekmek makinesi. 12 program, zamanlayıcı."
+      },
+      "en": {
+        "name": "Bread Maker",
+        "description": "Automatic bread maker. 12 programs, timer."
+      }
+    }
+  ],
+  "banyo": [
+    {
+      "sku": "BNY-001",
+      "price": 699,
+      "tr": {
+        "name": "Havlu Seti 6 Parça",
+        "description": "Premium pamuklu havlu seti. 2 banyo, 2 el, 2 yüz havlusu."
+      },
+      "en": {
+        "name": "Towel Set 6 Pieces",
+        "description": "Premium cotton towel set. 2 bath, 2 hand, 2 face towels."
+      }
+    },
+    {
+      "sku": "BNY-002",
+      "price": 299,
+      "tr": {
+        "name": "Banyo Paspası",
+        "description": "Kaymaz banyo paspası. Yumuşak, hızlı kuruma."
+      },
+      "en": {
+        "name": "Bath Mat",
+        "description": "Non-slip bath mat. Soft, quick drying."
+      }
+    },
+    {
+      "sku": "BNY-003",
+      "price": 449,
+      "tr": {
+        "name": "Duş Seti",
+        "description": "El duşu seti. 5 fonksiyon, paslanmaz çelik."
+      },
+      "en": {
+        "name": "Shower Set",
+        "description": "Hand shower set. 5 functions, stainless steel."
+      }
+    },
+    {
+      "sku": "BNY-004",
+      "price": 599,
+      "tr": {
+        "name": "Banyo Dolabı",
+        "description": "Aynalı banyo dolabı. 60 cm, raflı, beyaz."
+      },
+      "en": {
+        "name": "Bathroom Cabinet",
+        "description": "Mirrored bathroom cabinet. 60 cm, with shelves, white."
+      }
+    },
+    {
+      "sku": "BNY-005",
+      "price": 199,
+      "special_price": 149,
+      "tr": {
+        "name": "Sabunluk Seti",
+        "description": "Seramik banyo seti. Sabunluk, diş fırçalık, bardak."
+      },
+      "en": {
+        "name": "Soap Dispenser Set",
+        "description": "Ceramic bathroom set. Soap dish, toothbrush holder, cup."
+      }
+    }
+  ],
+  "aydinlatma": [
+    {
+      "sku": "AYD-001",
+      "price": 1299,
+      "new": true,
+      "featured": true,
+      "tr": {
+        "name": "Modern Avize",
+        "description": "LED modern avize. Uzaktan kumandalı, kısılabilir."
+      },
+      "en": {
+        "name": "Modern Chandelier",
+        "description": "LED modern chandelier. Remote controlled, dimmable."
+      }
+    },
+    {
+      "sku": "AYD-002",
+      "price": 499,
+      "tr": {
+        "name": "Masa Lambası",
+        "description": "Şık masa lambası. Dokunmatik kontrol, 3 parlaklık seviyesi."
+      },
+      "en": {
+        "name": "Table Lamp",
+        "description": "Stylish table lamp. Touch control, 3 brightness levels."
+      }
+    },
+    {
+      "sku": "AYD-003",
+      "price": 699,
+      "tr": {
+        "name": "Lambader",
+        "description": "Modern lambader. Ayarlanabilir yükseklik, LED ampul dahil."
+      },
+      "en": {
+        "name": "Floor Lamp",
+        "description": "Modern floor lamp. Adjustable height, LED bulb included."
+      }
+    },
+    {
+      "sku": "AYD-004",
+      "price": 299,
+      "tr": {
+        "name": "Gece Lambası",
+        "description": "Akıllı gece lambası. Hareket sensörlü, şarj edilebilir."
+      },
+      "en": {
+        "name": "Night Light",
+        "description": "Smart night light. Motion sensor, rechargeable."
+      }
+    },
+    {
+      "sku": "AYD-005",
+      "price": 899,
+      "special_price": 699,
+      "tr": {
+        "name": "LED Şerit Işık",
+        "description": "5 metre LED şerit. RGB, uzaktan kumandalı, yapışkanlı."
+      },
+      "en": {
+        "name": "LED Strip Light",
+        "description": "5 meter LED strip. RGB, remote controlled, adhesive."
+      }
+    }
+  ],
+  "spor-giyim": [
+    {
+      "sku": "SPG-001",
+      "price": 599,
+      "new": true,
+      "featured": true,
+      "tr": {
+        "name": "Erkek Antrenman Takımı",
+        "description": "Nefes alabilir antrenman takımı. Dry-fit teknolojisi."
+      },
+      "en": {
+        "name": "Men Training Set",
+        "description": "Breathable training set. Dry-fit technology."
+      }
+    },
+    {
+      "sku": "SPG-002",
+      "price": 549,
+      "tr": {
+        "name": "Kadın Yoga Takımı",
+        "description": "Esnek yoga kıyafetleri. Tayt ve sporcu sütyeni seti."
+      },
+      "en": {
+        "name": "Women Yoga Set",
+        "description": "Flexible yoga clothes. Leggings and sports bra set."
+      }
+    },
+    {
+      "sku": "SPG-003",
+      "price": 399,
+      "tr": {
+        "name": "Koşu Şortu",
+        "description": "Hafif koşu şortu. Cepli, nefes alabilir."
+      },
+      "en": {
+        "name": "Running Shorts",
+        "description": "Lightweight running shorts. With pockets, breathable."
+      }
+    },
+    {
+      "sku": "SPG-004",
+      "price": 449,
+      "tr": {
+        "name": "Spor Çorap Seti",
+        "description": "6 çift spor çorap. Yastıklı taban, anti-bakteriyel."
+      },
+      "en": {
+        "name": "Sports Socks Set",
+        "description": "6 pairs sports socks. Cushioned sole, anti-bacterial."
+      }
+    },
+    {
+      "sku": "SPG-005",
+      "price": 799,
+      "special_price": 649,
+      "tr": {
+        "name": "Spor Ceket",
+        "description": "Rüzgarlık spor ceket. Hafif, su itici, reflektörlü."
+      },
+      "en": {
+        "name": "Sports Jacket",
+        "description": "Windbreaker sports jacket. Lightweight, water repellent, reflective."
+      }
+    }
+  ],
+  "fitness": [
+    {
+      "sku": "FIT-001",
+      "price": 4999,
+      "new": true,
+      "featured": true,
+      "tr": {
+        "name": "Koşu Bandı",
+        "description": "Elektrikli koşu bandı. 16 km/h maksimum hız, katlanabilir."
+      },
+      "en": {
+        "name": "Treadmill",
+        "description": "Electric treadmill. 16 km/h max speed, foldable."
+      }
+    },
+    {
+      "sku": "FIT-002",
+      "price": 1299,
+      "tr": {
+        "name": "Dumbbell Seti",
+        "description": "Ayarlanabilir dumbbell seti. 2-20 kg, 2 adet."
+      },
+      "en": {
+        "name": "Dumbbell Set",
+        "description": "Adjustable dumbbell set. 2-20 kg, 2 pieces."
+      }
+    },
+    {
+      "sku": "FIT-003",
+      "price": 599,
+      "tr": {
+        "name": "Yoga Matı Premium",
+        "description": "Kaymaz yoga matı. 6mm kalınlık, taşıma kayışı dahil."
+      },
+      "en": {
+        "name": "Premium Yoga Mat",
+        "description": "Non-slip yoga mat. 6mm thickness, carrying strap included."
+      }
+    },
+    {
+      "sku": "FIT-004",
+      "price": 899,
+      "tr": {
+        "name": "Direnç Bandı Seti",
+        "description": "5 farklı direnç seviyesi. Kapı askısı ve tutamak dahil."
+      },
+      "en": {
+        "name": "Resistance Band Set",
+        "description": "5 different resistance levels. Door anchor and handles included."
+      }
+    },
+    {
+      "sku": "FIT-005",
+      "price": 2999,
+      "special_price": 2499,
+      "tr": {
+        "name": "Çok Fonksiyonlu Bench",
+        "description": "Ayarlanabilir ağırlık sehpası. 7 pozisyon, katlanabilir."
+      },
+      "en": {
+        "name": "Multi-function Bench",
+        "description": "Adjustable weight bench. 7 positions, foldable."
+      }
+    },
+    {
+      "sku": "FIT-006",
+      "price": 399,
+      "tr": {
+        "name": "Atlama İpi",
+        "description": "Dijital sayaçlı atlama ipi. Ayarlanabilir uzunluk."
+      },
+      "en": {
+        "name": "Jump Rope",
+        "description": "Digital counter jump rope. Adjustable length."
+      }
+    }
+  ],
+  "kamp": [
+    {
+      "sku": "KMP-001",
+      "price": 2499,
+      "new": true,
+      "featured": true,
+      "tr": {
+        "name": "Kamp Çadırı 4 Kişilik",
+        "description": "Su geçirmez kamp çadırı. Kolay kurulum, çift katmanlı."
+      },
+      "en": {
+        "name": "Camping Tent 4 Person",
+        "description": "Waterproof camping tent. Easy setup, double layer."
+      }
+    },
+    {
+      "sku": "KMP-002",
+      "price": 899,
+      "tr": {
+        "name": "Uyku Tulumu",
+        "description": "Sıcak tutan uyku tulumu. -10 dereceye kadar, kompakt."
+      },
+      "en": {
+        "name": "Sleeping Bag",
+        "description": "Warm sleeping bag. Down to -10 degrees, compact."
+      }
+    },
+    {
+      "sku": "KMP-003",
+      "price": 399,
+      "tr": {
+        "name": "Kamp Sandalyesi",
+        "description": "Katlanır kamp sandalyesi. Taşıma çantası dahil."
+      },
+      "en": {
+        "name": "Camp Chair",
+        "description": "Folding camp chair. Carrying bag included."
+      }
+    },
+    {
+      "sku": "KMP-004",
+      "price": 599,
+      "tr": {
+        "name": "Kamp Ocağı",
+        "description": "Taşınabilir kamp ocağı. 2 gözlü, tüp dahil değil."
+      },
+      "en": {
+        "name": "Camp Stove",
+        "description": "Portable camp stove. 2 burners, gas not included."
+      }
+    },
+    {
+      "sku": "KMP-005",
+      "price": 299,
+      "special_price": 249,
+      "tr": {
+        "name": "Kafa Lambası LED",
+        "description": "Şarj edilebilir kafa lambası. 500 lümen, su geçirmez."
+      },
+      "en": {
+        "name": "LED Headlamp",
+        "description": "Rechargeable headlamp. 500 lumens, waterproof."
+      }
+    }
+  ],
+  "bisiklet": [
+    {
+      "sku": "BSK-001",
+      "price": 8999,
+      "new": true,
+      "featured": true,
+      "tr": {
+        "name": "Dağ Bisikleti 29 inç",
+        "description": "Profesyonel dağ bisikleti. 21 vites, alüminyum kadro."
+      },
+      "en": {
+        "name": "Mountain Bike 29 inch",
+        "description": "Professional mountain bike. 21 speed, aluminum frame."
+      }
+    },
+    {
+      "sku": "BSK-002",
+      "price": 4999,
+      "tr": {
+        "name": "Şehir Bisikleti",
+        "description": "Konforlu şehir bisikleti. 7 vites, sepetli."
+      },
+      "en": {
+        "name": "City Bike",
+        "description": "Comfortable city bike. 7 speed, with basket."
+      }
+    },
+    {
+      "sku": "BSK-003",
+      "price": 599,
+      "tr": {
+        "name": "Bisiklet Kaskı",
+        "description": "Güvenli bisiklet kaskı. Havalandırmalı, ayarlanabilir."
+      },
+      "en": {
+        "name": "Bike Helmet",
+        "description": "Safe bike helmet. Ventilated, adjustable."
+      }
+    },
+    {
+      "sku": "BSK-004",
+      "price": 399,
+      "tr": {
+        "name": "Bisiklet Kilidi",
+        "description": "Güçlü U kilit. Anahtar dahil, çelik."
+      },
+      "en": {
+        "name": "Bike Lock",
+        "description": "Strong U-lock. Key included, steel."
+      }
+    },
+    {
+      "sku": "BSK-005",
+      "price": 249,
+      "special_price": 199,
+      "tr": {
+        "name": "Bisiklet Işık Seti",
+        "description": "Ön ve arka ışık seti. USB şarjlı, 5 mod."
+      },
+      "en": {
+        "name": "Bike Light Set",
+        "description": "Front and rear light set. USB rechargeable, 5 modes."
+      }
+    }
+  ],
+  "makyaj": [
+    {
+      "sku": "MKY-001",
+      "price": 899,
+      "new": true,
+      "featured": true,
+      "tr": {
+        "name": "Makyaj Paleti 32 Renk",
+        "description": "Profesyonel far paleti. Mat ve simli tonlar."
+      },
+      "en": {
+        "name": "Makeup Palette 32 Colors",
+        "description": "Professional eyeshadow palette. Matte and shimmer shades."
+      }
+    },
+    {
+      "sku": "MKY-002",
+      "price": 449,
+      "tr": {
+        "name": "Fondöten",
+        "description": "Full coverage fondöten. SPF 15, 12 saat kalıcı."
+      },
+      "en": {
+        "name": "Foundation",
+        "description": "Full coverage foundation. SPF 15, 12 hour wear."
+      }
+    },
+    {
+      "sku": "MKY-003",
+      "price": 299,
+      "tr": {
+        "name": "Ruj Seti",
+        "description": "6 parça ruj seti. Mat, uzun süre kalıcı."
+      },
+      "en": {
+        "name": "Lipstick Set",
+        "description": "6 piece lipstick set. Matte, long lasting."
+      }
+    },
+    {
+      "sku": "MKY-004",
+      "price": 349,
+      "tr": {
+        "name": "Maskara",
+        "description": "Hacim veren maskara. Suya dayanıklı, dökülmez."
+      },
+      "en": {
+        "name": "Mascara",
+        "description": "Volumizing mascara. Waterproof, smudge-proof."
+      }
+    },
+    {
+      "sku": "MKY-005",
+      "price": 599,
+      "special_price": 499,
+      "tr": {
+        "name": "Makyaj Fırça Seti",
+        "description": "12 parça profesyonel fırça seti. Sentetik kıl."
+      },
+      "en": {
+        "name": "Makeup Brush Set",
+        "description": "12 piece professional brush set. Synthetic bristles."
+      }
+    }
+  ],
+  "cilt-bakimi": [
+    {
+      "sku": "CLT-001",
+      "price": 599,
+      "new": true,
+      "featured": true,
+      "tr": {
+        "name": "Nemlendirici Krem",
+        "description": "Yoğun nemlendirici krem. Hyaluronik asit içerir."
+      },
+      "en": {
+        "name": "Moisturizer Cream",
+        "description": "Intensive moisturizer cream. Contains hyaluronic acid."
+      }
+    },
+    {
+      "sku": "CLT-002",
+      "price": 449,
+      "tr": {
+        "name": "Yüz Temizleyici",
+        "description": "Nazik yüz temizleyici. Tüm cilt tipleri için."
+      },
+      "en": {
+        "name": "Face Cleanser",
+        "description": "Gentle face cleanser. For all skin types."
+      }
+    },
+    {
+      "sku": "CLT-003",
+      "price": 799,
+      "tr": {
+        "name": "Serum Vitamin C",
+        "description": "Aydınlatıcı C vitamini serumu. %20 konsantrasyon."
+      },
+      "en": {
+        "name": "Vitamin C Serum",
+        "description": "Brightening vitamin C serum. 20% concentration."
+      }
+    },
+    {
+      "sku": "CLT-004",
+      "price": 349,
+      "tr": {
+        "name": "Güneş Kremi SPF 50",
+        "description": "Yüksek koruma güneş kremi. Yağsız formül."
+      },
+      "en": {
+        "name": "Sunscreen SPF 50",
+        "description": "High protection sunscreen. Oil-free formula."
+      }
+    },
+    {
+      "sku": "CLT-005",
+      "price": 299,
+      "special_price": 249,
+      "tr": {
+        "name": "Göz Kremi",
+        "description": "Anti-aging göz kremi. Koyu halka ve kırışıklık."
+      },
+      "en": {
+        "name": "Eye Cream",
+        "description": "Anti-aging eye cream. Dark circles and wrinkles."
+      }
+    }
+  ],
+  "sac-bakimi": [
+    {
+      "sku": "SAC-001",
+      "price": 449,
+      "new": true,
+      "featured": true,
+      "tr": {
+        "name": "Onarıcı Şampuan",
+        "description": "Hasarlı saçlar için şampuan. Keratin içerir."
+      },
+      "en": {
+        "name": "Repair Shampoo",
+        "description": "Shampoo for damaged hair. Contains keratin."
+      }
+    },
+    {
+      "sku": "SAC-002",
+      "price": 399,
+      "tr": {
+        "name": "Saç Kremi",
+        "description": "Besleyici saç kremi. Argan yağı içerir."
+      },
+      "en": {
+        "name": "Hair Conditioner",
+        "description": "Nourishing conditioner. Contains argan oil."
+      }
+    },
+    {
+      "sku": "SAC-003",
+      "price": 599,
+      "tr": {
+        "name": "Saç Maskesi",
+        "description": "Yoğun bakım saç maskesi. Haftada 1 kullanım."
+      },
+      "en": {
+        "name": "Hair Mask",
+        "description": "Intensive care hair mask. Use once a week."
+      }
+    },
+    {
+      "sku": "SAC-004",
+      "price": 349,
+      "tr": {
+        "name": "Saç Serumu",
+        "description": "Parlaklık veren saç serumu. Isıdan korur."
+      },
+      "en": {
+        "name": "Hair Serum",
+        "description": "Shine boosting hair serum. Heat protection."
+      }
+    },
+    {
+      "sku": "SAC-005",
+      "price": 799,
+      "special_price": 649,
+      "tr": {
+        "name": "Saç Kurutma Makinesi",
+        "description": "İyonik saç kurutma makinesi. 2200W, hızlı kurutma."
+      },
+      "en": {
+        "name": "Hair Dryer",
+        "description": "Ionic hair dryer. 2200W, fast drying."
+      }
+    }
+  ],
+  "parfum": [
+    {
+      "sku": "PRF-001",
+      "price": 1499,
+      "new": true,
+      "featured": true,
+      "tr": {
+        "name": "Kadın Parfümü Premium",
+        "description": "Çiçeksi notalar. EDP, 100ml, uzun kalıcı."
+      },
+      "en": {
+        "name": "Women Premium Perfume",
+        "description": "Floral notes. EDP, 100ml, long lasting."
+      }
+    },
+    {
+      "sku": "PRF-002",
+      "price": 1299,
+      "tr": {
+        "name": "Erkek Parfümü Klasik",
+        "description": "Odunsu notalar. EDT, 100ml, maskülen."
+      },
+      "en": {
+        "name": "Men Classic Perfume",
+        "description": "Woody notes. EDT, 100ml, masculine."
+      }
+    },
+    {
+      "sku": "PRF-003",
+      "price": 899,
+      "tr": {
+        "name": "Unisex Parfüm",
+        "description": "Fresh notalar. EDP, 75ml, her mevsim."
+      },
+      "en": {
+        "name": "Unisex Perfume",
+        "description": "Fresh notes. EDP, 75ml, all seasons."
+      }
+    },
+    {
+      "sku": "PRF-004",
+      "price": 299,
+      "tr": {
+        "name": "Deodorant Set",
+        "description": "2 li deodorant seti. Erkek ve kadın için."
+      },
+      "en": {
+        "name": "Deodorant Set",
+        "description": "2 piece deodorant set. For men and women."
+      }
+    },
+    {
+      "sku": "PRF-005",
+      "price": 599,
+      "special_price": 499,
+      "tr": {
+        "name": "Vücut Spreyi",
+        "description": "Ferahlatıcı vücut spreyi. 200ml, hafif koku."
+      },
+      "en": {
+        "name": "Body Spray",
+        "description": "Refreshing body spray. 200ml, light scent."
+      }
+    }
+  ],
+  "kitaplar": [
+    {
+      "sku": "KTB-001",
+      "price": 89,
+      "new": true,
+      "featured": true,
+      "tr": {
+        "name": "Dünya Klasikleri Seti",
+        "description": "10 kitaplık dünya klasikleri seti. Ciltli baskı."
+      },
+      "en": {
+        "name": "World Classics Set",
+        "description": "10 book world classics set. Hardcover edition."
+      }
+    },
+    {
+      "sku": "KTB-002",
+      "price": 49,
+      "tr": {
+        "name": "Kişisel Gelişim Kitabı",
+        "description": "Bestseller kişisel gelişim kitabı. Türkçe baskı."
+      },
+      "en": {
+        "name": "Self-Help Book",
+        "description": "Bestseller self-help book. Turkish edition."
+      }
+    },
+    {
+      "sku": "KTB-003",
+      "price": 129,
+      "tr": {
+        "name": "Çocuk Ansiklopedisi",
+        "description": "Resimli çocuk ansiklopedisi. 5-12 yaş için."
+      },
+      "en": {
+        "name": "Children Encyclopedia",
+        "description": "Illustrated children encyclopedia. Ages 5-12."
+      }
+    },
+    {
+      "sku": "KTB-004",
+      "price": 69,
+      "tr": {
+        "name": "Roman - Polisiye",
+        "description": "Heyecanlı polisiye roman. Bestseller yazar."
+      },
+      "en": {
+        "name": "Novel - Thriller",
+        "description": "Exciting thriller novel. Bestselling author."
+      }
+    },
+    {
+      "sku": "KTB-005",
+      "price": 159,
+      "special_price": 129,
+      "tr": {
+        "name": "Yemek Kitabı",
+        "description": "Türk mutfağı yemek kitabı. 500+ tarif."
+      },
+      "en": {
+        "name": "Cookbook",
+        "description": "Turkish cuisine cookbook. 500+ recipes."
+      }
+    }
+  ],
+  "oyuncak": [
+    {
+      "sku": "OYN-001",
+      "price": 799,
+      "new": true,
+      "featured": true,
+      "tr": {
+        "name": "LEGO Mimari Set",
+        "description": "Mimari LEGO seti. 1500+ parça, yetişkin için."
+      },
+      "en": {
+        "name": "LEGO Architecture Set",
+        "description": "Architecture LEGO set. 1500+ pieces, for adults."
+      }
+    },
+    {
+      "sku": "OYN-002",
+      "price": 499,
+      "tr": {
+        "name": "Uzaktan Kumandalı Araba",
+        "description": "RC araba. 4x4, şarjlı, 30km/h hız."
+      },
+      "en": {
+        "name": "Remote Control Car",
+        "description": "RC car. 4x4, rechargeable, 30km/h speed."
+      }
+    },
+    {
+      "sku": "OYN-003",
+      "price": 299,
+      "tr": {
+        "name": "Oyun Hamuru Seti",
+        "description": "Eğitici oyun hamuru seti. 12 renk, kalıplar dahil."
+      },
+      "en": {
+        "name": "Play Dough Set",
+        "description": "Educational play dough set. 12 colors, molds included."
+      }
+    },
+    {
+      "sku": "OYN-004",
+      "price": 399,
+      "tr": {
+        "name": "Puzzle 1000 Parça",
+        "description": "Yetişkin puzzle. Manzara görseli, 1000 parça."
+      },
+      "en": {
+        "name": "Puzzle 1000 Pieces",
+        "description": "Adult puzzle. Landscape image, 1000 pieces."
+      }
+    },
+    {
+      "sku": "OYN-005",
+      "price": 199,
+      "special_price": 149,
+      "tr": {
+        "name": "Peluş Ayı",
+        "description": "Yumuşak peluş ayı. 50cm, yıkanabilir."
+      },
+      "en": {
+        "name": "Plush Bear",
+        "description": "Soft plush bear. 50cm, washable."
+      }
+    }
+  ],
+  "muzik-aletleri": [
+    {
+      "sku": "MZK-001",
+      "price": 8999,
+      "new": true,
+      "featured": true,
+      "tr": {
+        "name": "Akustik Gitar",
+        "description": "Profesyonel akustik gitar. Ladin üst, maun gövde."
+      },
+      "en": {
+        "name": "Acoustic Guitar",
+        "description": "Professional acoustic guitar. Spruce top, mahogany body."
+      }
+    },
+    {
+      "sku": "MZK-002",
+      "price": 4999,
+      "tr": {
+        "name": "Dijital Piyano",
+        "description": "88 tuş dijital piyano. Ağırlıklı tuşlar, stand dahil."
+      },
+      "en": {
+        "name": "Digital Piano",
+        "description": "88 key digital piano. Weighted keys, stand included."
+      }
+    },
+    {
+      "sku": "MZK-003",
+      "price": 2999,
+      "tr": {
+        "name": "Elektro Gitar Seti",
+        "description": "Başlangıç elektro gitar seti. Amfi ve aksesuar dahil."
+      },
+      "en": {
+        "name": "Electric Guitar Set",
+        "description": "Beginner electric guitar set. Amp and accessories included."
+      }
+    },
+    {
+      "sku": "MZK-004",
+      "price": 1299,
+      "tr": {
+        "name": "Ukulele",
+        "description": "Soprano ukulele. Maun, taşıma çantası dahil."
+      },
+      "en": {
+        "name": "Ukulele",
+        "description": "Soprano ukulele. Mahogany, carrying case included."
+      }
+    },
+    {
+      "sku": "MZK-005",
+      "price": 599,
+      "special_price": 499,
+      "tr": {
+        "name": "Melodika",
+        "description": "Eğitim melodikası. 32 tuş, taşıma çantası."
+      },
+      "en": {
+        "name": "Melodica",
+        "description": "Educational melodica. 32 keys, carrying case."
+      }
+    }
+  ],
+  "el-isi": [
+    {
+      "sku": "ELI-001",
+      "price": 399,
+      "new": true,
+      "featured": true,
+      "tr": {
+        "name": "Resim Seti Profesyonel",
+        "description": "Profesyonel resim seti. 60 parça, ahşap kutu."
+      },
+      "en": {
+        "name": "Professional Art Set",
+        "description": "Professional art set. 60 pieces, wooden box."
+      }
+    },
+    {
+      "sku": "ELI-002",
+      "price": 299,
+      "tr": {
+        "name": "Örgü Seti",
+        "description": "Başlangıç örgü seti. İpler, şişler ve kılavuz."
+      },
+      "en": {
+        "name": "Knitting Set",
+        "description": "Beginner knitting set. Yarns, needles and guide."
+      }
+    },
+    {
+      "sku": "ELI-003",
+      "price": 199,
+      "tr": {
+        "name": "Kanaviçe Kiti",
+        "description": "Kanaviçe başlangıç kiti. Desenli, ipler dahil."
+      },
+      "en": {
+        "name": "Cross Stitch Kit",
+        "description": "Cross stitch beginner kit. Patterned, threads included."
+      }
+    },
+    {
+      "sku": "ELI-004",
+      "price": 449,
+      "tr": {
+        "name": "Seramik Seti",
+        "description": "Evde seramik yapımı seti. Kil, renkler, araçlar."
+      },
+      "en": {
+        "name": "Ceramic Set",
+        "description": "Home ceramic making set. Clay, colors, tools."
+      }
+    },
+    {
+      "sku": "ELI-005",
+      "price": 149,
+      "special_price": 99,
+      "tr": {
+        "name": "Origami Kağıt Seti",
+        "description": "Origami kağıt seti. 500 yaprak, çeşitli renkler."
+      },
+      "en": {
+        "name": "Origami Paper Set",
+        "description": "Origami paper set. 500 sheets, various colors."
+      }
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "elektronik": {
+    "tr": {
+      "name": "Elektronik",
+      "description": "Telefon, bilgisayar, tablet ve tüm elektronik ürünler"
+    },
+    "en": {
+      "name": "Electronics",
+      "description": "Phones, computers, tablets and all electronic products"
+    },
+    "children": {
+      "telefonlar": {
+        "tr": { "name": "Telefonlar", "description": "Akıllı telefonlar ve cep telefonları" },
+        "en": { "name": "Phones", "description": "Smartphones and mobile phones" }
+      },
+      "bilgisayarlar": {
+        "tr": { "name": "Bilgisayarlar", "description": "Laptop ve masaüstü bilgisayarlar" },
+        "en": { "name": "Computers", "description": "Laptops and desktop computers" }
+      },
+      "tabletler": {
+        "tr": { "name": "Tabletler", "description": "Tablet bilgisayarlar" },
+        "en": { "name": "Tablets", "description": "Tablet computers" }
+      },
+      "kulakliklar": {
+        "tr": { "name": "Kulaklıklar", "description": "Kablosuz ve kablolu kulaklıklar" },
+        "en": { "name": "Headphones", "description": "Wireless and wired headphones" }
+      },
+      "aksesuarlar-elektronik": {
+        "tr": { "name": "Elektronik Aksesuarlar", "description": "Şarj cihazları, kablolar ve aksesuarlar" },
+        "en": { "name": "Electronic Accessories", "description": "Chargers, cables and accessories" }
+      }
+    }
+  },
+  "giyim": {
+    "tr": {
+      "name": "Giyim",
+      "description": "Kadın, erkek ve çocuk giyim ürünleri"
+    },
+    "en": {
+      "name": "Clothing",
+      "description": "Women, men and children clothing products"
+    },
+    "children": {
+      "kadin-giyim": {
+        "tr": { "name": "Kadın Giyim", "description": "Kadın kıyafetleri ve modası" },
+        "en": { "name": "Women Clothing", "description": "Women clothes and fashion" }
+      },
+      "erkek-giyim": {
+        "tr": { "name": "Erkek Giyim", "description": "Erkek kıyafetleri ve modası" },
+        "en": { "name": "Men Clothing", "description": "Men clothes and fashion" }
+      },
+      "cocuk-giyim": {
+        "tr": { "name": "Çocuk Giyim", "description": "Çocuk kıyafetleri" },
+        "en": { "name": "Kids Clothing", "description": "Kids clothes" }
+      },
+      "ayakkabi": {
+        "tr": { "name": "Ayakkabı", "description": "Her türlü ayakkabı modelleri" },
+        "en": { "name": "Shoes", "description": "All kinds of shoe models" }
+      },
+      "aksesuar-giyim": {
+        "tr": { "name": "Aksesuar", "description": "Çanta, kemer, şal ve aksesuarlar" },
+        "en": { "name": "Accessories", "description": "Bags, belts, scarves and accessories" }
+      }
+    }
+  },
+  "ev-yasam": {
+    "tr": {
+      "name": "Ev & Yaşam",
+      "description": "Ev dekorasyon, mobilya ve yaşam ürünleri"
+    },
+    "en": {
+      "name": "Home & Living",
+      "description": "Home decoration, furniture and living products"
+    },
+    "children": {
+      "mobilya": {
+        "tr": { "name": "Mobilya", "description": "Ev ve ofis mobilyaları" },
+        "en": { "name": "Furniture", "description": "Home and office furniture" }
+      },
+      "dekorasyon": {
+        "tr": { "name": "Dekorasyon", "description": "Ev dekorasyon ürünleri" },
+        "en": { "name": "Decoration", "description": "Home decoration products" }
+      },
+      "mutfak": {
+        "tr": { "name": "Mutfak", "description": "Mutfak gereçleri ve ekipmanları" },
+        "en": { "name": "Kitchen", "description": "Kitchen utensils and equipment" }
+      },
+      "banyo": {
+        "tr": { "name": "Banyo", "description": "Banyo ürünleri ve aksesuarları" },
+        "en": { "name": "Bathroom", "description": "Bathroom products and accessories" }
+      },
+      "aydinlatma": {
+        "tr": { "name": "Aydınlatma", "description": "Lamba ve aydınlatma sistemleri" },
+        "en": { "name": "Lighting", "description": "Lamps and lighting systems" }
+      }
+    }
+  },
+  "spor-outdoor": {
+    "tr": {
+      "name": "Spor & Outdoor",
+      "description": "Spor malzemeleri ve outdoor ekipmanları"
+    },
+    "en": {
+      "name": "Sports & Outdoor",
+      "description": "Sports equipment and outdoor gear"
+    },
+    "children": {
+      "spor-giyim": {
+        "tr": { "name": "Spor Giyim", "description": "Spor kıyafetleri" },
+        "en": { "name": "Sportswear", "description": "Sports clothing" }
+      },
+      "fitness": {
+        "tr": { "name": "Fitness", "description": "Fitness ekipmanları" },
+        "en": { "name": "Fitness", "description": "Fitness equipment" }
+      },
+      "kamp": {
+        "tr": { "name": "Kamp & Doğa", "description": "Kamp malzemeleri" },
+        "en": { "name": "Camping & Nature", "description": "Camping supplies" }
+      },
+      "bisiklet": {
+        "tr": { "name": "Bisiklet", "description": "Bisiklet ve aksesuarları" },
+        "en": { "name": "Cycling", "description": "Bicycles and accessories" }
+      }
+    }
+  },
+  "kozmetik": {
+    "tr": {
+      "name": "Kozmetik & Kişisel Bakım",
+      "description": "Kozmetik ürünleri ve kişisel bakım"
+    },
+    "en": {
+      "name": "Cosmetics & Personal Care",
+      "description": "Cosmetic products and personal care"
+    },
+    "children": {
+      "makyaj": {
+        "tr": { "name": "Makyaj", "description": "Makyaj ürünleri" },
+        "en": { "name": "Makeup", "description": "Makeup products" }
+      },
+      "cilt-bakimi": {
+        "tr": { "name": "Cilt Bakımı", "description": "Cilt bakım ürünleri" },
+        "en": { "name": "Skincare", "description": "Skincare products" }
+      },
+      "sac-bakimi": {
+        "tr": { "name": "Saç Bakımı", "description": "Saç bakım ürünleri" },
+        "en": { "name": "Haircare", "description": "Haircare products" }
+      },
+      "parfum": {
+        "tr": { "name": "Parfüm", "description": "Parfüm ve deodorantlar" },
+        "en": { "name": "Perfume", "description": "Perfumes and deodorants" }
+      }
+    }
+  },
+  "kitap-hobi": {
+    "tr": {
+      "name": "Kitap & Hobi",
+      "description": "Kitaplar, oyunlar ve hobi ürünleri"
+    },
+    "en": {
+      "name": "Books & Hobbies",
+      "description": "Books, games and hobby products"
+    },
+    "children": {
+      "kitaplar": {
+        "tr": { "name": "Kitaplar", "description": "Her türlü kitap" },
+        "en": { "name": "Books", "description": "All kinds of books" }
+      },
+      "oyuncak": {
+        "tr": { "name": "Oyuncak", "description": "Çocuk oyuncakları" },
+        "en": { "name": "Toys", "description": "Children toys" }
+      },
+      "muzik-aletleri": {
+        "tr": { "name": "Müzik Aletleri", "description": "Müzik aletleri ve ekipmanları" },
+        "en": { "name": "Musical Instruments", "description": "Musical instruments and equipment" }
+      },
+      "el-isi": {
+        "tr": { "name": "El İşi & Hobi", "description": "El işi malzemeleri" },
+        "en": { "name": "Crafts & Hobbies", "description": "Craft supplies" }
+      }
+    }
+  }
+}
