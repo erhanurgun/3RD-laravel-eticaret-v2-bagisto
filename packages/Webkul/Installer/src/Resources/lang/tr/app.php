@@ -360,6 +360,17 @@ return [
             ],
         ],
 
+        'tax' => [
+            'categories' => [
+                'basic-food'         => 'Temel Gıda (%1 KDV)',
+                'basic-food-desc'    => 'Temel gıda maddeleri için %1 KDV oranı uygulanır.',
+                'reduced-rate'       => 'İndirimli Oran (%10 KDV)',
+                'reduced-rate-desc'  => 'İlaçlar ve temel ihtiyaç maddeleri için %10 KDV oranı uygulanır.',
+                'standard-rate'      => 'Standart Oran (%20 KDV)',
+                'standard-rate-desc' => 'Genel ürünler için standart %20 KDV oranı uygulanır.',
+            ],
+        ],
+
         'user' => [
             'roles' => [
                 'description' => 'Bu rol kullanıcılara tüm erişimi sağlar',

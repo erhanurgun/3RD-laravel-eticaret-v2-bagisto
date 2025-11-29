@@ -24,14 +24,14 @@ class InventorySourceTableSeeder extends Seeder
             'code'           => 'default',
             'name'           => trans('installer::app.seeders.inventory.inventory-sources.name', [], $defaultLocale),
             'contact_name'   => trans('installer::app.seeders.inventory.inventory-sources.name', [], $defaultLocale),
-            'contact_email'  => 'warehouse@example.com',
-            'contact_number' => 1234567899,
+            'contact_email'  => 'depo@example.com',
+            'contact_number' => '5551234567',
             'status'         => 1,
-            'country'        => 'US',
-            'state'          => 'MI',
-            'street'         => '12th Street',
-            'city'           => 'Detroit',
-            'postcode'       => '48127',
+            'country'        => 'TR',
+            'state'          => '',
+            'street'         => 'Örnek Sokak No: 1',
+            'city'           => 'İstanbul',
+            'postcode'       => '34000',
         ]);
     }
 }
