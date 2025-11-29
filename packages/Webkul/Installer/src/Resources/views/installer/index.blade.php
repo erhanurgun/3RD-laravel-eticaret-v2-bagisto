@@ -39,27 +39,8 @@
 
     @php
         $locales = [
-            'ar'    => 'arabic',
-            'bn'    => 'bengali',
-            'ca'    => 'catalan',
-            'de'    => 'german',
-            'en'    => 'english',
-            'es'    => 'spanish',
-            'fa'    => 'persian',
-            'fr'    => 'french',
-            'he'    => 'hebrew',
-            'hi_IN' => 'hindi',
-            'id'    => 'indonesian',
-            'it'    => 'italian',
-            'ja'    => 'japanese',
-            'nl'    => 'dutch',
-            'pl'    => 'polish',
-            'pt_BR' => 'portuguese',
-            'ru'    => 'russian',
-            'sin'   => 'sinhala',
-            'tr'    => 'turkish',
-            'uk'    => 'ukrainian',
-            'zh_CN' => 'chinese',
+            'en' => 'english',
+            'tr' => 'turkish',
         ];
 
         $currencies = [

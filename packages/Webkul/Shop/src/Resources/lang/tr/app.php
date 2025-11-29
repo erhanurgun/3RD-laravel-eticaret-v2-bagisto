@@ -860,7 +860,7 @@ return [
                 'load-more'            => 'Daha fazla yükle',
                 'loading'              => 'Yükleniyor...',
                 'no-options-available' => 'Mevcut seçenek yok.',
-                'results-info'         => ':totalCount seçeneğin :currentCount gösteriliyor',
+                'results-info'         => ':totalCount seçenekten :currentCount tanesi gösteriliyor',
                 'title'                => 'Arama',
             ],
 
@@ -868,9 +868,9 @@ return [
         ],
 
         'toolbar' => [
-            'grid' => 'Сітка',
-            'list' => 'Список',
-            'show' => 'Показати',
+            'grid' => 'Izgara',
+            'list' => 'Liste',
+            'show' => 'Göster',
         ],
 
         'view' => [

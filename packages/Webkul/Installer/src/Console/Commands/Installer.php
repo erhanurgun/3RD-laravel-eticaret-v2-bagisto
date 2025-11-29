@@ -71,27 +71,8 @@ class Installer extends Command
      * @var array
      */
     protected $locales = [
-        'ar'    => 'Arabic',
-        'bn'    => 'Bengali',
-        'ca'    => 'Catalan',
-        'de'    => 'German',
-        'en'    => 'English',
-        'es'    => 'Spanish',
-        'fa'    => 'Persian',
-        'fr'    => 'French',
-        'he'    => 'Hebrew',
-        'hi_IN' => 'Hindi',
-        'id'    => 'Indonesian',
-        'it'    => 'Italian',
-        'ja'    => 'Japanese',
-        'nl'    => 'Dutch',
-        'pl'    => 'Polish',
-        'pt_BR' => 'Brazilian Portuguese',
-        'ru'    => 'Russian',
-        'sin'   => 'Sinhala',
-        'tr'    => 'Turkish',
-        'uk'    => 'Ukrainian',
-        'zh_CN' => 'Chinese',
+        'en' => 'English',
+        'tr' => 'Turkish',
     ];
 
     /**
