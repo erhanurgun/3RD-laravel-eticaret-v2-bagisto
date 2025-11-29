@@ -255,7 +255,7 @@
                                     rules="required|email"
                                     v-model="data.user.email"
                                     :label="trans('admin::app.settings.users.index.create.email')"
-                                    placeholder="email@example.com"
+                                    placeholder="email@erho.test"
                                 />
 
                                 <x-admin::form.control-group.error control-name="email" />

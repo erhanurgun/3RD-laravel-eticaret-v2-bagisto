@@ -112,8 +112,8 @@ test.describe("checkout", () => {
          * Login to admin panel.
          */
         const adminCredentials = {
-            email: "admin@example.com",
-            password: "admin123",
+            email: "dev@erho.test",
+            password: "!BZh8BYfcE5SA4q2SvQRYI!",
         };
 
         await shopPage.goto("admin/login");
@@ -171,13 +171,13 @@ test.describe("checkout", () => {
         await shopPage.getByPlaceholder("Last Name").fill("Demo");
         await shopPage.getByPlaceholder("Last Name").press("Tab");
         await shopPage
-            .getByRole("textbox", { name: "email@example.com" })
+            .getByRole("textbox", { name: "email@erho.test" })
             .press("CapsLock");
         await shopPage
-            .getByRole("textbox", { name: "email@example.com" })
+            .getByRole("textbox", { name: "email@erho.test" })
             .fill("Demo_ashdghsd@hjdg.sad");
         await shopPage
-            .getByRole("textbox", { name: "email@example.com" })
+            .getByRole("textbox", { name: "email@erho.test" })
             .press("Tab");
         await shopPage.getByPlaceholder("Street Address").fill("Demo2367");
         await shopPage.getByPlaceholder("Street Address").press("Tab");
@@ -302,8 +302,8 @@ test.describe("checkout", () => {
          * Login to admin panel.
          */
         const adminCredentials = {
-            email: "admin@example.com",
-            password: "admin123",
+            email: "dev@erho.test",
+            password: "!BZh8BYfcE5SA4q2SvQRYI!",
         };
         await shopPage.goto("admin/login");
         await shopPage.getByPlaceholder("Email Address").click();
@@ -425,8 +425,8 @@ test.describe("checkout", () => {
          * Login to admin panel.
          */
         const adminCredentials = {
-            email: "admin@example.com",
-            password: "admin123",
+            email: "dev@erho.test",
+            password: "!BZh8BYfcE5SA4q2SvQRYI!",
         };
         await shopPage.goto("admin/login");
         await shopPage.getByPlaceholder("Email Address").click();
@@ -549,11 +549,11 @@ test.describe("checkout", () => {
             .getByRole("textbox", { name: "Last Name" })
             .fill("LUren");
         await shopPage
-            .getByRole("textbox", { name: "email@example.com" })
+            .getByRole("textbox", { name: "email@erho.test" })
             .click();
         await shopPage
-            .getByRole("textbox", { name: "email@example.com" })
-            .fill("sam@example.com");
+            .getByRole("textbox", { name: "email@erho.test" })
+            .fill("sam@erho.test");
         await shopPage.getByRole("textbox", { name: "Street Address" }).click();
         await shopPage
             .getByRole("textbox", { name: "Street Address" })
@@ -605,8 +605,8 @@ test.describe("checkout", () => {
          * Login to admin panel.
          */
         const adminCredentials = {
-            email: "admin@example.com",
-            password: "admin123",
+            email: "dev@erho.test",
+            password: "!BZh8BYfcE5SA4q2SvQRYI!",
         };
         await shopPage.goto("admin/login");
         await shopPage.getByPlaceholder("Email Address").click();

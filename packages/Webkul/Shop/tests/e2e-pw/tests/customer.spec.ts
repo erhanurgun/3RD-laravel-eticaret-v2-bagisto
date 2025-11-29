@@ -159,8 +159,8 @@ test("should be able to print invoice", async ({ page }) => {
      * Login to admin panel.
      */
     const adminCredentials = {
-        email: "admin@example.com",
-        password: "admin123",
+        email: "dev@erho.test",
+        password: "!BZh8BYfcE5SA4q2SvQRYI!",
     };
     await page.goto("admin/login");
     await page.getByPlaceholder("Email Address").click();
@@ -202,8 +202,8 @@ test("should able to download downloadable orders", async ({ shopPage }) => {
      * Login to admin panel.
      */
     const adminCredentials = {
-        email: "admin@example.com",
-        password: "admin123",
+        email: "dev@erho.test",
+        password: "!BZh8BYfcE5SA4q2SvQRYI!",
     };
 
     await shopPage.goto("admin/login");

@@ -59,7 +59,7 @@
                                     name="email"
                                     rules="required|email"
                                     :label="trans('shop::app.checkout.login.email')"
-                                    placeholder="email@example.com"
+                                    placeholder="email@erho.test"
                                     :aria-label="trans('shop::app.checkout.login.email')"
                                     aria-required="true"
                                 />

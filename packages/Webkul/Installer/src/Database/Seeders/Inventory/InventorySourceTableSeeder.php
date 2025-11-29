@@ -24,7 +24,7 @@ class InventorySourceTableSeeder extends Seeder
             'code'           => 'default',
             'name'           => trans('installer::app.seeders.inventory.inventory-sources.name', [], $defaultLocale),
             'contact_name'   => trans('installer::app.seeders.inventory.inventory-sources.name', [], $defaultLocale),
-            'contact_email'  => 'depo@example.com',
+            'contact_email'  => 'depo@erho.test',
             'contact_number' => '5551234567',
             'status'         => 1,
             'country'        => 'TR',

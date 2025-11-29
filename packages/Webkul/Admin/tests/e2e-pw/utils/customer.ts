@@ -22,8 +22,8 @@ export async function register(page) {
     await page.getByPlaceholder("First Name").fill(credentials.firstName);
     await page.getByPlaceholder("Last Name").click();
     await page.getByPlaceholder("Last Name").fill(credentials.lastName);
-    await page.getByPlaceholder("email@example.com").click();
-    await page.getByPlaceholder("email@example.com").fill(credentials.email);
+    await page.getByPlaceholder("email@erho.test").click();
+    await page.getByPlaceholder("email@erho.test").fill(credentials.email);
     await page.getByPlaceholder("Password", { exact: true }).click();
     await page
         .getByPlaceholder("Password", { exact: true })
@@ -73,9 +73,9 @@ export async function loginAsCustomer(page) {
     await page.goto("");
     await page.getByLabel("Profile").click();
     await page.getByRole("link", { name: "Sign In" }).click();
-    await page.getByPlaceholder("email@example.com").click();
-    await page.getByPlaceholder("email@example.com").fill(credentials.email);
-    await page.getByPlaceholder("email@example.com").press("Tab");
+    await page.getByPlaceholder("email@erho.test").click();
+    await page.getByPlaceholder("email@erho.test").fill(credentials.email);
+    await page.getByPlaceholder("email@erho.test").press("Tab");
     await page.getByPlaceholder("Password").fill(credentials.password);
     await page.getByRole("button", { name: "Sign In" }).click();
 
@@ -96,7 +96,7 @@ export async function addAddress(page) {
     await page.getByPlaceholder("Last Name").press("Tab");
     await page
         .getByPlaceholder("Email", { exact: true })
-        .fill("test@example.com");
+        .fill("test@erho.test");
     await page.getByPlaceholder("Email", { exact: true }).press("Tab");
     await page.getByPlaceholder("Vat ID").press("Tab");
     await page.getByPlaceholder("Street Address").fill("Demo");

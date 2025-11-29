@@ -96,7 +96,7 @@
                                 id="email"
                                 rules="required|email"
                                 :label="trans('admin::app.customers.customers.view.edit.email')"
-                                placeholder="email@example.com"
+                                placeholder="email@erho.test"
                             />
             
                             <x-admin::form.control-group.error control-name="email" />

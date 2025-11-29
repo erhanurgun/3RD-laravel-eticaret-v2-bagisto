@@ -99,7 +99,7 @@
                     ::value="address.email"
                     rules="required|email"
                     :label="trans('admin::app.sales.orders.create.cart.address.email')"
-                    placeholder="email@example.com"
+                    placeholder="email@erho.test"
                 />
 
                 <x-admin::form.control-group.error ::name="controlName + '.email'" />

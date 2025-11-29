@@ -11,8 +11,8 @@ test("should be able to login", async ({ page }) => {
     await page.goto("");
     await page.getByLabel("Profile").click();
     await page.getByRole("link", { name: "Sign In" }).click();
-    await page.getByPlaceholder("email@example.com").click();
-    await page.getByPlaceholder("email@example.com").fill(credentials.email);
+    await page.getByPlaceholder("email@erho.test").click();
+    await page.getByPlaceholder("email@erho.test").fill(credentials.email);
     await page.getByPlaceholder("Password").click();
     await page.getByPlaceholder("Password").fill(credentials.password);
     await page.getByRole("button", { name: "Sign In" }).click();
@@ -27,8 +27,8 @@ test("should be able to logout", async ({ page }) => {
     await page.goto("");
     await page.getByLabel("Profile").click();
     await page.getByRole("link", { name: "Sign In" }).click();
-    await page.getByPlaceholder("email@example.com").click();
-    await page.getByPlaceholder("email@example.com").fill(credentials.email);
+    await page.getByPlaceholder("email@erho.test").click();
+    await page.getByPlaceholder("email@erho.test").fill(credentials.email);
     await page.getByPlaceholder("Password").click();
     await page.getByPlaceholder("Password").fill(credentials.password);
     await page.getByRole("button", { name: "Sign In" }).click();

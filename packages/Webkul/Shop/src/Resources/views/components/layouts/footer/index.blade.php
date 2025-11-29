@@ -110,7 +110,7 @@
                                 rules="required|email"
                                 label="Email"
                                 :aria-label="trans('shop::app.components.layouts.footer.email')"
-                                placeholder="email@example.com"
+                                placeholder="email@erho.test"
                             />
     
                             <x-shop::form.control-group.error control-name="email" />

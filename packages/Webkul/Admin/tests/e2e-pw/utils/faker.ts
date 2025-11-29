@@ -137,7 +137,7 @@ export function generateEmail() {
         const noun = nouns[Math.floor(Math.random() * nouns.length)];
         const number = Math.floor(1000 + Math.random() * 9000);
 
-        email = `${adj}${noun}${number}@example.com`.toLowerCase();
+        email = `${adj}${noun}${number}@erho.test`.toLowerCase();
     } while (usedEmails.has(email));
 
     usedEmails.add(email);

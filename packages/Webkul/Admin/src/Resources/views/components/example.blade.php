@@ -361,7 +361,7 @@
             rules="required|email"
             value=""
             label="Email"
-            placeholder="email@example.com"
+            placeholder="email@erho.test"
         />
 
         <x-admin::form.control-group.error control-name="email" />
@@ -385,7 +385,7 @@
                 rules="required"
                 :value="old('email')"
                 label="Email"
-                placeholder="email@example.com"
+                placeholder="email@erho.test"
             />
 
             <x-admin::form.control-group.error control-name="email" />

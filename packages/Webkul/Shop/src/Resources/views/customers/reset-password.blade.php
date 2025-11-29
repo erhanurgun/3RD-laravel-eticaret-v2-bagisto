@@ -75,7 +75,7 @@
                             rules="required|email"
                             :value="old('email')"
                             :label="trans('shop::app.customers.reset-password.email')"
-                            placeholder="email@example.com"
+                            placeholder="email@erho.test"
                             :aria-label="trans('shop::app.customers.reset-password.email')"
                             aria-required="true"
                         />
